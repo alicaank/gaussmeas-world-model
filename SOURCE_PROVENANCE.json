@@ -1,0 +1,336 @@
+{
+ "created": "2026-11-09",
+ "note": "Every file copied byte-for-byte from the working analysis tree; sha256 of the source at copy time.",
+ "files": [
+  {
+   "repo_path": "src/packed_model.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/packed_model.py",
+   "sha256": "4312dd77d6bfe60e7f56e6fcd77239023435711daf3d08b4a722fc595ac4cb3e",
+   "bytes": 12768
+  },
+  {
+   "repo_path": "src/prope.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prope.py",
+   "sha256": "9000fbc166508e8dee1114d3c341ccc3e92955930275df974fddfa38a1118b80",
+   "bytes": 5762
+  },
+  {
+   "repo_path": "src/data.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/data.py",
+   "sha256": "4d5e9817aed4b2399eda1195d4e11d82c98e3176e86d8b4fcadfa3f845a1aeab",
+   "bytes": 12279
+  },
+  {
+   "repo_path": "src/model_io.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/model_io.py",
+   "sha256": "7605eb439f60e59fcc4b6f0949ff6dd126ee0186ef87c099fbebddf4f66a443e",
+   "bytes": 10355
+  },
+  {
+   "repo_path": "src/official_loader.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/official_loader.py",
+   "sha256": "4f44e227a3df46245f51a6f256916b15ff84c347a8cf807f9eb02c3093a4e318",
+   "bytes": 947
+  },
+  {
+   "repo_path": "src/train.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train.py",
+   "sha256": "c07d439fac36259b91f95bbd6690876c9d4417e352738df25537f5ef7db606e1",
+   "bytes": 11067
+  },
+  {
+   "repo_path": "src/train_plain.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_plain.py",
+   "sha256": "26ff4d5dbd1aeb4d0a21ac7ed66bf04c08278387db5c8792ca66b844ab5b7011",
+   "bytes": 1017
+  },
+  {
+   "repo_path": "src/train_m864v.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_m864v.py",
+   "sha256": "493404b3feabb2f5fd94e68fa02dc32dcf50ca341b44fe94f4dde39c2eb2fea1",
+   "bytes": 2066
+  },
+  {
+   "repo_path": "src/train_b864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_b864.py",
+   "sha256": "f4618a933c0630cc1e5f94c86948b6fd4651a6e010182d1f7ff49c7f1083b0d5",
+   "bytes": 3105
+  },
+  {
+   "repo_path": "src/train_onpolicy.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_onpolicy.py",
+   "sha256": "ad72305492351f6f89e72b304d704b2b849f154abe3bfed3972494ea5bbbae67",
+   "bytes": 3710
+  },
+  {
+   "repo_path": "src/onpolicy_rows.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/onpolicy_rows.py",
+   "sha256": "37fc90b3a8b0d8a22779c9d8eedd4894a9ab31995e08be809d37e5f1cf89c40a",
+   "bytes": 5996
+  },
+  {
+   "repo_path": "src/gen_onpolicy.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/gen_onpolicy.py",
+   "sha256": "24dba1c1f41878f76a3068d043f6931cd8a8fcadd3725a4b4c310631c67a4a36",
+   "bytes": 5735
+  },
+  {
+   "repo_path": "src/closed_loop.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/closed_loop.py",
+   "sha256": "3b8c4281ddefe0e2a377e47b3268d4e118fb129e2122334bb629b36c22725b06",
+   "bytes": 19732
+  },
+  {
+   "repo_path": "src/closed_loop_864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/closed_loop_864.py",
+   "sha256": "fc523085426a274a2a3df7652fd35e16b5c7853ed141c895a7da65189f424363",
+   "bytes": 12059
+  },
+  {
+   "repo_path": "src/sample.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/sample.py",
+   "sha256": "13fa169a33e532ca999dc1d54a640769ade47702bd48400cc8b430e4b77e342b",
+   "bytes": 10481
+  },
+  {
+   "repo_path": "src/renderer864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/renderer864.py",
+   "sha256": "54643fa92590942cf354f3b93f7aca731bf76d5c60a5f54ba3e599b986313af9",
+   "bytes": 12082
+  },
+  {
+   "repo_path": "src/render864_rows.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render864_rows.py",
+   "sha256": "a9cfda62c7da370c2d0ea6dc659a34ed54448aeb796157d065b9a7fcadc8ef29",
+   "bytes": 6263
+  },
+  {
+   "repo_path": "src/render_rows.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render_rows.py",
+   "sha256": "af81b9a78723e52f159309c844570b0acc32ce331a1d642c3e3c42aa6e94785c",
+   "bytes": 3194
+  },
+  {
+   "repo_path": "src/resplat_mem_864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/resplat_mem_864.py",
+   "sha256": "679759d8150c90edea478dfc9b5865c0d13d3024e213b7d3a9baacdbd34e79d5",
+   "bytes": 1807
+  },
+  {
+   "repo_path": "src/prep_864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prep_864.py",
+   "sha256": "d4990d5067497993d9c3c2b6669c5457c970b3673385114ea8a275b07405d020",
+   "bytes": 7363
+  },
+  {
+   "repo_path": "src/precompute_renders_864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_renders_864.py",
+   "sha256": "5f092f9a86e3f6e1d9e894497daa88f508d1af14116270c57f76ffc6cec013f3",
+   "bytes": 3265
+  },
+  {
+   "repo_path": "src/visual_evidence.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/visual_evidence.py",
+   "sha256": "f3d57e2a6b2300bf4edd9e31452099a76e7700db70b43594791628c922b500cb",
+   "bytes": 2251
+  },
+  {
+   "repo_path": "src/env.sh",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/env.sh",
+   "sha256": "62ecd59e8479b8e005bc2a4ee72c1d47cbc7aa017d0fc55c432b14005a8c36a5",
+   "bytes": 819
+  },
+  {
+   "repo_path": "src/frontier.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/frontier.py",
+   "sha256": "4586384d8b7c0853ecd025351043b3f929dde0485696f05e2c39c4742506c1c8",
+   "bytes": 10911
+  },
+  {
+   "repo_path": "src/gm_b_corruption.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/gm_b_corruption.py",
+   "sha256": "42f36a398a2d47fea3b232ea5e9e6843e324e094c8d563ea8168d9387cddaa6d",
+   "bytes": 5539
+  },
+  {
+   "repo_path": "src/train_gm_b.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/train_gm_b.py",
+   "sha256": "bc637dce1f25769c55ec278fd15ec44b19e5054e81eadb699cfe578257e3a601",
+   "bytes": 3262
+  },
+  {
+   "repo_path": "src/train_gm_f.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/train_gm_f.py",
+   "sha256": "fc9836c8ad3eace23d89940c94372a31666b016eccd17f6a7b28836c47519a42",
+   "bytes": 5790
+  },
+  {
+   "repo_path": "src/build_frontier_cache.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/build_frontier_cache.py",
+   "sha256": "cf7cac2f2ade4cf68e9de7188b383dcb29df532a9d097af2a077fd5ee7f9e535",
+   "bytes": 5057
+  },
+  {
+   "repo_path": "src/closed_loop_frontier.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/closed_loop_frontier.py",
+   "sha256": "d126ecb469a7bf7633ac6975cc672a5c00b625fcb977e85b1f002ceb2e08ecde",
+   "bytes": 1313
+  },
+  {
+   "repo_path": "src/frontier_smoke.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/frontier_smoke.py",
+   "sha256": "e9d10637b57a82199cc911769c292eedb07c071ce38128e60e1e5d8d9ec9ba9d",
+   "bytes": 5138
+  },
+  {
+   "repo_path": "src/compare_gm.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/compare_gm.py",
+   "sha256": "81c5b159ba4eecd056a50cb9083e27b96ed0c4acb5da80cc171ba75636442545",
+   "bytes": 2930
+  },
+  {
+   "repo_path": "src/visual_compare_gm.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/visual_compare_gm.py",
+   "sha256": "fcf655fe63351dc7a62956b305af71d66ea426c65cbcaa013c9ee819f6997c30",
+   "bytes": 4517
+  },
+  {
+   "repo_path": "src/run_arm_ckpt.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/sota_eval/run_arm_ckpt.py",
+   "sha256": "2b408f204e606de00e73222ffece2f9caccd08031a3d99e07f161958ff254d02",
+   "bytes": 8214
+  },
+  {
+   "repo_path": "src/build_table_sota.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/sota_eval/build_table_sota.py",
+   "sha256": "497d5d1badeafd70ecaa21ed446758924f67172c3b8614c6e555710d064bd2d5",
+   "bytes": 2455
+  },
+  {
+   "repo_path": "src/run_arm_original_20261103.py",
+   "source": "/home/hj/Alican/analysis/gaussian_meas_dl3dv7_20261103/run_arm.py",
+   "sha256": "40aaffe3501d7afc5c5f95a4bfeaa8ef25bc6d9b898ff749ce626072c768c08e",
+   "bytes": 8348
+  },
+  {
+   "repo_path": "tests/tests.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests.py",
+   "sha256": "65c9043f2274d3849d39e5fdad3e42d232cacea6e48540790425b47181fe3dd3",
+   "bytes": 8388
+  },
+  {
+   "repo_path": "tests/tests_numerics.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_numerics.py",
+   "sha256": "ad56dd4eda6fd135d9cfd9fc4e3d893fff1bcf58f00668eac1a7e87884bae4eb",
+   "bytes": 4142
+  },
+  {
+   "repo_path": "tests/test_gm_b.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_gm_b.py",
+   "sha256": "f872f689426f4bd0860603c133e47b3323e6999adb7a97db7a49d572e483a1f1",
+   "bytes": 6460
+  },
+  {
+   "repo_path": "tests/test_frontier.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_frontier.py",
+   "sha256": "21915560390a0c3a09f52f72bbf5acb736156d2907995c4e7f9ea72ed977540d",
+   "bytes": 4455
+  },
+  {
+   "repo_path": "tests/test_gm_f.py",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_gm_f.py",
+   "sha256": "2f67fcd3c258f508556c2817d320ed6a0ca9af0f11751ec110f9e26c7a8e8030",
+   "bytes": 3736
+  },
+  {
+   "repo_path": "third_party_snapshot/realized_pose.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/realized_pose.py",
+   "sha256": "8c42ec69191ae5360070bd03e2366be1ab613eaa7058411a081035aedd643da5",
+   "bytes": 2977
+  },
+  {
+   "repo_path": "third_party_snapshot/score_vggt.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/score_vggt.py",
+   "sha256": "1f0d71ec0e1a5bfa23f28a0cc413a3e41d0037626ef9f19342c0362fce82d18b",
+   "bytes": 7454
+  },
+  {
+   "repo_path": "third_party_snapshot/foundation_renderer.py",
+   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_renderer.py",
+   "sha256": "4b2bac777b447b398e02c9503141d91184da69fdd396ff73a2200fcfeebc6846",
+   "bytes": 3534
+  },
+  {
+   "repo_path": "third_party_snapshot/foundation_contract.py",
+   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_contract.py",
+   "sha256": "6f14bf115081fcbae179fa80db58c17fbccb6397f18739cffbfb202707d5e3ee",
+   "bytes": 5638
+  },
+  {
+   "repo_path": "third_party_snapshot/foundation_model.py",
+   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_model.py",
+   "sha256": "76ee46e5702fa012b832bb9dcec0046a8d3721c50efe7fcb82319842d07c020b",
+   "bytes": 8740
+  },
+  {
+   "repo_path": "third_party_snapshot/all_scene_dataset.py",
+   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/all_scene_dataset.py",
+   "sha256": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
+   "bytes": 12506
+  },
+  {
+   "repo_path": "third_party_snapshot/resplat_condition.py",
+   "source": "/home/hj/Alican/gaussverse/memory/resplat_condition.py",
+   "sha256": "d70c50244c70358647ae17e46801ce08af9e5c163d7eff3307d0e92b7b384189",
+   "bytes": 6914
+  },
+  {
+   "repo_path": "third_party_snapshot/vae_stream.py",
+   "source": "/home/hj/Alican/gaussverse/models/vae_stream.py",
+   "sha256": "e6be66d967a9b3342fac19a93734a52705230ba30f3c5f66983df1f7389ccae4",
+   "bytes": 10811
+  },
+  {
+   "repo_path": "third_party_snapshot/gate_omega_recovery.py",
+   "source": "/home/hj/Alican/gaussverse/training/gate_omega_recovery.py",
+   "sha256": "5c389fa7100d782342a9766861368f3aaac7309f15cd32adbd646ab60c3d326f",
+   "bytes": 46886
+  },
+  {
+   "repo_path": "third_party_snapshot/score_reliability.py",
+   "source": "/home/hj/Alican/analysis/runtime_repairs_20261031/revision2/score_reliability.py",
+   "sha256": "5193660c59b66151a50a196eb0c846dd942b883bff12bdd825bf61d67c2dba39",
+   "bytes": 599
+  },
+  {
+   "repo_path": "docs/lab_notes/PLAN_fresh_teacher_20261021.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/PLAN.md",
+   "sha256": "373dca45997532e9f90de46e92ed0c4441c1594e6fe805bf5e8ea90241f96233",
+   "bytes": 55377
+  },
+  {
+   "repo_path": "docs/lab_notes/PLAN_robust_native_20261108.md",
+   "source": "/home/hj/Alican/analysis/robust_native_20261108/PLAN.md",
+   "sha256": "b9640b21a3028f70fd517ee0824ef49f35e6627c2bbef8957a6b9d00c5c77c8a",
+   "bytes": 28001
+  },
+  {
+   "repo_path": "docs/lab_notes/IDEAS_FAIR_TESTS_20261024.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/IDEAS_FAIR_TESTS_20261024.md",
+   "sha256": "9c26393cf0658d9b74c2e39fd930077fcbc6558e46712dfa69e8fa31fac09dd4",
+   "bytes": 11432
+  },
+  {
+   "repo_path": "docs/lab_notes/comparison_table_20261105.md",
+   "source": "/home/hj/Alican/analysis/v2_rerun_20261103/comparison_table_20261105.md",
+   "sha256": "83fad1600a655e2cb2c1d03d4080f460ca80d6201b69fc9da916e7b1551f684c",
+   "bytes": 2636
+  },
+  {
+   "repo_path": "docs/lab_notes/README_gaussian_meas_dl3dv7_20261103.md",
+   "source": "/home/hj/Alican/analysis/gaussian_meas_dl3dv7_20261103/README.md",
+   "sha256": "04ca218f6afa9d469a2f2fcac40b0e1614df1bf36a5784aa5afad9f798a457bb",
+   "bytes": 2078
+  }
+ ]
+}

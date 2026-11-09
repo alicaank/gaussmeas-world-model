@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.npz
+*.mp4
+runs/
+eval*/
+logs/
