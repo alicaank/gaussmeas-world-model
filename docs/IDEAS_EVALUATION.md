@@ -14,7 +14,8 @@ degraded frames and read back as the dominant carrier (render ≈ 2:1 over the t
 | Measured-pose writes + on-policy measured rows (Gauss-meas) | **keep, core** | the only training step that moved both fidelity and camera; "Ours" rows of the SOTA table |
 | F′ closed loop (offset rejoin, early x0 check) | **keep, core** | 6/6 wins on released Memorizon; "+ correction" rows; cheap at inference |
 | GM-B context corruption | **keep** | camera/DINO/sharpness up on 6 dev scenes, LPIPS down on 4/6; user counts it as an improvement; it attacks exposure bias, not texture |
-| GM-F frontier mask | **keep, pending the frustum-only result** | the extrusion failure is real and visible; the depth-agreement test was the wrong instrument (ReSplat soft depth ≠ DA3), the frustum test drops 4–23 % and gave the best LPIPS/pos in the diagnostic. If GM-F(inside) does not beat GM-B on the SOTA cohort, keep the mask at inference only |
+| Frontier mask at inference (frustum-only) | **keep, best dev arm** | 20:35 result: on the untrained GM it is the best arm on every aggregate (late LPIPS .590, rot 13.3°, 2.2 excursions/scene; kitchen 33° → 3.1°). The depth-agreement variant was the wrong instrument (ReSplat soft depth ≠ DA3) |
+| GM-F (training with masked + stripped renders) | **drop** | worst arm with the same inference mask (rot 30.6°, kitchen 60.8°): lowering render reliance costs the camera, which is executed through the render. Lesson for every future arm: never train the model to trust the render less |
 | Restricted original-source appearance read | **most promising untested idea** | directly targets the re-render/re-encode degradation: the generator would read the source VAE features that geometry says are visible instead of a texture that was rendered, downsized, VAE-encoded and re-rendered every call. GEAR's dense-vs-restricted ablation (.60 → .45 LPIPS) supports restriction. The G+B arm did not test it cleanly: it ran on the 2Xplat map with generated history, which lost for other reasons, and ReSplat/DA3 correspondences were never qualified. Cost: a qualification of the correspondence contract (CPU) + one 250-update arm (≈2.5 h) |
 | Render VAE dialect (encode the render with real previous frames as causal prefix) | **cheap, do before the reader** | the render is encoded as a 17-frame clip with its own first frame duplicated, while every other latent is stream-causal; the κ-sweep report from the other session found the same mismatch. One cache rebuild + 250 updates |
 | First-step memory (single-source ReSplat alpha-valid ≈ .48 in foliage scenes, foreground object missing) | **small, worth fixing** | every rollout starts from a half-empty render; `first_mode` 'dup4'/'points' exist in `renderer864.render_chunk` and were never evaluated on the 6 scenes |
@@ -45,7 +46,7 @@ degraded frames and read back as the dominant carrier (render ≈ 2:1 over the t
 
 ## What would change these verdicts
 
-- If GM-F(inside) wins the SOTA cohort on the last third, the frontier mask becomes the headline mechanism and the appearance
-  read is its complement (generate where unobserved, read sources where observed).
+- The frontier mask (inference) is now the headline mechanism; the appearance read is its complement (generate where unobserved,
+  read sources where observed). The SOTA-cohort runs (GM + mask, GM-B, GM-B + mask) decide the base model.
 - If the correspondence qualification shows ReSplat depth cannot address source tokens reliably (as it could not pass the
   15 % depth test), the appearance read must use DA3 depth of the sources directly (frustum + visibility only), as the mask does.

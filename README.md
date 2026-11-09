@@ -61,7 +61,12 @@ Development set (6 held-out scenes, 20 calls × 16 frames, `src/closed_loop_864.
 | Gauss-meas (GM) | 0.601 | 0.403 | 262 | 1.036 | 20.1 | 3.5 |
 | GM-B (corruption) | 0.623 | 0.442 | 379 | 0.774 | 17.3 | 2.7 |
 | GM-F, inference mask tol .15 | 0.621 | 0.448 | 391 | 0.935 | 20.8 | 3.3 |
-| GM-F / GM, frustum-only mask | pending | | | | | |
+| GM-F, frustum-only mask | 0.636 | 0.418 | 358 | 0.917 | 30.6 | 5.8 |
+| **GM + frustum-only mask (inference only, no training)** | **0.590** | **0.451** | 272 | 0.884 | **13.3** | **2.2** |
+
+The frustum mask applied at inference to the untrained Gauss-meas model is the best arm on every aggregate (kitchen rotation
+33° → 3.1° with no excursions). GM-F, trained on masked and stripped renders, is the worst: lowering the model's reliance on the
+render costs camera execution, which runs through the render. GM-B + mask is being evaluated; GM-F is dropped.
 
 ## Ideas and their status
 
