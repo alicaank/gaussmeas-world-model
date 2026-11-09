@@ -559,6 +559,276 @@
    "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/cvpr_proposal/references.bib",
    "sha256": "b99dc2c5434e4c632b7fa44d8fc23611676afadfac05acc7bc0a9c71407d1da3",
    "bytes": 10552
+  },
+  {
+   "repo_path": "src/ideas/packed_model_corr.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/packed_model_corr.py",
+   "sha256": "d6938176cdd83b4453377a1da79c0917a16d4952f8d879ad5098f77d9f38d2ec",
+   "bytes": 10346
+  },
+  {
+   "repo_path": "src/ideas/precompute_feat_864.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_feat_864.py",
+   "sha256": "8d82fd3e38d984b7ef97013d3d799b68a0f10d3098cff52c78d62ff1f0127066",
+   "bytes": 3795
+  },
+  {
+   "repo_path": "tests/tests_packed_corr.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_packed_corr.py",
+   "sha256": "02d9913356039ec22194f280fb3834f0cc37effda4cfe67d21ef997fc0bc716f",
+   "bytes": 9114
+  },
+  {
+   "repo_path": "tests/tests_twoxplat_memory.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_twoxplat_memory.py",
+   "sha256": "c1782d3a3d87bcd204218c4d2006d0023130600910cb424c46428559722b50cd",
+   "bytes": 7763
+  },
+  {
+   "repo_path": "tests/tests_rows_g.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_rows_g.py",
+   "sha256": "5706622d3df9e699ba2941dcdf422429f0aaada45eb5b15d7d9472f0a14aef58",
+   "bytes": 5178
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/__init__.py",
+   "source": "/home/hj/Alican/gaussverse/memory/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "bytes": 0
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/audit.py",
+   "source": "/home/hj/Alican/gaussverse/memory/audit.py",
+   "sha256": "9872cf3b0eea363562377d17b9aee46105a574dc9c94d605a4ae13575737e01d",
+   "bytes": 516
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/depth_backend.py",
+   "source": "/home/hj/Alican/gaussverse/memory/depth_backend.py",
+   "sha256": "5e03d7aa6023d410219f28b96cad262740880cd553aa01617ee6cbdfaec8e4bb",
+   "bytes": 1752
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/gate_omega_memory.py",
+   "source": "/home/hj/Alican/gaussverse/memory/gate_omega_memory.py",
+   "sha256": "30de6012e2e0ae0b126b9db26eb110d6968f2a370b2a4a2d9dbc0f9494959d53",
+   "bytes": 11480
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/geometry.py",
+   "source": "/home/hj/Alican/gaussverse/memory/geometry.py",
+   "sha256": "03279dc08a0fcaa1c0e98203370c2d8b7db33c2db05000e422eeefef187eb5d5",
+   "bytes": 13269
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/keyframe_cache.py",
+   "source": "/home/hj/Alican/gaussverse/memory/keyframe_cache.py",
+   "sha256": "5c2eff829eff8196c48532a5f7f1c41a6ab70c100cb168eff8369afb1149c8bb",
+   "bytes": 3314
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/latent_splat.py",
+   "source": "/home/hj/Alican/gaussverse/memory/latent_splat.py",
+   "sha256": "ebb2172c82bc90de87462d54e7622bf03e880119129996ad4b6b2a2b8c0d9b80",
+   "bytes": 6111
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/persistent_gaussians.py",
+   "source": "/home/hj/Alican/gaussverse/memory/persistent_gaussians.py",
+   "sha256": "97beabaa98f149cc78d1b885f6b2ab5ed3105eacd09764c81b2ed36e2655184d",
+   "bytes": 7322
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/persistent_store.py",
+   "source": "/home/hj/Alican/gaussverse/memory/persistent_store.py",
+   "sha256": "caba206c4ed88c6afd019f12307bfd22e4335644d8967d1aab8bca43936b7f40",
+   "bytes": 12434
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/point_retrieval.py",
+   "source": "/home/hj/Alican/gaussverse/memory/point_retrieval.py",
+   "sha256": "02fbd9b5d7450bd0f59023ac2dca491d89d3f11f9cc88a2dfb5d55b84f5abd98",
+   "bytes": 6045
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/projection.py",
+   "source": "/home/hj/Alican/gaussverse/memory/projection.py",
+   "sha256": "8f2bd2635f5af5375a99918690e88a4961a13ffb4fd21d61ef9f3a69393ec44d",
+   "bytes": 10181
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/resplat_condition.py",
+   "source": "/home/hj/Alican/gaussverse/memory/resplat_condition.py",
+   "sha256": "d70c50244c70358647ae17e46801ce08af9e5c163d7eff3307d0e92b7b384189",
+   "bytes": 6914
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/retrieval.py",
+   "source": "/home/hj/Alican/gaussverse/memory/retrieval.py",
+   "sha256": "129880d8e061fbc846bd90a29b7c8f5b777c0346a0a2100a6d08b1acdb627067",
+   "bytes": 9340
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/target_buffers.py",
+   "source": "/home/hj/Alican/gaussverse/memory/target_buffers.py",
+   "sha256": "961182f10ba305ec60f6c5be091f4888375ebea6b31c71abed1d2be485819836",
+   "bytes": 5810
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/target_rescue.py",
+   "source": "/home/hj/Alican/gaussverse/memory/target_rescue.py",
+   "sha256": "1377011a7b77790ab7c203ac40ca96c7d20fe13331aba44869c82330a0852348",
+   "bytes": 2746
+  },
+  {
+   "repo_path": "third_party_snapshot/gaussverse_memory/zipsplat_target_rescue.py",
+   "source": "/home/hj/Alican/gaussverse/memory/zipsplat_target_rescue.py",
+   "sha256": "0fac6a903c0b2f1482186e047a3ada5671b0c4379502764e689452d4bfe1a786",
+   "bytes": 12721
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/DESIGN_AFTER_DRIFT_TESTS_20261105.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/DESIGN_AFTER_DRIFT_TESTS_20261105.md",
+   "sha256": "c3446e049e8aee6d0edb4454052d42dec833029185c333d440b845fa7c5f5d76",
+   "bytes": 18172
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/FEEDBACK_CONDITIONING_20261105.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/FEEDBACK_CONDITIONING_20261105.md",
+   "sha256": "a3b167adebf5921f42753de297f7249666e20317115f677a325aaecb80088f53",
+   "bytes": 7012
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/METHOD_AND_TRAINING.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/METHOD_AND_TRAINING.md",
+   "sha256": "e92cd95e82e053722a8a073ce8a7c2281dd29559c3fcc385941ed625570d3dcf",
+   "bytes": 39496
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
+   "sha256": "b25905b171f964ebf07b628bb1f99fad9263f792a11b5ca3105c4eb36517dc06",
+   "bytes": 10621
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/PREFERENCE_AUDIT_20261105.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PREFERENCE_AUDIT_20261105.md",
+   "sha256": "f06b47d972dbefc26b2f9850a3dcb16cc23f57ec15999ff68e997a911e34c192",
+   "bytes": 9256
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/RESEARCH_AND_DESIGN.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/RESEARCH_AND_DESIGN.md",
+   "sha256": "9c56148dba1a0004a4d464643dc8c09cdf169b0bfb375f0ccf32bb0f358c0405",
+   "bytes": 22789
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/REVIEW_METHOD_AND_AUDIT_20261104.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/REVIEW_METHOD_AND_AUDIT_20261104.md",
+   "sha256": "00725b2be3a6eaa6603f3da43578ecda00b9ae6a6ed05d41d6cf095a4b686b46",
+   "bytes": 9962
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/REVIEW_VERIFICATION_20261105.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/REVIEW_VERIFICATION_20261105.md",
+   "sha256": "982bdbfd58eb9bdb44d3a12e4bc67337ff5e29a78ed7df036982764b2650c7c1",
+   "bytes": 5961
+  },
+  {
+   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/TRAINING_DECISION_20261105.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/TRAINING_DECISION_20261105.md",
+   "sha256": "1157ca514c1e8487ca4201f24d78fdefb887060e7b42b0d03087f5ab4f0d00a8",
+   "bytes": 8560
+  },
+  {
+   "repo_path": "docs/ideas/research_plan_20260925/PLAN.md",
+   "source": "/home/hj/Alican/analysis/research_plan_20260925/PLAN.md",
+   "sha256": "f007cf613cf0e056892764b47ad2629855097b9038f46c09f73ea5eb052eaecb",
+   "bytes": 34898
+  },
+  {
+   "repo_path": "docs/ideas/research_plan_20260925/PLAN_reassessed.md",
+   "source": "/home/hj/Alican/analysis/research_plan_20260925/PLAN_reassessed.md",
+   "sha256": "f9514848e6c2938f32855dddabc5f3cba50b5ca8ec0421eaa17b53a6698f3d39",
+   "bytes": 27058
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/A_streaming_seams.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/A_streaming_seams.md",
+   "sha256": "60c214e42177ea5570264bd9268e476aba9731740c849a1d34e700c44beba299",
+   "bytes": 8047
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/B_memory_trust.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/B_memory_trust.md",
+   "sha256": "946b3f5847b15f380581a2ac264de86bb1198af0f89fae82f184ddaaf747a2c2",
+   "bytes": 12628
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/C_camera_eval.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/C_camera_eval.md",
+   "sha256": "2964b8795298cfda34b9138d046e358a97abe6feacffa94436dc6a8797624911",
+   "bytes": 8333
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/D_geometry_forcing_worldforge.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/D_geometry_forcing_worldforge.md",
+   "sha256": "e523d91831df1219378bf7d35d2b3c7712fb1c7786e895035bb5b339281b2843",
+   "bytes": 6292
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/E_runnable_baselines.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/E_runnable_baselines.md",
+   "sha256": "bf1238b9a9df3bd7fc94942023161f85f95e832fafa6636910e252bea59929b9",
+   "bytes": 2501
+  },
+  {
+   "repo_path": "docs/ideas/literature_deep_20261008/REPORT.md",
+   "source": "/home/hj/Alican/analysis/literature_deep_20261008/REPORT.md",
+   "sha256": "26fb91e96d3df103308c50ed9f2c4aabeffd21124f7d0c582f5921729a1dead3",
+   "bytes": 9334
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/RECOMMENDATION_camera_error_supervision_20260929.md",
+   "source": "/home/hj/Alican/analysis/geometry_supervision_research_20260929/RECOMMENDATION.md",
+   "sha256": "26b76110e7d29bdeabf5923499e6959e63419a53c5998d4f5959404326d415bd",
+   "bytes": 16154
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/GATE_OMEGA_CONTRACT.md",
+   "source": "/home/hj/Alican/gaussverse/GATE_OMEGA_CONTRACT.md",
+   "sha256": "0c99ddd229e404f5f545d64e925ddd3b7931ddd356ab21eed05edd13f4565d77",
+   "bytes": 39340
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/PLAN_COUNTERFACTUAL_MEMORY.md",
+   "source": "/home/hj/Alican/gaussverse/PLAN_COUNTERFACTUAL_MEMORY.md",
+   "sha256": "3ba1bc81d2eb040d0e3b73734704aae63f501dcc1dc590ed8cf2d43d8f80e9af",
+   "bytes": 22988
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/online_camera_correction.md",
+   "source": "/home/hj/Alican/gaussverse/docs/online_camera_correction.md",
+   "sha256": "959f3afd606517b9133888388644cdc3d60fac5baa2675c333913f9cdac23579",
+   "bytes": 10343
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/persistent_gaussians.md",
+   "source": "/home/hj/Alican/gaussverse/docs/persistent_gaussians.md",
+   "sha256": "4147ef32da1eb1fe3a633e6a38e1d4e14c7d316c64144707054dcf8223ad3c82",
+   "bytes": 2666
+  },
+  {
+   "repo_path": "docs/ideas/gaussverse_2026-07..09/GATE_OMEGA_ONE_STEP_TRANSFER.md",
+   "source": "/home/hj/Alican/gaussverse/docs/GATE_OMEGA_ONE_STEP_TRANSFER.md",
+   "sha256": "ac0c3c958500016b21c1f78b27c484c9d097aa83cdcd062564b62c49c24c5666",
+   "bytes": 4650
+  },
+  {
+   "repo_path": "docs/lab_notes/gaussverse_experiments_2026-07..09.md",
+   "source": "/home/hj/Alican/gaussverse/experiments.md",
+   "sha256": "4637cfa4c536707aad26bd6787e4c5ac911e672f0bafb91b4a191603b06c1c39",
+   "bytes": 249517
   }
  ]
 }
