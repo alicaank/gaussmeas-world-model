@@ -1,0 +1,50 @@
+% Extended research proposal using the official CVPR author kit.
+% Build: latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[pagenumbers]{cvpr}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{tabularx,array}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{placeins}
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+\usepackage[capitalize,noabbrev]{cleveref}
+\hypersetup{pdftitle={Selective Visual Memory and Camera Control for Long Rollout World Models},
+  pdfsubject={Research proposal; contribution contract v9; no claimed experimental improvements}}
+\newcommand{\sg}{\operatorname{sg}}
+\newcommand{\softmax}{\operatorname{softmax}}
+\newcommand{\sigmoid}{\operatorname{sigmoid}}
+\newcommand{\CE}{\operatorname{CE}}
+\newcommand{\BCE}{\operatorname{BCE}}
+\newcommand{\Log}{\operatorname{Log}}
+\setlength{\emergencystretch}{1em}
+\title{Selective Visual Memory and Camera Control\\for Long Rollout World Models}
+% Replace this neutral draft label with the authors and affiliations when known.
+\author{Research Proposal\\\normalsize 12 October 2026}
+\begin{document}
+\maketitle
+\input{sections/00_abstract}
+\input{sections/13_joint_revision}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_problem_formulation}
+\input{sections/04_proposed_method}
+\input{sections/05_training_for_long_rollout_robustness}
+\input{sections/06_adaptation_on_one_rtx_5090}
+\input{sections/07_data_and_experimental_protocol}
+\input{sections/08_comparison_and_ablation_plan}
+\input{sections/09_secondary_inference_study}
+\input{sections/10_success_criteria_and_risks}
+\input{sections/11_implementation_milestones}
+\FloatBarrier
+{\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{references}
+}
+\clearpage
+\appendix
+\input{sections/12_traceability}
+\end{document}

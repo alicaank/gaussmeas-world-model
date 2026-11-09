@@ -63,6 +63,14 @@ Development set (6 held-out scenes, 20 calls × 16 frames, `src/closed_loop_864.
 | GM-F, inference mask tol .15 | 0.621 | 0.448 | 391 | 0.935 | 20.8 | 3.3 |
 | GM-F / GM, frustum-only mask | pending | | | | | |
 
+## Ideas and their status
+
+`docs/IDEAS_INDEX.md` lists every idea of the line for using the Gaussian memory (measured writes, on-policy rows,
+context corruption, frontier mask, per-chunk renders, Gaussian features, 2Xplat global memory, earned memory, selective visual
+memory, correspondence transfer) and the camera signal (F′ closed loop, memory-verified camera reward with reward-weighted
+velocity matching, camera-ReFL with a latent pose head, camera-read probe), with what was tested and what remains a proposal.
+Code under `src/ideas/`, documents under `docs/ideas/` (including the CVPR proposal source).
+
 ## Checkpoints
 
 Not in git (sizes). Paths and SHA-256 of the receipts are listed in `docs/CHECKPOINTS.md`.
@@ -78,6 +86,7 @@ and contract, VAE stream, DA3 predictor, scorer). Tests: `tests/` (`python -m un
 
 ## Layout
 
-- `src/` method, training, evaluation and the SOTA-cohort runner. `docs/lab_notes/` dated plans with every measurement and
+- `src/` method, training, evaluation and the SOTA-cohort runner; `src/ideas/` the reward arm, per-chunk render, feature-memory,
+  2Xplat and refiner experiments; `src/ideas/memorizon_refl/` the released-Memorizon ReFL / injection line. `docs/lab_notes/` dated plans with every measurement and
   decision of the line. `docs/CHECKPOINTS.md` checkpoint lineage. `SOURCE_PROVENANCE.json` source path and hash per file.
 - Related repositories: `alicaank/closeloopcorrection` (the camera-correction controller and its cross-generator study).

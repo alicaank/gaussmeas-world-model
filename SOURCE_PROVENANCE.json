@@ -331,6 +331,234 @@
    "source": "/home/hj/Alican/analysis/gaussian_meas_dl3dv7_20261103/README.md",
    "sha256": "04ca218f6afa9d469a2f2fcac40b0e1614df1bf36a5784aa5afad9f798a457bb",
    "bytes": 2078
+  },
+  {
+   "repo_path": "src/ideas/reward_train.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/reward_train.py",
+   "sha256": "d5b57bb6d7ddcb0fa4b2b70bd8fd4fef4dad125f2e5049d95c1695d587e591f5",
+   "bytes": 15193
+  },
+  {
+   "repo_path": "src/ideas/probe_camera_loss.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/probe_camera_loss.py",
+   "sha256": "5a75a284db74ddea45701279c80237450513db77e35efb7554c92c156b34101e",
+   "bytes": 4887
+  },
+  {
+   "repo_path": "src/ideas/train_r2.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_r2.py",
+   "sha256": "0b99fc93e3f69aab5161a7f1be197ccb459d231658db2ee0e20aba86b35f496c",
+   "bytes": 1406
+  },
+  {
+   "repo_path": "src/ideas/train_r2op.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_r2op.py",
+   "sha256": "782ff80f58030296fdb0848bad7852a414db2083d353cf34bc0303dea144a85e",
+   "bytes": 2003
+  },
+  {
+   "repo_path": "src/ideas/precompute_renders_next.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_renders_next.py",
+   "sha256": "079c6cd55b11629c9cd569c29f39f13f1ac7c38e7078a3cd2344a2e428ed7f74",
+   "bytes": 2863
+  },
+  {
+   "repo_path": "src/ideas/train_g.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_g.py",
+   "sha256": "2068c0f52f9acda0af74e92df8cff5e0b2b36b514b0d9594236961b4fe88949e",
+   "bytes": 9396
+  },
+  {
+   "repo_path": "src/ideas/rows_g.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/rows_g.py",
+   "sha256": "60b6e7a2328af4ba4fdbeef60e3053d13f403a1c0f2f97ecc7d0b2865d2fc430",
+   "bytes": 8711
+  },
+  {
+   "repo_path": "src/ideas/gen_onpolicy2.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/gen_onpolicy2.py",
+   "sha256": "8403c04b64467ffbe19c4ade22b9f619dea9aa148dda597562700159ba522bee",
+   "bytes": 7051
+  },
+  {
+   "repo_path": "src/ideas/twoxplat_memory.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/twoxplat_memory.py",
+   "sha256": "48b4dcfefee4a949ab1b7da674c1e557108068816df16a4bbb6cb4922b20a9fc",
+   "bytes": 21846
+  },
+  {
+   "repo_path": "src/ideas/train_feat.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_feat.py",
+   "sha256": "89186a66fa4ebe64ab72f8847106be47c5406003418ca20e5dacdfb59d92d791",
+   "bytes": 4208
+  },
+  {
+   "repo_path": "src/ideas/refiner_pilot.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/refiner_pilot.py",
+   "sha256": "873e6204ee2036620be8f19fd722e4d0d6ebcbc7c97ba72d1a827fe63d210499",
+   "bytes": 13417
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/refl_camera.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/refl_camera.py",
+   "sha256": "7ed3cba4f44f5523de4046b67ce4fb045c8faa1baf36f8bd221cb9d2f7ff0edb",
+   "bytes": 11008
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/adapt_pose_head.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/adapt_pose_head.py",
+   "sha256": "f9f759391936df795440365c0b6ef0210fec86011ab24b426554f9823109f231",
+   "bytes": 11625
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/train_refiner.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/train_refiner.py",
+   "sha256": "e650740e98fac1e529bfa410a4b298ac6ef568afc572d629ba93db2b34f4a219",
+   "bytes": 11587
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/diagnose_losses.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/diagnose_losses.py",
+   "sha256": "44a4ae6657de1b5032d41598a759329e8b6ed000f98273b12757fae2f6486e78",
+   "bytes": 10542
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/sharpness.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/sharpness.py",
+   "sha256": "cc0c2bd5920676bbc39af0cf38383cef4f3c319873dec4b34b23736c0818cce8",
+   "bytes": 736
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/gv_memorizon2.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/gv_memorizon2.py",
+   "sha256": "b1fa2140c225b6482a51608e162abc42a75032ce00ef1e0cabf992ce5b84aeba",
+   "bytes": 33068
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/inject.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/finetune/inject.py",
+   "sha256": "badeaf79c59e56c88b14955342307188e99d68028ee7166e139bec265aa050b7",
+   "bytes": 2559
+  },
+  {
+   "repo_path": "src/ideas/memorizon_refl/train_single.py",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/finetune/train_single.py",
+   "sha256": "4b4e64c6fa7e35405710ed9dbb5cc3cf429fe659884bf511e6b0851d2f461b4d",
+   "bytes": 10473
+  },
+  {
+   "repo_path": "docs/ideas/CVPR_novel_ideas_memory_correspondence.md",
+   "source": "/home/hj/Alican/CVPR novel ideas.md",
+   "sha256": "26548566df8d0934f5446e90cc3eddedafcdbcec7b7fdd3da6aac92f9885b636",
+   "bytes": 30246
+  },
+  {
+   "repo_path": "docs/ideas/IDEAS_v2.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/IDEAS_v2.md",
+   "sha256": "f4237e513c02ee29bc9d517b2e6992eee5b82ea26db39b252c0669e72dcce879",
+   "bytes": 10557
+  },
+  {
+   "repo_path": "docs/ideas/IDEAS_v3.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/IDEAS_v3.md",
+   "sha256": "564be2fe63e32d21b8b3aeeacfa27d46835054ccf3a798b422db9771719e1dac",
+   "bytes": 20736
+  },
+  {
+   "repo_path": "docs/ideas/DESIGN.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/DESIGN.md",
+   "sha256": "3096bd891b5a15152d1b2158c45ee0e3a807d47f92c158efdeec40e4655fc966",
+   "bytes": 9224
+  },
+  {
+   "repo_path": "docs/ideas/CVPR_RESEARCH_PROPOSAL.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/CVPR_RESEARCH_PROPOSAL.md",
+   "sha256": "b200a2dab83bf910a0c09d7017dff5e6728f669794ce8207e391033e69348e45",
+   "bytes": 71515
+  },
+  {
+   "repo_path": "docs/ideas/PLAN_earned_memory_20261006.md",
+   "source": "/home/hj/Alican/analysis/plan_earned_memory_20261006/PLAN.md",
+   "sha256": "eab3ec2eab1e2818a9049a47412fdd4ef80e1389bccffd26feb9c12e8312afeb",
+   "bytes": 28632
+  },
+  {
+   "repo_path": "docs/ideas/PILOT_PLAN_CVPR_20261104.md",
+   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
+   "sha256": "b25905b171f964ebf07b628bb1f99fad9263f792a11b5ca3105c4eb36517dc06",
+   "bytes": 10621
+  },
+  {
+   "repo_path": "docs/ideas/CVPR_STRATEGY_2026-09-08.md",
+   "source": "/home/hj/Alican/gaussverse/CVPR_STRATEGY_2026-09-08.md",
+   "sha256": "1be5ab0fe23a59ade0c556b443c44252468d89d1e9524274a875aed2dfab7158",
+   "bytes": 20538
+  },
+  {
+   "repo_path": "docs/ideas/RELATED_METHODS.md",
+   "source": "/home/hj/Alican/gaussverse/RELATED_METHODS.md",
+   "sha256": "c7c8584e8a15b1e6c6c7b880fd1cd67cb2271efe6a1ab2b6f5c8b316573cd5ff",
+   "bytes": 12225
+  },
+  {
+   "repo_path": "docs/ideas/SOTA_COMPARISON.md",
+   "source": "/home/hj/Alican/gaussverse/SOTA_COMPARISON.md",
+   "sha256": "876cf8b439081edeb6a83ec1d8ceafaeae3cff13df4e67b7e07c54a69426f86b",
+   "bytes": 16416
+  },
+  {
+   "repo_path": "docs/ideas/lit2_A_init_transitions.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_A_init_transitions.md",
+   "sha256": "3713d780c2b0b9dfc76a60d79bf4d82764e33feb81a6200ec6ee943699b51261",
+   "bytes": 14542
+  },
+  {
+   "repo_path": "docs/ideas/lit2_B_memory_reliability.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_B_memory_reliability.md",
+   "sha256": "a9ee99de50a071815503776482673faca4f50106ff06e0586be0e18c5aefd629",
+   "bytes": 13843
+  },
+  {
+   "repo_path": "docs/ideas/lit2_C_camera_collapse_recipes.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_C_camera_collapse_recipes.md",
+   "sha256": "b3d3b2d2b08b8cdeafc188522254c4c5e487bcfa6e3ce25ca6c6e0cd5d24c56e",
+   "bytes": 12623
+  },
+  {
+   "repo_path": "docs/ideas/lit2_anticollapse_recipes.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_anticollapse_recipes.md",
+   "sha256": "c2a3a56367ff053d6c07b5704649afdcd07f65ab58ad0ce6c632b8811e314d7a",
+   "bytes": 4456
+  },
+  {
+   "repo_path": "docs/ideas/lit2_camera_injection.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_camera_injection.md",
+   "sha256": "e72724c40bceaff6fc0c2d2310700739df40c771e6bf173f35ead7b98390baed",
+   "bytes": 3681
+  },
+  {
+   "repo_path": "docs/ideas/lit2_lyra2_recipe.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_lyra2_recipe.md",
+   "sha256": "81879a2a585fc8bf0998e4f0f770a12aa68ae971449fa8120170934f16ef354d",
+   "bytes": 4036
+  },
+  {
+   "repo_path": "docs/ideas/lit2_realized_pose_writes.md",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_realized_pose_writes.md",
+   "sha256": "c27fbd71468e16d84c523ecd45a1deca9d82d0b759a35970fdb32751ecb0977a",
+   "bytes": 3230
+  },
+  {
+   "repo_path": "docs/ideas/cvpr_proposal/main.tex",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/cvpr_proposal/main.tex",
+   "sha256": "f09e676e665f68bfe868a2c66e065e4c35ee49a8309db81a100fd4a05cd83162",
+   "bytes": 1994
+  },
+  {
+   "repo_path": "docs/ideas/cvpr_proposal/references.bib",
+   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/cvpr_proposal/references.bib",
+   "sha256": "b99dc2c5434e4c632b7fa44d8fc23611676afadfac05acc7bc0a9c71407d1da3",
+   "bytes": 10552
   }
  ]
 }
