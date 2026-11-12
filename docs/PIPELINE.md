@@ -17,11 +17,11 @@ One GPU with 32 GiB (RTX 5090; training peaks at 24.6 GiB), CUDA 12.8, Python 3.
 opencv-python lpips bitsandbytes scipy pillow tqdm transformers huggingface_hub imageio-ffmpeg`. `nvcc` must be on `PATH`
 (`CUDA_HOME`) because ReSplat's rasterizer (gsplat) loads its extension only then.
 
-External components, none of them in this repository. Point `scripts/env.sh` at them:
+The repository is self-contained except for four external components (weights and third-party code). Point
+`scripts/env.sh` at them:
 
 | Component | Variable | What it is |
 |---|---|---|
-| `gaussverse` package | `GM_WORKSPACE` (its parent directory) | Our base library: DiffSynth-derived Wan2.2 model code, camera rays, VAE streaming, ReSplat wrapper. Repository `alicaank/gaussverse`, branch `snapshot/research-state-2026-09-11` (commit `6ed16ba`); the 60 files this pipeline imports are tracked there. |
 | Wan2.2-TI2V-5B | `GAUSSVERSE_WAN22_DIR` | DiT weights (fingerprint checked against `foundation/BASE_MODEL_AUDIT.json`), `Wan2.2_VAE.pth`, umT5-xxl encoder and tokenizer. |
 | Memorizon-50 weights | `core/memorizon50/` | The released checkpoint `Luffuly/memorizon-1280x704-50step` as downloaded (config + 3 safetensors shards). It is not converted: `core/model_io.py` maps the keys at load time. |
 | Memorizon code | `GM_MEMORIZON` | The released Memorizon source (its retrieval rule is one of the bank options; `core/encode_prompts_local.py` uses its text encoder wrapper). |
@@ -29,6 +29,9 @@ External components, none of them in this repository. Point `scripts/env.sh` at 
 | Depth-Anything-3 | `GAUSSVERSE_DA3_SOURCE` | Source tree; weights `DA3NESTED-GIANT-LARGE-1.1` in the Hugging Face cache. |
 | MoGe, Qwen3-VL-2B | Hugging Face cache | Only for the 448 corpus (anchor gauge, captions). |
 | ViPE scorer | not included | The ViPE-based camera scorer of our tables belongs to the closed-loop correction study and is not in this repository. `contract/gate_b4_camera.py` turns its trajectories into execution ratios. |
+
+Our base library is vendored: `gaussverse/` holds the part of the `gaussverse` package the pipeline imports (Wan model
+code and loaders derived from DiffSynth-Studio, camera rays, VAE streaming, the ReSplat wrapper; `gaussverse/VENDORED.md`).
 
 Data and outputs live next to the code and are git-ignored (`gm_env.py` lists them): `core/data864/`, `core/memorizon50/`,
 `contract/render_cache_v4/`, `contract/runs/`, `foundation/dataset_v3/`. Put them there or symlink them.

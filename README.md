@@ -33,7 +33,7 @@ What stage B (token arm) does on the two development scenes, against the recordi
 
 ```bash
 git clone <this repository> && cd gaussmeas-world-model
-# edit scripts/env.sh: where the gaussverse package, Wan2.2, ReSplat, Depth-Anything-3 and Memorizon live
+# edit scripts/env.sh: where Wan2.2, ReSplat, Depth-Anything-3 and Memorizon live (everything else is in this repository)
 source scripts/env.sh
 python scripts/check_env.py          # what is present on this machine
 scripts/run_cpu_tests.sh             # ~1 min, no weights or data needed
@@ -85,13 +85,15 @@ scripts/40_metrics.sh fast b_token=$PWD/out/{scene}
   `train_gmp.py`), rollout (`sota_eval/run_arm_ckpt.py`), measurements, and the committed stream / window lists.
 - `foundation/` shared modules the above import: 448-corpus builder, renderer and depth contracts, realized-pose
   measurement, frame download, camera-quality check.
+- `gaussverse/` the vendored part of our base library (Wan model code and loaders derived from DiffSynth-Studio, camera
+  rays, VAE streaming, ReSplat wrapper); `gaussverse/VENDORED.md` says where each part comes from.
 - `scripts/` one script per pipeline step; `gm_env.py` every machine path, overridable by `GM_*` environment variables.
 - `docs/PIPELINE.md` the pipeline; `docs/RESULTS.md` measurements; `docs/CHECKPOINTS.md` checkpoint lineage;
   `docs/lab_notes/` the dated notes with every measurement and decision of the line.
 - `SOURCE_PROVENANCE.json` for each code file: the hash of the working file it was copied from and how many machine
   paths were replaced. Nothing else was changed.
 
-Checkpoints, data and third-party code (Wan2.2, Memorizon, ReSplat, Depth-Anything-3, the `gaussverse` package) are not in
-this repository; `docs/PIPELINE.md`, section 1, lists them. Earlier experiments of the project (context corruption, frontier
+The repository is self-contained except for four external components: the Wan2.2-TI2V-5B weights, the Memorizon release,
+ReSplat and Depth-Anything-3 (`docs/PIPELINE.md`, section 1). Checkpoints and data are not in git. Earlier experiments of the project (context corruption, frontier
 mask variants, camera-reward arms, a global re-reconstruction memory) are in the git history before this cleanup. Related:
 `alicaank/closeloopcorrection` (closed-loop camera correction across generators).

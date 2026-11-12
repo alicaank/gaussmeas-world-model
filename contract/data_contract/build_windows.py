@@ -7,7 +7,7 @@ import json, sys, os
 from pathlib import Path
 import numpy as np
 HERE = Path(__file__).resolve().parent.parent; FT = Path(gm_env.CORE)
-for p in (str(HERE), str(FT), gm_env.WORKSPACE):
+for p in (str(HERE), str(FT), gm_env.PKG_ROOT):
     if p not in sys.path: sys.path.insert(0, p)
 OUT = HERE / 'data_contract'
 

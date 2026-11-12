@@ -9,7 +9,7 @@ import json, sys
 from pathlib import Path
 import numpy as np, torch
 FT = Path(gm_env.CORE)
-for p in (str(FT), gm_env.WORKSPACE):
+for p in (str(FT), gm_env.PKG_ROOT):
     if p not in sys.path: sys.path.insert(0, p)
 HERE = Path(__file__).resolve().parent; OUT = HERE / 'anchor_depth'; SIZE = (120, 216)
 

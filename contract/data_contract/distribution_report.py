@@ -6,7 +6,7 @@ import json, sys
 from pathlib import Path
 import numpy as np, torch
 HERE = Path(__file__).resolve().parent; ROOT = HERE.parent; FT = gm_env.CORE
-for p in (str(ROOT), FT, gm_env.WORKSPACE):
+for p in (str(ROOT), FT, gm_env.PKG_ROOT):
     if p not in sys.path: sys.path.insert(0, p)
 import memory_contract as mc
 W = {(w['stream'], w['start']): w for w in map(json.loads, open(HERE / 'windows.jsonl'))}; ix = json.load(open(HERE / 'index_v4.json'))
