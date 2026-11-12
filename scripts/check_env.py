@@ -13,9 +13,9 @@ def line(label, path, need=True):
     print(f'  [{"ok" if there else ("MISSING" if need else "absent ")}] {label:34s} {path}')
 
 
-print('code'); [line(n, getattr(gm_env, n)) for n in ('CORE', 'CONTRACT', 'FOUNDATION')]; line('gaussverse (vendored)', gm_env.PKG_ROOT + '/gaussverse/__init__.py')
+print('code'); [line(n, getattr(gm_env, n)) for n in ('CORE', 'CONTRACT', 'FOUNDATION')]; line('gmlib (base library)', gm_env.PKG_ROOT + '/gmlib/__init__.py')
 print('external code')
-line('ReSplat source', gm_env.RESPLAT); line('Depth-Anything-3 source', gm_env.DA3_SRC); line('Memorizon code', gm_env.MEMORIZON + '/memorizon'); line('Wan2.2-TI2V-5B (GAUSSVERSE_WAN22_DIR)', __import__('os').environ.get('GAUSSVERSE_WAN22_DIR', ''))
+line('ReSplat source', gm_env.RESPLAT); line('Depth-Anything-3 source', gm_env.DA3_SRC); line('Memorizon code', gm_env.MEMORIZON + '/memorizon'); line('Wan2.2-TI2V-5B (GM_WAN22_DIR)', __import__('os').environ.get('GM_WAN22_DIR', ''))
 for m in ('torch', 'safetensors', 'einops', 'cv2', 'lpips', 'bitsandbytes'):
     there = importlib.util.find_spec(m) is not None; ok &= there; print(f'  [{"ok" if there else "MISSING"}] python module {m}')
 print('data (built by the pipeline; docs/PIPELINE.md)')

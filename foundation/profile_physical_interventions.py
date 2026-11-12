@@ -169,8 +169,8 @@ def support_masks(sources, groups, targets, K, size=(256, 448), device='cuda'):
 def run_group(producer, row, entry, root, out, index):
     from foundation_contract import normalize_cameras
     from foundation_depth import causal_depth
-    from gaussverse.training.gate_omega_recovery import _reliability
-    from gaussverse.models.vae_stream import VaeStream
+    from gmlib.training.gate_omega_recovery import _reliability
+    from gmlib.models.vae_stream import VaeStream
     r = entry['recipe']; directory = root / 'components' / r['stream_id']
     annotation = json.loads((directory / 'anchor.json').read_text())
     old_meta = json.loads(geometry_path(root, r, '.json').read_text())

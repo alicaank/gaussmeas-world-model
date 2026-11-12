@@ -8,7 +8,7 @@ Temporal positions enter RoPE only; there is no explicit age embedding.
 import torch
 from torch import nn
 from torch.utils.checkpoint import checkpoint
-from gaussverse.diffsynth.models.wan_video_dit import sinusoidal_embedding_1d
+from gmlib.diffsynth.models.wan_video_dit import sinusoidal_embedding_1d
 
 
 class Foundation(nn.Module):

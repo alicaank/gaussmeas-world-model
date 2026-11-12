@@ -4,9 +4,9 @@ import gm_env  # machine paths: gm_env.py at the repository root (scripts/env.sh
 import sys, torch
 sys.path.insert(0, gm_env.MEMORIZON)
 from memorizon.pipeline import NEGATIVE_PROMPT
-from gaussverse import _paths
-from gaussverse.diffsynth.core.loader.model import load_model
-from gaussverse.diffsynth.models.wan_video_text_encoder import HuggingfaceTokenizer, WanTextEncoder
+from gmlib import _paths
+from gmlib.diffsynth.core.loader.model import load_model
+from gmlib.diffsynth.models.wan_video_text_encoder import HuggingfaceTokenizer, WanTextEncoder
 from data import pad_text
 dev = sys.argv[1] if len(sys.argv) > 1 else 'cpu'
 tok = HuggingfaceTokenizer(str(_paths.WAN22_DIR / 'google/umt5-xxl'), seq_len=None, clean='whitespace', local_files_only=True)

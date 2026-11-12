@@ -2,7 +2,7 @@
 
 User decision (7 Nov, 23:30): the 72-hour window does not matter; what matters is
 that the model trains well and that accuracy and long-rollout robustness improve.
-This directory is separate from `analysis/gaussverse_recovery_20261106/` (another
+This directory is separate from `analysis/gmlib_recovery_20261106/` (another
 session's campaign); it imports that code read-only and never writes there.
 
 ## Evidence this plan rests on
@@ -206,7 +206,7 @@ Literature check (fetched 8 Nov):
   stops at 00:11:31; the host was down until a reboot at 11:46 (kernel 7.0.0-31 -> -42). The overnight extension order could not run.
   11:55 queue relaunched (PID 5231; training skipped, partial GM eval set aside as eval_gm/gm_s7_partial_reboot).
 - 9 Nov 12:30 FRONTIER FOCUS (user: "model drifts the border instead of generating" -> "buna odaklan, duzeltmemiz gerekiyor").
-  Verified mechanism: ReSplat valid = accumulated alpha > .5, conf = alpha (gaussverse/memory/resplat_condition.py:66-70): a Gaussian
+  Verified mechanism: ReSplat valid = accumulated alpha > .5, conf = alpha (gmlib/memory/resplat_condition.py:66-70): a Gaussian
   stretched into newly revealed space is valid + confident; packed_model masks render tokens only where pooled valid < .5; the model
   follows the render (~2:1 in conflict) -> extrudes the last surface at the frontier instead of generating (02267acf frames 160-184:
   poster/stand stretched where the recording reveals the shelf corner). Training cache: only 11% of render cells valid < .5, border
@@ -371,7 +371,7 @@ Note: Lyra-2 translation exec on the showroom 1.35 (35% overshoot).
   stock path (16-view weights, 540x960) PSNR 15.6-17.6 dB; 8-view weights at 512x960 26-31 dB. Rescaling the 540 render vertically about the centre:
   best factor .948 = 512/540 in 6/6 cases, PSNR 18 -> 24-32 dB. The 512 path is best at 1.000.
 - Cause: ReSplat's patch shim crops context AND target to multiples of 64 rows (540 -> 512, 14 rows off top and bottom) and rescales fy;
-  gaussverse/memory/resplat_condition.py render() still decodes (540, 960) with those intrinsics -> the centre 94.8 % of the vertical field of view is
+  gmlib/memory/resplat_condition.py render() still decodes (540, 960) with those intrinsics -> the centre 94.8 % of the vertical field of view is
   drawn over the whole height (up to 13 px off at the top / bottom of a 480-row frame). Affects every 864-lineage render: training caches
   (data864/renders, pool, mask cache) and inference. 256x448 (multiples of 64) was exact. The generator learned against the stretched render.
 - Same probe, weights: with the stock 3 sources the 8-view weights give alpha .89-.95 (16-view .76-.88), valid .99 (.78-.97), 4x-scale Laplacian .73-.90

@@ -9,8 +9,8 @@ checkpoint or old-model output is loaded.
 import torch
 from torch import nn
 from torch.nn import functional as F
-from gaussverse.memory.resplat_condition import ReSplatCondition
-from gaussverse.models.gate_omega_scaffold import render_point_source
+from gmlib.memory.resplat_condition import ReSplatCondition
+from gmlib.models.gate_omega_scaffold import render_point_source
 
 
 def render_anchor(source,target_c2w,K,size):

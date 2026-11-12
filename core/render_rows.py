@@ -10,12 +10,12 @@ import torch
 from torch.nn import functional as F
 from all_scene_dataset import DATA, RecordedStream
 from foundation_depth import causal_depth
-from gaussverse.models.vae_stream import VaeStream
+from gmlib.models.vae_stream import VaeStream
 
 
 class RenderBuilder:
     def __init__(self, vae):
-        from gaussverse.training.gate_omega_recovery import PinnedDA3Predictor
+        from gmlib.training.gate_omega_recovery import PinnedDA3Predictor
         from foundation_renderer import FoundationRenderer
         self.vae = vae; self.depth = PinnedDA3Predictor(offload_after_call=True); self.renderer = FoundationRenderer(); self._rec = {}
 

@@ -6,7 +6,7 @@ anchor pixels; depth disagreement remains a measured limitation, not truth.
 """
 import numpy as np
 import torch
-from gaussverse.training.gate_omega_recovery import _pad_depth,_resize_mask
+from gmlib.training.gate_omega_recovery import _pad_depth,_resize_mask
 from foundation_contract import fit_registered_scale
 
 

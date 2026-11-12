@@ -3,7 +3,7 @@ own latents (commanded poses for now), Euler over the shifted schedule, optional
 Generated latents are kept raw (no decode/re-encode); frames are stream-decoded for metrics only."""
 import numpy as np
 import torch
-from gaussverse.models.vae_stream import VaeStream
+from gmlib.models.vae_stream import VaeStream
 from foundation_model import packed_rays
 from data import select_bank, assemble
 import packed_model
@@ -34,7 +34,7 @@ class _NoModel(torch.nn.Module):
 def make_runtime(vae):
     """joint_v9 geometry pipeline (DA3 on own frames + ReSplat render + VAE stream decode) without the DiT."""
     from joint_v9.runtime import WorldRuntime
-    from gaussverse.training.gate_omega_recovery import PinnedDA3Predictor
+    from gmlib.training.gate_omega_recovery import PinnedDA3Predictor
     from foundation_renderer import FoundationRenderer
     return WorldRuntime(_NoModel(), vae, PinnedDA3Predictor(offload_after_call=True), FoundationRenderer(), residency='sequential')
 

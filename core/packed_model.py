@@ -10,7 +10,7 @@ the true cameras carry time-free geometry. No render slots in stage A (metadata 
 import torch
 from torch import nn
 from torch.utils.checkpoint import checkpoint
-from gaussverse.diffsynth.models.wan_video_dit import sinusoidal_embedding_1d
+from gmlib.diffsynth.models.wan_video_dit import sinusoidal_embedding_1d
 from prope import CameraBranch, CameraTransforms
 
 ROLE_ANCHOR, ROLE_RECENT, ROLE_BANK, ROLE_RENDER, ROLE_TARGET = 0, 1, 2, 3, 4

@@ -7,7 +7,7 @@ import os, sys
 from pathlib import Path
 import numpy as np, torch
 from torch.nn import functional as F
-from gaussverse.memory.resplat_condition import ReSplatCondition
+from gmlib.memory.resplat_condition import ReSplatCondition
 from foundation_renderer import FoundationRenderer, PerViewDepth
 
 ROOT = Path(gm_env.RESPLAT)

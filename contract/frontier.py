@@ -1,6 +1,6 @@
 """Frontier (unobserved-region) mask for the ReSplat render memory (9 Nov, user: "model drifts the border instead of generating").
 
-Diagnosis: ReSplat's `valid` is accumulated alpha > .5 and `conf` is alpha (gaussverse/memory/resplat_condition.py:66-70), so a
+Diagnosis: ReSplat's `valid` is accumulated alpha > .5 and `conf` is alpha (gmlib/memory/resplat_condition.py:66-70), so a
 Gaussian stretched into newly revealed space is reported as valid, confident content; the packed model masks render tokens only
 where pooled valid < .5 and otherwise follows the render (~2:1 in conflict), so at the frontier it extrudes the last known surface
 instead of generating.

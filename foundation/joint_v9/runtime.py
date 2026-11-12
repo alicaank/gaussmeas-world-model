@@ -58,7 +58,7 @@ class WorldRuntime:
 
     @torch.no_grad()
     def start(self,anchor_rgb,anchor,K,*,scene_id,stream_id,split):
-        from gaussverse.models.vae_stream import VaeStream
+        from gmlib.models.vae_stream import VaeStream
         self.prepare_geometry_residency();self.vae.cuda()
         rgb=torch.from_numpy(anchor_rgb.copy()).permute(2,0,1).float()/127.5-1
         prefix=VaeStream(self.vae).encode_chunk(rgb[None,:,None].cuda().to(torch.bfloat16)).float().cpu()
@@ -71,7 +71,7 @@ class WorldRuntime:
     @torch.no_grad()
     def prepare(self,state,current_command,*,fixed_archive=None,appearance_error=False,geometry_error=None):
         """No later command, path identifier, cost or future RGB is accepted."""
-        from gaussverse.models.vae_stream import VaeStream
+        from gmlib.models.vae_stream import VaeStream
         from profile_physical_interventions import perturb
         state.validate();command=current_command.detach().float().cpu()
         if command.shape!=(16,4,4) or not torch.isfinite(command).all():
@@ -170,7 +170,7 @@ class WorldRuntime:
 
     @torch.no_grad()
     def advance(self,state,command,generated):
-        from gaussverse.models.vae_stream import VaeStream
+        from gmlib.models.vae_stream import VaeStream
         self.prepare_geometry_residency();self.vae.cuda()
         decoder=VaeStream(self.vae,offload_device='cpu');decoder.restore(state.decoder_prefix)
         frames=decoder.decode_chunk(generated.detach().cuda().to(torch.bfloat16))[0]

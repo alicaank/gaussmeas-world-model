@@ -7,7 +7,7 @@ import random
 import numpy as np
 import torch
 from PIL import Image
-from gaussverse.data.dl3dv import crop_and_resize, scale_intrinsics
+from gmlib.data.dl3dv import crop_and_resize, scale_intrinsics
 from prepare_manifest import digest, file_sha
 from geometry_policy import geometry_path, validate_geometry_policy
 

@@ -22,8 +22,8 @@ def sha256(path):
 
 
 def stock_fingerprint():
-    from gaussverse import _paths
-    from gaussverse.training.gate_omega_checkpoint import wan_source_fingerprint
+    from gmlib import _paths
+    from gmlib.training.gate_omega_checkpoint import wan_source_fingerprint
     expected = json.loads((SRC / 'BASE_MODEL_AUDIT.json').read_text())['recorded_stock_fingerprint']
     actual = wan_source_fingerprint(_paths.WAN22_DIR)['sha256']
     if actual != expected:
@@ -32,7 +32,7 @@ def stock_fingerprint():
 
 
 def fresh_model(prope=True, compress=8, device='cuda', lora_r=0, init='stock', md_ch=2):
-    from gaussverse.models.wan22_frame_renderer import load_wan22_dit
+    from gmlib.models.wan22_frame_renderer import load_wan22_dit
     fp = stock_fingerprint(); dit = load_wan22_dit(device=device, dtype=torch.bfloat16)
     model = PackedTeacher(dit, prope=prope, compress=compress, lora_r=lora_r, md_ch=md_ch).to(device); params = model.configure_trainables()
     if init == 'memorizon50':
@@ -51,7 +51,7 @@ def load_memorizon(model, directory=MEMORIZON50, zero_extra=True):
     zero_extra: our Plucker/metadata/roles projections are zeroed so the loaded model behaves as Memorizon at step 0."""
     import glob
     from safetensors.torch import load_file
-    from gaussverse.diffsynth.utils.state_dict_converters.wan_video_dit import WanVideoDiTFromDiffusers
+    from gmlib.diffsynth.utils.state_dict_converters.wan_video_dit import WanVideoDiTFromDiffusers
     sd = {}
     for f in sorted(glob.glob(str(Path(directory) / 'model-*.safetensors'))):
         sd.update(load_file(f))
@@ -95,7 +95,7 @@ def load_memorizon(model, directory=MEMORIZON50, zero_extra=True):
 
 
 def load_vae(device='cuda'):
-    from gaussverse.models.wan22_frame_renderer import load_wan22_vae
+    from gmlib.models.wan22_frame_renderer import load_wan22_vae
     return load_wan22_vae(device=device, dtype=torch.bfloat16)
 
 

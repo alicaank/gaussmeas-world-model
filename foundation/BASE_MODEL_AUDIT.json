@@ -1,5 +1,5 @@
 {
-  "schema": "gaussverse.base_restart_model_preflight.v1",
+  "schema": "gmlib.base_restart_model_preflight.v1",
   "model_root": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B",
   "base_model": "Wan-AI/Wan2.2-TI2V-5B",
   "recorded_stock_fingerprint": "0c13be09405613631c9c3e0308deb6e131afb2ddeb16f01fe658b26a4ce9a6fb",

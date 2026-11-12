@@ -9,8 +9,8 @@ import numpy as np, torch
 from PIL import Image
 from all_scene_dataset import DATA, pack_bf16
 from foundation_contract import normalize_cameras
-from gaussverse.models.vae_stream import VaeStream
-from gaussverse.data.dl3dv import scale_intrinsics
+from gmlib.models.vae_stream import VaeStream
+from gmlib.data.dl3dv import scale_intrinsics
 
 ROOT = Path((gm_env.DATA_ROOT + '/DL3DV-960P-864x480')); OUT = Path(__file__).parent / 'data864'
 ap = argparse.ArgumentParser(); ap.add_argument('--limit', type=int, default=0); ap.add_argument('--skip_flagged', type=int, default=1); ap.add_argument('--dev', type=int, default=20); a = ap.parse_args()

@@ -88,7 +88,7 @@
    "sha256_source": "4312dd77d6bfe60e7f56e6fcd77239023435711daf3d08b4a722fc595ac4cb3e",
    "bytes_source": 12768,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "core/prep_864.py",
@@ -112,7 +112,7 @@
    "sha256_source": "a9cfda62c7da370c2d0ea6dc659a34ed54448aeb796157d065b9a7fcadc8ef29",
    "bytes_source": 6263,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "core/render_rows.py",
@@ -120,7 +120,7 @@
    "sha256_source": "af81b9a78723e52f159309c844570b0acc32ce331a1d642c3e3c42aa6e94785c",
    "bytes_source": 3194,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "core/renderer864.py",
@@ -136,7 +136,7 @@
    "sha256_source": "13fa169a33e532ca999dc1d54a640769ade47702bd48400cc8b430e4b77e342b",
    "bytes_source": 10481,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "core/tests.py",
@@ -312,7 +312,7 @@
    "sha256_source": "923f4af80fed699d088e6174d181e3ad9b373b35c30658be1eb9cd3dadff75c0",
    "bytes_source": 22653,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "contract/gate_b4_camera.py",
@@ -464,7 +464,7 @@
    "sha256_source": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
    "bytes_source": 12506,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/audit_all_scenes.py",
@@ -488,7 +488,7 @@
    "sha256_source": "32c535622e1bbbe61a79bf33109af2e5fe330fbba0e6d399768aacb43f68e3cf",
    "bytes_source": 7541,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/geometry_policy.py",
@@ -520,7 +520,7 @@
    "sha256_source": "2cdf9ec9890761d5644a70e93e3407a36fd429a1b1d05b79ca028e8daeba869b",
    "bytes_source": 16668,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/prepare_v2.py",
@@ -536,7 +536,7 @@
    "sha256_source": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
    "bytes_source": 12506,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/foundation_contract.py",
@@ -552,7 +552,7 @@
    "sha256_source": "2dbeadb270b49025355fdf35a1e2fbf1ad89d4299d1cb36be362f686d567a5a7",
    "bytes_source": 1631,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/foundation_model.py",
@@ -560,7 +560,7 @@
    "sha256_source": "76ee46e5702fa012b832bb9dcec0046a8d3721c50efe7fcb82319842d07c020b",
    "bytes_source": 8740,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/foundation_renderer.py",
@@ -568,7 +568,7 @@
    "sha256_source": "4b2bac777b447b398e02c9503141d91184da69fdd396ff73a2200fcfeebc6846",
    "bytes_source": 3534,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/geometry_policy.py",
@@ -616,7 +616,7 @@
    "sha256_source": "9e638b8dcc9dae0996e6a1e15b92c1cd903575af41e9ba97835bf9313ac589da",
    "bytes_source": 11632,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/joint_v9/sampling.py",
@@ -632,7 +632,7 @@
    "sha256_source": "709eaff99fed9f2ffd724b7313bee8949a2eeb7a23c4a4dda70646c894d4e641",
    "bytes_source": 19540,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/native_archive.py",
@@ -656,7 +656,7 @@
    "sha256_source": "2cdf9ec9890761d5644a70e93e3407a36fd429a1b1d05b79ca028e8daeba869b",
    "bytes_source": 16668,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
    "repo_path": "foundation/prepare_v2.py",
@@ -672,695 +672,701 @@
    "sha256_source": "fafa37b4661d8913045b2b984e43703f511fdaa19ca2b122320f54e559301e73",
    "bytes_source": 21762,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/__init__.py",
-   "source": "<workspace>/gaussverse/__init__.py",
+   "repo_path": "gmlib/__init__.py",
+   "source": "<base library>/__init__.py",
    "sha256_source": "c7d988707c19750f1ded6eb2bff6ec5e4ef27dcfad2790ac5f0a4d10755b51a8",
    "bytes_source": 410,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/_paths.py",
-   "source": "<workspace>/gaussverse/_paths.py",
+   "repo_path": "gmlib/_paths.py",
+   "source": "<base library>/_paths.py",
    "sha256_source": "22734bb39fc4af2575592cd1866a36a310b531d323dc27c221a0d9ce70940be6",
    "bytes_source": 2848,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/camera/__init__.py",
-   "source": "<workspace>/gaussverse/camera/__init__.py",
+   "repo_path": "gmlib/camera/__init__.py",
+   "source": "<base library>/camera/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/camera/commands.py",
-   "source": "<workspace>/gaussverse/camera/commands.py",
+   "repo_path": "gmlib/camera/commands.py",
+   "source": "<base library>/camera/commands.py",
    "sha256_source": "1c47eed9e859dc0e5add72ec2647df0dead87623e09bc52f81da8ab0a4d4e2c8",
    "bytes_source": 10737,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/camera/normalization.py",
-   "source": "<workspace>/gaussverse/camera/normalization.py",
+   "repo_path": "gmlib/camera/normalization.py",
+   "source": "<base library>/camera/normalization.py",
    "sha256_source": "9087030f4cbaf0cce3bc260d533d9b3203e7b73927d230fb090c4579e125e839",
    "bytes_source": 2302,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/camera/packed_rays.py",
-   "source": "<workspace>/gaussverse/camera/packed_rays.py",
+   "repo_path": "gmlib/camera/packed_rays.py",
+   "source": "<base library>/camera/packed_rays.py",
    "sha256_source": "64d9db122d4304732455b1fae905200eed18673f211490dbaa778da53744c8c7",
    "bytes_source": 5208,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/camera/rays.py",
-   "source": "<workspace>/gaussverse/camera/rays.py",
+   "repo_path": "gmlib/camera/rays.py",
+   "source": "<base library>/camera/rays.py",
    "sha256_source": "e2ed83c7d9b8cfa3711d1abb77f87a0cff92dfd614771fbfe451063b9f302477",
    "bytes_source": 2928,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/data/__init__.py",
-   "source": "<workspace>/gaussverse/data/__init__.py",
+   "repo_path": "gmlib/data/__init__.py",
+   "source": "<base library>/data/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/data/dl3dv.py",
-   "source": "<workspace>/gaussverse/data/dl3dv.py",
+   "repo_path": "gmlib/data/dl3dv.py",
+   "source": "<base library>/data/dl3dv.py",
    "sha256_source": "3fc91ab16346575c3a95d85491a667f2ba6cae3eedfd78252bca46e74984fbeb",
    "bytes_source": 8109,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/data/trajectory.py",
-   "source": "<workspace>/gaussverse/data/trajectory.py",
+   "repo_path": "gmlib/data/trajectory.py",
+   "source": "<base library>/data/trajectory.py",
    "sha256_source": "91fb76e920c9500fcaabf9bd908c7593dfe1d78e6f6df7c7d6503f723830bf50",
    "bytes_source": 21101,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/diffsynth/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/__init__.py",
+   "repo_path": "gmlib/diffsynth/__init__.py",
+   "source": "<base library>/diffsynth/__init__.py",
    "sha256_source": "2b490dcb6e959ba03ed55e65493de2972eb256c34b51b8aa93a0190c59b69c92",
    "bytes_source": 20,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/configs/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/configs/__init__.py",
+   "repo_path": "gmlib/diffsynth/configs/__init__.py",
+   "source": "<base library>/diffsynth/configs/__init__.py",
    "sha256_source": "1453aa3d029724c18c36e381f2e973af85026f3078c28630288af1f020acc182",
    "bytes_source": 110,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/configs/model_configs.py",
-   "source": "<workspace>/gaussverse/diffsynth/configs/model_configs.py",
+   "repo_path": "gmlib/diffsynth/configs/model_configs.py",
+   "source": "<base library>/diffsynth/configs/model_configs.py",
    "sha256_source": "0c3affb992d3cdacdbf7d7d93d38d4a7b6184649a0b55aa7cee07ffc502dc81f",
    "bytes_source": 4813,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/configs/vram_management_module_maps.py",
-   "source": "<workspace>/gaussverse/diffsynth/configs/vram_management_module_maps.py",
+   "repo_path": "gmlib/diffsynth/configs/vram_management_module_maps.py",
+   "source": "<base library>/diffsynth/configs/vram_management_module_maps.py",
    "sha256_source": "efe84b914ab9092971ef14ef851f743352df8fccd5d1eeaa29ac1123800afbe2",
    "bytes_source": 2982,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/__init__.py",
+   "source": "<base library>/diffsynth/core/__init__.py",
    "sha256_source": "b7be932196f79e71205e1173e60c36d4cba41a8c7e647fc6839bf3a3741d0688",
    "bytes_source": 113,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/attention/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/attention/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/attention/__init__.py",
+   "source": "<base library>/diffsynth/core/attention/__init__.py",
    "sha256_source": "558e2a638ecbd3b7287bb9ab74d0e7e70b098da59bb8127163a494c39ec24190",
    "bytes_source": 41,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/attention/attention.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/attention/attention.py",
+   "repo_path": "gmlib/diffsynth/core/attention/attention.py",
+   "source": "<base library>/diffsynth/core/attention/attention.py",
    "sha256_source": "0cba66d6a36d0526bb51506b3bc73778852d000724a939898daf479d9e5994b6",
    "bytes_source": 5756,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/data/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/data/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/data/__init__.py",
+   "source": "<base library>/diffsynth/core/data/__init__.py",
    "sha256_source": "1ecd6e9c5e482e2ca0e3cfd0a787dc4095298513ea5cb09b2330e97f377e13cb",
    "bytes_source": 35,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/data/dataset.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/data/dataset.py",
+   "repo_path": "gmlib/diffsynth/core/data/dataset.py",
+   "source": "<base library>/diffsynth/core/data/dataset.py",
    "sha256_source": "72ce5341d83e5be06a07042dee1d3d1dd3e461209a3007eac477d07c73a50ca2",
    "bytes_source": 18733,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/device/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/device/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/device/__init__.py",
+   "source": "<base library>/diffsynth/core/device/__init__.py",
    "sha256_source": "5edc96aa7e96b17b394706bff9ede0a018b527f04a3712e02453209688f66122",
    "bytes_source": 188,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/device/npu_compatible_device.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/device/npu_compatible_device.py",
+   "repo_path": "gmlib/diffsynth/core/device/npu_compatible_device.py",
+   "source": "<base library>/diffsynth/core/device/npu_compatible_device.py",
    "sha256_source": "f58a8746443e2558629c2d214a1e8f0edca3b7344b280e48239abfd6938da75f",
    "bytes_source": 2877,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/gradient/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/gradient/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/gradient/__init__.py",
+   "source": "<base library>/diffsynth/core/gradient/__init__.py",
    "sha256_source": "e8db9f67a95741bcb4619b0cf8392152b9204ba16308b4dc7af943d8b7f22999",
    "bytes_source": 61,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/gradient/gradient_checkpoint.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/gradient/gradient_checkpoint.py",
+   "repo_path": "gmlib/diffsynth/core/gradient/gradient_checkpoint.py",
+   "source": "<base library>/diffsynth/core/gradient/gradient_checkpoint.py",
    "sha256_source": "5c641446c35fa726f81a2ddd86549e0a05ab89ff730faccab7bb440a33eec874",
    "bytes_source": 907,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/loader/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/loader/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/loader/__init__.py",
+   "source": "<base library>/diffsynth/core/loader/__init__.py",
    "sha256_source": "f678e318bd3ae323a7878c644911afa26d18758effff7cca37ecc695d1cdaf52",
    "bytes_source": 165,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/loader/config.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/loader/config.py",
+   "repo_path": "gmlib/diffsynth/core/loader/config.py",
+   "source": "<base library>/diffsynth/core/loader/config.py",
    "sha256_source": "ff437a53c3cdece8be5476da462081080447e1293eeac23a92db7a27f7e332ad",
    "bytes_source": 5013,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/loader/file.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/loader/file.py",
+   "repo_path": "gmlib/diffsynth/core/loader/file.py",
+   "source": "<base library>/diffsynth/core/loader/file.py",
    "sha256_source": "3f3c7e65d66f35436af7e996865a387e228a7f38b022adb509aabc2013d6c48d",
    "bytes_source": 4804,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/loader/model.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/loader/model.py",
+   "repo_path": "gmlib/diffsynth/core/loader/model.py",
+   "source": "<base library>/diffsynth/core/loader/model.py",
    "sha256_source": "a591c137cdcd71e667e884a9dc2d04f383dd999b6a801962924bd61bde495fd9",
    "bytes_source": 4070,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/vram/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/vram/__init__.py",
+   "repo_path": "gmlib/diffsynth/core/vram/__init__.py",
+   "source": "<base library>/diffsynth/core/vram/__init__.py",
    "sha256_source": "3fc422826dd95a5f058ff5bec9d8b48e883b641ef0f5e32010743394002bb5f5",
    "bytes_source": 76,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/vram/disk_map.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/vram/disk_map.py",
+   "repo_path": "gmlib/diffsynth/core/vram/disk_map.py",
+   "source": "<base library>/diffsynth/core/vram/disk_map.py",
    "sha256_source": "dc01de940384ca36a94c5b8f27306a91a517249e076437270407cb2fafaed91f",
    "bytes_source": 3407,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/vram/initialization.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/vram/initialization.py",
+   "repo_path": "gmlib/diffsynth/core/vram/initialization.py",
+   "source": "<base library>/diffsynth/core/vram/initialization.py",
    "sha256_source": "a5541a038db28b2290e0bc1078ed3b78d1f45db84ce66a3d6b46ea68b98bbb22",
    "bytes_source": 766,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/core/vram/layers.py",
-   "source": "<workspace>/gaussverse/diffsynth/core/vram/layers.py",
+   "repo_path": "gmlib/diffsynth/core/vram/layers.py",
+   "source": "<base library>/diffsynth/core/vram/layers.py",
    "sha256_source": "9d7ea8f96843008e10dc16d7daf63569ba7ba81f814460f7c7444ccd5cb3b96e",
    "bytes_source": 19586,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/__init__.py",
+   "repo_path": "gmlib/diffsynth/diffusion/__init__.py",
+   "source": "<base library>/diffsynth/diffusion/__init__.py",
    "sha256_source": "4be6319cb181b97ad80d493b26b976110d3165fc6d3ed679ec2ea5c34fa688f4",
    "bytes_source": 447,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/base_pipeline.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/base_pipeline.py",
+   "repo_path": "gmlib/diffsynth/diffusion/base_pipeline.py",
+   "source": "<base library>/diffsynth/diffusion/base_pipeline.py",
    "sha256_source": "8f5306576dfb7576702cd0ea6310598ce984b6239f38197d44ec2d3fd3e03b2d",
    "bytes_source": 21386,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/flow_match.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/flow_match.py",
+   "repo_path": "gmlib/diffsynth/diffusion/flow_match.py",
+   "source": "<base library>/diffsynth/diffusion/flow_match.py",
    "sha256_source": "348812f63f33efa18dc00d18febf4e769580cb941c727858a393e6386a871239",
    "bytes_source": 10309,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/logger.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/logger.py",
+   "repo_path": "gmlib/diffsynth/diffusion/logger.py",
+   "source": "<base library>/diffsynth/diffusion/logger.py",
    "sha256_source": "6d476d4a57a56c760c18b660ecbb70f051584495d00f8f5c33dd9dd57e112155",
    "bytes_source": 2163,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/loss.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/loss.py",
+   "repo_path": "gmlib/diffsynth/diffusion/loss.py",
+   "source": "<base library>/diffsynth/diffusion/loss.py",
    "sha256_source": "8560cac9ac15986d34d34f9771e3325e029f0673419fd3d4d48ef813fdab301e",
    "bytes_source": 1598,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/parsers.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/parsers.py",
+   "repo_path": "gmlib/diffsynth/diffusion/parsers.py",
+   "source": "<base library>/diffsynth/diffusion/parsers.py",
    "sha256_source": "0cad896edb90db92cc207ffe696f5aa54792131ffbe9c54f25a2cff15a3f6247",
    "bytes_source": 4213,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/runner.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/runner.py",
+   "repo_path": "gmlib/diffsynth/diffusion/runner.py",
+   "source": "<base library>/diffsynth/diffusion/runner.py",
    "sha256_source": "385d2b08826435d5b13d770a60129a2a7eaf40a232cdf4dc8d1e4bb75926ec79",
    "bytes_source": 2699,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/diffusion/training_module.py",
-   "source": "<workspace>/gaussverse/diffsynth/diffusion/training_module.py",
+   "repo_path": "gmlib/diffsynth/diffusion/training_module.py",
+   "source": "<base library>/diffsynth/diffusion/training_module.py",
    "sha256_source": "fad9c4260c45099aebbdb7256a89ef67ecaa0ca6f070e31962d178405d3ff3c3",
    "bytes_source": 6721,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/__init__.py",
+   "repo_path": "gmlib/diffsynth/models/__init__.py",
+   "source": "<base library>/diffsynth/models/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/model_loader.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/model_loader.py",
+   "repo_path": "gmlib/diffsynth/models/model_loader.py",
+   "source": "<base library>/diffsynth/models/model_loader.py",
    "sha256_source": "2601ced967947dd473c002c2f2980791c5f9585dee1036ac3686ac6f0993359e",
    "bytes_source": 5429,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/wan_video_dit.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/wan_video_dit.py",
+   "repo_path": "gmlib/diffsynth/models/wan_video_dit.py",
+   "source": "<base library>/diffsynth/models/wan_video_dit.py",
    "sha256_source": "8d5e44fd0f7cbadef0ad64a1886a4fff5b70410837726ed08a5c6858148e2e16",
    "bytes_source": 15619,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/wan_video_image_encoder.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/wan_video_image_encoder.py",
+   "repo_path": "gmlib/diffsynth/models/wan_video_image_encoder.py",
+   "source": "<base library>/diffsynth/models/wan_video_image_encoder.py",
    "sha256_source": "77a6f63125512975486c9af8c795350c7b2799062887e424e8d589f366135b3d",
    "bytes_source": 27486,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/wan_video_text_encoder.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/wan_video_text_encoder.py",
+   "repo_path": "gmlib/diffsynth/models/wan_video_text_encoder.py",
+   "source": "<base library>/diffsynth/models/wan_video_text_encoder.py",
    "sha256_source": "ef77408e83076f149df546212a026f17d4cd83cdeaaf70744560b2a98752c2df",
    "bytes_source": 11121,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/models/wan_video_vae.py",
-   "source": "<workspace>/gaussverse/diffsynth/models/wan_video_vae.py",
+   "repo_path": "gmlib/diffsynth/models/wan_video_vae.py",
+   "source": "<base library>/diffsynth/models/wan_video_vae.py",
    "sha256_source": "d5abc62da89f84cc74fa299ee31202ac2d02a7ec970ee150f26c9ebc3a400023",
    "bytes_source": 50898,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/pipelines/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/pipelines/__init__.py",
+   "repo_path": "gmlib/diffsynth/pipelines/__init__.py",
+   "source": "<base library>/diffsynth/pipelines/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/pipelines/wan_video.py",
-   "source": "<workspace>/gaussverse/diffsynth/pipelines/wan_video.py",
+   "repo_path": "gmlib/diffsynth/pipelines/wan_video.py",
+   "source": "<base library>/diffsynth/pipelines/wan_video.py",
    "sha256_source": "864630ec973f14cb0f2586e45a5f8f71b660365e119c0ab8367418c4e31326a3",
    "bytes_source": 20328,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/__init__.py",
+   "repo_path": "gmlib/diffsynth/utils/__init__.py",
+   "source": "<base library>/diffsynth/utils/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/controlnet/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/controlnet/__init__.py",
+   "repo_path": "gmlib/diffsynth/utils/controlnet/__init__.py",
+   "source": "<base library>/diffsynth/utils/controlnet/__init__.py",
    "sha256_source": "b13bf723a8ddad5dfb57cf9ddd195d41ee72b9fd9cd0929740335051597b1b6f",
    "bytes_source": 79,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/controlnet/annotator.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/controlnet/annotator.py",
+   "repo_path": "gmlib/diffsynth/utils/controlnet/annotator.py",
+   "source": "<base library>/diffsynth/utils/controlnet/annotator.py",
    "sha256_source": "6de5b65eacd5d1d7356a5605c842400016c2bf683ad10de6de84b1156fc59a52",
    "bytes_source": 3046,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/controlnet/controlnet_input.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/controlnet/controlnet_input.py",
+   "repo_path": "gmlib/diffsynth/utils/controlnet/controlnet_input.py",
+   "source": "<base library>/diffsynth/utils/controlnet/controlnet_input.py",
    "sha256_source": "d99ab56533750e4a07d3125a2fa751f130117fdd24990e453610839691727ca3",
    "bytes_source": 320,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/data/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/data/__init__.py",
+   "repo_path": "gmlib/diffsynth/utils/data/__init__.py",
+   "source": "<base library>/diffsynth/utils/data/__init__.py",
    "sha256_source": "7950df93124908f379c90a880efa2d493631577fc81d462f9190cfce37e160ae",
    "bytes_source": 6917,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/lora/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/lora/__init__.py",
+   "repo_path": "gmlib/diffsynth/utils/lora/__init__.py",
+   "source": "<base library>/diffsynth/utils/lora/__init__.py",
    "sha256_source": "ad93fc1668f31d2230f409307db5ea39f3ae2617cc7d371a1e852fcae28737d9",
    "bytes_source": 108,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/lora/general.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/lora/general.py",
+   "repo_path": "gmlib/diffsynth/utils/lora/general.py",
+   "source": "<base library>/diffsynth/utils/lora/general.py",
    "sha256_source": "8fc0cc07a7730eadbdd787df68cce6ae9468169f6306030337db1ffd5bf41f19",
    "bytes_source": 2826,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/lora/merge.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/lora/merge.py",
+   "repo_path": "gmlib/diffsynth/utils/lora/merge.py",
+   "source": "<base library>/diffsynth/utils/lora/merge.py",
    "sha256_source": "85963271f8ee6a39cb900cfca2a195642292715369139d0906d56f55780ea8c2",
    "bytes_source": 698,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/lora/reset_rank.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/lora/reset_rank.py",
+   "repo_path": "gmlib/diffsynth/utils/lora/reset_rank.py",
+   "source": "<base library>/diffsynth/utils/lora/reset_rank.py",
    "sha256_source": "80e847b97ba9aa55f08e5452645d9119b6f22d4497947fc76f107a3c98a44736",
    "bytes_source": 786,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/state_dict_converters/__init__.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/state_dict_converters/__init__.py",
+   "repo_path": "gmlib/diffsynth/utils/state_dict_converters/__init__.py",
+   "source": "<base library>/diffsynth/utils/state_dict_converters/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/state_dict_converters/wan_video_dit.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/state_dict_converters/wan_video_dit.py",
+   "repo_path": "gmlib/diffsynth/utils/state_dict_converters/wan_video_dit.py",
+   "source": "<base library>/diffsynth/utils/state_dict_converters/wan_video_dit.py",
    "sha256_source": "992dfbb368b2e850aaadb346a857ce7593d85d4fc0fbf66b3f68f1bfddd1b61a",
    "bytes_source": 4980,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
+   "repo_path": "gmlib/diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
+   "source": "<base library>/diffsynth/utils/state_dict_converters/wan_video_image_encoder.py",
    "sha256_source": "cce0bd4d5123488240c5e941dfeb96dc604fccfffd12b5d41837204856d05438",
    "bytes_source": 261,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/diffsynth/utils/state_dict_converters/wan_video_vae.py",
-   "source": "<workspace>/gaussverse/diffsynth/utils/state_dict_converters/wan_video_vae.py",
+   "repo_path": "gmlib/diffsynth/utils/state_dict_converters/wan_video_vae.py",
+   "source": "<base library>/diffsynth/utils/state_dict_converters/wan_video_vae.py",
    "sha256_source": "3b1b98e5a06c984455bbde6560abb09cd79cc4d4403b79805835637eced472df",
    "bytes_source": 257,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/memory/__init__.py",
-   "source": "<workspace>/gaussverse/memory/__init__.py",
+   "repo_path": "gmlib/memory/__init__.py",
+   "source": "<base library>/memory/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/memory/audit.py",
-   "source": "<workspace>/gaussverse/memory/audit.py",
+   "repo_path": "gmlib/memory/audit.py",
+   "source": "<base library>/memory/audit.py",
    "sha256_source": "9872cf3b0eea363562377d17b9aee46105a574dc9c94d605a4ae13575737e01d",
    "bytes_source": 516,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/memory/gate_omega_memory.py",
-   "source": "<workspace>/gaussverse/memory/gate_omega_memory.py",
+   "repo_path": "gmlib/memory/gate_omega_memory.py",
+   "source": "<base library>/memory/gate_omega_memory.py",
    "sha256_source": "30de6012e2e0ae0b126b9db26eb110d6968f2a370b2a4a2d9dbc0f9494959d53",
    "bytes_source": 11480,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/memory/geometry.py",
-   "source": "<workspace>/gaussverse/memory/geometry.py",
+   "repo_path": "gmlib/memory/geometry.py",
+   "source": "<base library>/memory/geometry.py",
    "sha256_source": "03279dc08a0fcaa1c0e98203370c2d8b7db33c2db05000e422eeefef187eb5d5",
    "bytes_source": 13269,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/memory/latent_splat.py",
-   "source": "<workspace>/gaussverse/memory/latent_splat.py",
+   "repo_path": "gmlib/memory/latent_splat.py",
+   "source": "<base library>/memory/latent_splat.py",
    "sha256_source": "ebb2172c82bc90de87462d54e7622bf03e880119129996ad4b6b2a2b8c0d9b80",
    "bytes_source": 6111,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/memory/projection.py",
-   "source": "<workspace>/gaussverse/memory/projection.py",
+   "repo_path": "gmlib/memory/projection.py",
+   "source": "<base library>/memory/projection.py",
    "sha256_source": "8f2bd2635f5af5375a99918690e88a4961a13ffb4fd21d61ef9f3a69393ec44d",
    "bytes_source": 10181,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/memory/resplat_condition.py",
-   "source": "<workspace>/gaussverse/memory/resplat_condition.py",
+   "repo_path": "gmlib/memory/resplat_condition.py",
+   "source": "<base library>/memory/resplat_condition.py",
    "sha256_source": "d70c50244c70358647ae17e46801ce08af9e5c163d7eff3307d0e92b7b384189",
    "bytes_source": 6914,
    "path_literals_replaced": 1,
    "identical": false
   },
   {
-   "repo_path": "gaussverse/models/__init__.py",
-   "source": "<workspace>/gaussverse/models/__init__.py",
+   "repo_path": "gmlib/models/__init__.py",
+   "source": "<base library>/models/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/models/correspondence_encoder.py",
-   "source": "<workspace>/gaussverse/models/correspondence_encoder.py",
+   "repo_path": "gmlib/models/correspondence_encoder.py",
+   "source": "<base library>/models/correspondence_encoder.py",
    "sha256_source": "e21f18a34f3b3698dc4cd2445e94eec93602f33ecb4ff89433054bcb3fd879fa",
    "bytes_source": 4667,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/framepack.py",
-   "source": "<workspace>/gaussverse/models/framepack.py",
+   "repo_path": "gmlib/models/framepack.py",
+   "source": "<base library>/models/framepack.py",
    "sha256_source": "2e511b03b4223bcbf09c4d8feee80a508f3a72622f3f6769a1f97ee3c2e21897",
    "bytes_source": 16243,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/models/gate_omega_conditioning.py",
-   "source": "<workspace>/gaussverse/models/gate_omega_conditioning.py",
+   "repo_path": "gmlib/models/gate_omega_conditioning.py",
+   "source": "<base library>/models/gate_omega_conditioning.py",
    "sha256_source": "733e03a309b0ebd68a49518643bbb974a342d9208bae331e2e1c25d67ae59c86",
    "bytes_source": 12444,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/gate_omega_reader.py",
-   "source": "<workspace>/gaussverse/models/gate_omega_reader.py",
+   "repo_path": "gmlib/models/gate_omega_reader.py",
+   "source": "<base library>/models/gate_omega_reader.py",
    "sha256_source": "44e2938a5229f348d73f9bd492284167dafabe5a2b92da8be95308e0691a3642",
    "bytes_source": 10447,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/gate_omega_scaffold.py",
-   "source": "<workspace>/gaussverse/models/gate_omega_scaffold.py",
+   "repo_path": "gmlib/models/gate_omega_scaffold.py",
+   "source": "<base library>/models/gate_omega_scaffold.py",
    "sha256_source": "185eeeb2e7f576b2fcf5f9532bb5b58477e47913b9243d4ec7a3c7b39731c675",
    "bytes_source": 7745,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/ray_encoder.py",
-   "source": "<workspace>/gaussverse/models/ray_encoder.py",
+   "repo_path": "gmlib/models/ray_encoder.py",
+   "source": "<base library>/models/ray_encoder.py",
    "sha256_source": "9bb213e79878ddd8cc4a2322260fb3c127b3f2e7d2ac9bb1f24f9ec8a45bdb8a",
    "bytes_source": 9515,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/tied_source_reader.py",
-   "source": "<workspace>/gaussverse/models/tied_source_reader.py",
+   "repo_path": "gmlib/models/tied_source_reader.py",
+   "source": "<base library>/models/tied_source_reader.py",
    "sha256_source": "25b828c837e8a98ec666799b58ebe35477f1467f36cba8c6c7836c2eba65d71e",
    "bytes_source": 8876,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/trajectory_camera.py",
-   "source": "<workspace>/gaussverse/models/trajectory_camera.py",
+   "repo_path": "gmlib/models/trajectory_camera.py",
+   "source": "<base library>/models/trajectory_camera.py",
    "sha256_source": "c0fce365b72dd8283c25161d9bf259ae061e23efef2293bcf0eb2bcf28fa8a1c",
    "bytes_source": 18736,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/models/vae_stream.py",
-   "source": "<workspace>/gaussverse/models/vae_stream.py",
+   "repo_path": "gmlib/models/vae_stream.py",
+   "source": "<base library>/models/vae_stream.py",
    "sha256_source": "e6be66d967a9b3342fac19a93734a52705230ba30f3c5f66983df1f7389ccae4",
    "bytes_source": 10811,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/models/wan22_frame_renderer.py",
-   "source": "<workspace>/gaussverse/models/wan22_frame_renderer.py",
+   "repo_path": "gmlib/models/wan22_frame_renderer.py",
+   "source": "<base library>/models/wan22_frame_renderer.py",
    "sha256_source": "d181a88d552e1eae0958d105201d44cd945a93aa0e34accd863d2e582240c42b",
    "bytes_source": 32247,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/__init__.py",
-   "source": "<workspace>/gaussverse/training/__init__.py",
+   "repo_path": "gmlib/training/__init__.py",
+   "source": "<base library>/training/__init__.py",
    "sha256_source": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "bytes_source": 0,
    "path_literals_replaced": 0,
    "identical": true
   },
   {
-   "repo_path": "gaussverse/training/gate_omega.py",
-   "source": "<workspace>/gaussverse/training/gate_omega.py",
+   "repo_path": "gmlib/training/gate_omega.py",
+   "source": "<base library>/training/gate_omega.py",
    "sha256_source": "725c333d3b0305d24b903c89f1156fb904f565e242ec7594d1c61349e68d5a81",
    "bytes_source": 23759,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/gate_omega_checkpoint.py",
-   "source": "<workspace>/gaussverse/training/gate_omega_checkpoint.py",
+   "repo_path": "gmlib/training/gate_omega_checkpoint.py",
+   "source": "<base library>/training/gate_omega_checkpoint.py",
    "sha256_source": "c0cf9a9c5304adcb1748e27d415591ed22d8f2b01b1576971839902489ae7781",
    "bytes_source": 18485,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/gate_omega_geometry.py",
-   "source": "<workspace>/gaussverse/training/gate_omega_geometry.py",
+   "repo_path": "gmlib/training/gate_omega_geometry.py",
+   "source": "<base library>/training/gate_omega_geometry.py",
    "sha256_source": "8e85bb7884727530ea6180db5ad3832c870db2c7d6a29371c85457dff72f6fe7",
    "bytes_source": 17537,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/gate_omega_handoff.py",
-   "source": "<workspace>/gaussverse/training/gate_omega_handoff.py",
+   "repo_path": "gmlib/training/gate_omega_handoff.py",
+   "source": "<base library>/training/gate_omega_handoff.py",
    "sha256_source": "a41e75f2ab6ba2eadf0a54ced9dd9d8c495d9b60b1190fa5e27a35c6ee5221e6",
    "bytes_source": 8482,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/gate_omega_recovery.py",
-   "source": "<workspace>/gaussverse/training/gate_omega_recovery.py",
+   "repo_path": "gmlib/training/gate_omega_recovery.py",
+   "source": "<base library>/training/gate_omega_recovery.py",
    "sha256_source": "5c389fa7100d782342a9766861368f3aaac7309f15cd32adbd646ab60c3d326f",
    "bytes_source": 46886,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/gate_omega_trainer.py",
-   "source": "<workspace>/gaussverse/training/gate_omega_trainer.py",
+   "repo_path": "gmlib/training/gate_omega_trainer.py",
+   "source": "<base library>/training/gate_omega_trainer.py",
    "sha256_source": "d0e259be3a59a929c9b080948eb5e4a5d535a8e8ffb365c927f6620f8d7cf4b5",
    "bytes_source": 18410,
    "path_literals_replaced": 0,
-   "identical": true
+   "identical": false
   },
   {
-   "repo_path": "gaussverse/training/static_teacher_recipe.py",
-   "source": "<workspace>/gaussverse/training/static_teacher_recipe.py",
+   "repo_path": "gmlib/training/static_teacher_recipe.py",
+   "source": "<base library>/training/static_teacher_recipe.py",
    "sha256_source": "e6386d28fdf61604084b4388714eae80227967e06df5a463de0948e258b75376",
    "bytes_source": 19056,
    "path_literals_replaced": 2,
    "identical": false
+  },
+  {
+   "repo_path": "gmlib/README.md",
+   "source": "written for this repository",
+   "identical": false,
+   "path_literals_replaced": 0
   },
   {
    "repo_path": "contract/data_contract/build_far_windows.py",
@@ -1370,12 +1376,6 @@
   },
   {
    "repo_path": "contract/data_contract/build_stream_lists.py",
-   "source": "written for this repository",
-   "identical": false,
-   "path_literals_replaced": 0
-  },
-  {
-   "repo_path": "gaussverse/VENDORED.md",
    "source": "written for this repository",
    "identical": false,
    "path_literals_replaced": 0

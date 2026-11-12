@@ -24,12 +24,12 @@ CORE = _root('CORE', REPO + '/core')                    # model, data, base trai
 CONTRACT = _root('CONTRACT', REPO + '/contract')        # contract line: window index, render cache, stage trainers, rollout, evaluation
 FOUNDATION = _root('FOUNDATION', REPO + '/foundation')  # shared in-house modules (dataset contract, renderer contract, realized pose, scorers)
 
-PKG_ROOT = REPO                                         # the directory that contains the vendored `gaussverse` package
+PKG_ROOT = REPO                                         # the directory that contains the `gmlib` package
 
 # external code (not in this repository; see docs/PIPELINE.md, "Environment")
 WORKSPACE = _root('WORKSPACE', str(Path(REPO).parent))  # where the external checkouts and the data live by default
 RESPLAT = _root('RESPLAT', WORKSPACE + '/resplat')      # ReSplat source tree (renderer of the Gaussian memory)
-DA3_SRC = os.environ.get('GAUSSVERSE_DA3_SOURCE', _root('DA3_SRC', WORKSPACE + '/depth_anything_3/src'))   # Depth-Anything-3 source tree
+DA3_SRC = _root('DA3_SRC', WORKSPACE + '/depth_anything_3/src')   # Depth-Anything-3 source tree
 BASELINES = _root('BASELINES', WORKSPACE + '/baselines')
 MEMORIZON = _root('MEMORIZON', BASELINES + '/memorizon')   # released Memorizon code (base model layout + its retrieval rule)
 FFMPEG = _root('FFMPEG', 'ffmpeg')

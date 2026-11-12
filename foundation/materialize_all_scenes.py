@@ -15,7 +15,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from PIL import Image
-from gaussverse import _paths
+from gmlib import _paths
 from all_scene_dataset import DATA, RecordedStream, pack_bf16, recipe, source_combinations
 from prepare_all_scenes import write, lines, TRAIN_PILOT, DEV_PILOT
 from prepare_manifest import file_sha, digest
@@ -96,16 +96,16 @@ class Producer:
         for source in (Path(__file__),HERE/'all_scene_dataset.py'):
             shutil.copy2(source,root/'code'/f'{file_sha(source)}.py')
         if stage in ('vae','geometry'):
-            from gaussverse.models.wan22_frame_renderer import load_wan22_vae
+            from gmlib.models.wan22_frame_renderer import load_wan22_vae
             self.vae=load_wan22_vae(device='cuda',dtype=torch.bfloat16).eval()
             self.provenance['vae_sha256']=file_sha(_paths.WAN22_DIR/'Wan2.2_VAE.pth')
-            self.provenance['stream_code_sha256']=file_sha(_paths.GAUSSVERSE/'models/vae_stream.py')
+            self.provenance['stream_code_sha256']=file_sha(_paths.GMLIB/'models/vae_stream.py')
         if stage in ('anchor','geometry'):
-            from gaussverse.training.gate_omega_recovery import PinnedDA3Predictor, DA3_MODEL
+            from gmlib.training.gate_omega_recovery import PinnedDA3Predictor, DA3_MODEL
             self.da3=PinnedDA3Predictor(offload_after_call=False)
             self.provenance['da3_digest']=digest([(p.name,file_sha(p)) for p in sorted(DA3_MODEL.glob('*.safetensors'))])
         if stage=='anchor':
-            from gaussverse.training.gate_omega_recovery import PinnedMoGePredictor,MOGE_MODEL
+            from gmlib.training.gate_omega_recovery import PinnedMoGePredictor,MOGE_MODEL
             self.moge=PinnedMoGePredictor()
             self.provenance['moge_sha256']=file_sha(MOGE_MODEL)
         if stage=='geometry':
@@ -128,8 +128,8 @@ class Producer:
             self.provenance.update(model=CAPTION_ID,revision=CAPTION_REVISION,prompt=CAPTION_PROMPT,
                 caption_model_is_smaller_than_Memorizon_reference=True)
         if stage=='text':
-            from gaussverse.diffsynth.core.loader.model import load_model
-            from gaussverse.diffsynth.models.wan_video_text_encoder import HuggingfaceTokenizer,WanTextEncoder
+            from gmlib.diffsynth.core.loader.model import load_model
+            from gmlib.diffsynth.models.wan_video_text_encoder import HuggingfaceTokenizer,WanTextEncoder
             self.tokenizer=HuggingfaceTokenizer(str(_paths.WAN22_DIR/'google/umt5-xxl'),seq_len=None,
                 clean='whitespace',local_files_only=True)
             path=_paths.WAN22_DIR/'models_t5_umt5-xxl-enc-bf16.pth'
@@ -143,7 +143,7 @@ class Producer:
         metadata=dict(scene_id=row['scene_id'],stream_id=row['stream_id'],split=row['split'],
             provenance=self.provenance,source_transforms_sha256=row['transforms_sha256'])
         if self.stage=='vae':
-            from gaussverse.models.vae_stream import VaeStream
+            from gmlib.models.vae_stream import VaeStream
             stream=RecordedStream(row);encoder=VaeStream(self.vae,offload_device='cpu');parts=[]
             def pixels(ids):
                 return torch.stack([stream.tensor(i) for i in ids],dim=1)[None].to('cuda',torch.bfloat16)
@@ -161,7 +161,7 @@ class Producer:
                 source_pixel_hash_digest=pixels_hash.hexdigest(),storage='lossless_bfloat16_bits_uint16',
                 encoded_tail_pending=row['tail_frames_not_on_VAE_grid'],appearance_origin='recorded_stream_encode')
         elif self.stage=='anchor':
-            from gaussverse.training.gate_omega_recovery import build_lyra_seed_geometry
+            from gmlib.training.gate_omega_recovery import build_lyra_seed_geometry
             from foundation_contract import normalize_cameras,fit_registered_scale,CONTRACT
             stream=RecordedStream(row)
             seed=build_lyra_seed_geometry(image_uint8=stream.frame(0),anchor_c2w=stream.c2w[0],target_size=(256,448),
@@ -204,8 +204,8 @@ class Producer:
         elif self.stage=='geometry':
             from foundation_contract import normalize_cameras
             from foundation_depth import causal_depth
-            from gaussverse.training.gate_omega_recovery import _reliability
-            from gaussverse.models.vae_stream import VaeStream
+            from gmlib.training.gate_omega_recovery import _reliability
+            from gmlib.models.vae_stream import VaeStream
             stream=RecordedStream(row);annotation=json.loads((directory/'anchor.json').read_text())
             with np.load(directory/'anchor.npz') as z:
                 anchor_depth=torch.from_numpy(z['depth'].copy());anchor_mask=torch.from_numpy(z['confidence'].copy())

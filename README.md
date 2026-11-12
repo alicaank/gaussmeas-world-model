@@ -101,8 +101,8 @@ scripts/40_metrics.sh fast b_token=$PWD/out/{scene}
   `train_gmp.py`), rollout (`sota_eval/run_arm_ckpt.py`), measurements, and the committed stream / window lists.
 - `foundation/` shared modules the above import: 448-corpus builder, renderer and depth contracts, realized-pose
   measurement, frame download, camera-quality check.
-- `gaussverse/` the vendored part of our base library (Wan model code and loaders derived from DiffSynth-Studio, camera
-  rays, VAE streaming, ReSplat wrapper); `gaussverse/VENDORED.md` says where each part comes from.
+- `gmlib/` the base library (Wan model code and loaders derived from DiffSynth-Studio, camera rays, VAE streaming,
+  ReSplat wrapper); `gmlib/README.md` says where each part comes from.
 - `scripts/` one script per pipeline step; `gm_env.py` every machine path, overridable by `GM_*` environment variables.
 - `docs/PIPELINE.md` the pipeline; `docs/RESULTS.md` measurements; `docs/WHAT_WE_TRIED.md` history and findings;
   `docs/CHECKPOINTS.md` checkpoint lineage;

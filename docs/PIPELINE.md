@@ -22,16 +22,16 @@ The repository is self-contained except for four external components (weights an
 
 | Component | Variable | What it is |
 |---|---|---|
-| Wan2.2-TI2V-5B | `GAUSSVERSE_WAN22_DIR` | DiT weights (fingerprint checked against `foundation/BASE_MODEL_AUDIT.json`), `Wan2.2_VAE.pth`, umT5-xxl encoder and tokenizer. |
+| Wan2.2-TI2V-5B | `GM_WAN22_DIR` | DiT weights (fingerprint checked against `foundation/BASE_MODEL_AUDIT.json`), `Wan2.2_VAE.pth`, umT5-xxl encoder and tokenizer. |
 | Memorizon-50 weights | `core/memorizon50/` | The released checkpoint `Luffuly/memorizon-1280x704-50step` as downloaded (config + 3 safetensors shards). It is not converted: `core/model_io.py` maps the keys at load time. |
 | Memorizon code | `GM_MEMORIZON` | The released Memorizon source (its retrieval rule is one of the bank options; `core/encode_prompts_local.py` uses its text encoder wrapper). |
 | ReSplat | `GM_RESPLAT` | Source tree with `pretrained/resplat-base-dl3dv-512x960-view8-8179ed87.pth` (the render cache and inference use this 8-view model) and `resplat-base-dl3dv-540x960-view16-a72dc6d0.pth` (loaded once by the default builder). |
-| Depth-Anything-3 | `GAUSSVERSE_DA3_SOURCE` | Source tree; weights `DA3NESTED-GIANT-LARGE-1.1` in the Hugging Face cache. |
+| Depth-Anything-3 | `GM_DA3_SRC` | Source tree; weights `DA3NESTED-GIANT-LARGE-1.1` in the Hugging Face cache. |
 | MoGe, Qwen3-VL-2B | Hugging Face cache | Only for the 448 corpus (anchor gauge, captions). |
 | ViPE scorer | not included | The ViPE-based camera scorer of our tables belongs to the closed-loop correction study and is not in this repository. `contract/gate_b4_camera.py` turns its trajectories into execution ratios. |
 
-Our base library is vendored: `gaussverse/` holds the part of the `gaussverse` package the pipeline imports (Wan model
-code and loaders derived from DiffSynth-Studio, camera rays, VAE streaming, the ReSplat wrapper; `gaussverse/VENDORED.md`).
+The base library is `gmlib/` (Wan model code and loaders derived from DiffSynth-Studio, camera rays, VAE streaming, the
+ReSplat wrapper; `gmlib/README.md` says where each part comes from).
 
 Data and outputs live next to the code and are git-ignored (`gm_env.py` lists them): `core/data864/`, `core/memorizon50/`,
 `contract/render_cache_v4/`, `contract/runs/`, `foundation/dataset_v3/`. Put them there or symlink them.
@@ -106,6 +106,8 @@ What each step does:
   the current `core/prep_864.py` calibrates in one pass.
 - `bad_streams_v3.json` needs the older render cache v3, whose builder is not in this repository. On new data use the lists
   of D8 only.
+- Manifests written by the corpus builders carry format labels with this repository's name (`gmlib.…`). A 448 corpus built
+  with our earlier code has different labels; training and inference do not read them.
 - Rows of `core/data864/streams.jsonl` store absolute paths (`source`, `text`, `anchor_json`): a corpus cannot be moved
   without rewriting them.
 

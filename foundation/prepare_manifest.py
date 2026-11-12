@@ -17,7 +17,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_SOURCE = ROOT / 'gaussverse/outputs/recurrent_train_manifest_v1.json.gz'
+DEFAULT_SOURCE = ROOT / 'gmlib/outputs/recurrent_train_manifest_v1.json.gz'
 DEFAULT_EXCLUSIONS = ROOT / 'training_runs/one_step_g2_control_20260920/data_inventory.json'
 IMAGE_DIRS = ('images_4', 'images_8', 'images', 'images_2')
 FAMILIES = ('clean', 'history_damaged', 'memory_damaged', 'both_damaged', 'memory_missing')
@@ -179,7 +179,7 @@ def prepare(source, old_inventory, out, limit, seed):
     if len(selected) != limit:
         raise RuntimeError(f'only {len(selected)} usable scenes; requested {limit}')
     out.mkdir(parents=True, exist_ok=True)
-    pool = {'schema': 'gaussverse.base_restart_eligible_pool.v1',
+    pool = {'schema': 'gmlib.base_restart_eligible_pool.v1',
             'source_manifest': str(source.resolve()), 'source_manifest_sha256': file_sha(source),
             'excluded_scene_ids': sorted(excluded),
             'scene_count': len(entries), 'status': 'inventory_candidates_not_geometry_certified',
@@ -210,13 +210,13 @@ def prepare(source, old_inventory, out, limit, seed):
                        'is_model_input': {'family': False, 'corruption_seed': False}}
                 counts[family] += 1
                 f.write(json.dumps(row, sort_keys=True) + '\n')
-    split = {'schema': 'gaussverse.base_restart_split.v1', 'seed': seed,
+    split = {'schema': 'gmlib.base_restart_split.v1', 'seed': seed,
              'training_scenes': selected, 'excluded_scene_ids': sorted(excluded),
              'excluded_scene_policy': 'reserve_all_legacy_and_expanded_heldout_scene_hashes',
              'fresh_final_eval_scene_selection': 'pending_prior_inspection_audit',
              'source_manifest': str(source.resolve()), 'source_manifest_sha256': file_sha(source)}
     (out / 'splits.json').write_text(json.dumps(split, indent=2) + '\n')
-    audit = {'schema': 'gaussverse.base_restart_preparation_audit.v1',
+    audit = {'schema': 'gmlib.base_restart_preparation_audit.v1',
              'scene_count': len(selected), 'group_count': len(groups),
              'row_count': sum(counts.values()), 'row_family_counts': dict(counts),
              'excluded_scene_count': len(excluded), 'eligible_source_scene_count': len(entries),

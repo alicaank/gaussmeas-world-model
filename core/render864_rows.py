@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np, torch
 from torch.nn import functional as F
 from PIL import Image
-from gaussverse.models.vae_stream import VaeStream
+from gmlib.models.vae_stream import VaeStream
 
 
 def rec_frames(row, idxs):

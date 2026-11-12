@@ -143,7 +143,7 @@ def main():
     if a.oracle_ctx:                                                                               # 11 Nov critique: oracle CONTEXT = near + bank latents from the recording (causal VAE stream of the
         import cv2                                                                                 # recorded frames, as prep_864), render memory still from the model's OWN frames; anchor latent unchanged
         from PIL import Image
-        from gaussverse.models.vae_stream import VaeStream
+        from gmlib.models.vae_stream import VaeStream
         row = next(r for r in json.load(open((gm_env.EVAL_BATCH + '/index.json')))['scenes'] if r['name'] == a.scene)
         recf = lambda t: cv2.resize(np.asarray(Image.open(Path(row['frames_dir']) / f"frame_{row['original_start'] + t + 1:05d}.jpg").convert('RGB')), (864, 480), interpolation=cv2.INTER_AREA)
         T = 1 + 16 * a.calls; parts = []
