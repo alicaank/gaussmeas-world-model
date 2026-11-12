@@ -18,9 +18,9 @@ requested cameras, and condition the generation on that render.
 | Does the model execute the commanded camera? | Yes with the render (1.07 / 1.02 of the planned displacement at frame 320). Without the render it stands still on slow commands (0.05 / 0.16). |
 | Does it redraw the scene at call boundaries? | No (change across a boundary 1.05 / 1.00 of the recording). |
 | Does it return to what it generated? | Out-and-back LPIPS 0.041 / 0.126, two to three times better than the previous model. |
-| Is the long rollout clean? | No. Distant thin objects are enlarged wrongly on approach and then kept; frames darken over 30 calls; one scene loses sharpness. |
+| Is the long rollout clean? | No. Distant thin objects are enlarged wrongly on approach and then kept; content the model generates at the edge is soft and stays soft; long chains at full frame rate degrade after ~320 frames. Brightness is stable against the anchor. |
 | Does it beat released baselines? | Not measured for the current line. The previous model led on camera position over the first 160 frames and lost on appearance afterwards (`docs/RESULTS.md`). |
-| What is trained? | Stage A (no render) and stage B with the render as tokens. Stage B with the render as input channels is training. Stage C (on-policy rows) is decided, not run. |
+| What is trained? | Stage A (no render) and both stage-B arms; the render-as-tokens arm won. Stage C (on-policy rows) is running. |
 
 ## What we tried, in order
 
@@ -117,7 +117,10 @@ mask (`docs/PIPELINE.md`).
 - **Stage B, render as tokens:** the numbers in the table at the top. The bank helps identity and the density mask fixes the
   edge, each shown by switching it off.
 - **Stage B, render as input channels:** the render is pixel-aligned with the frame it conditions, so it is concatenated to
-  the target tokens while retrieved frames stay tokens. Training; 28 % faster per update.
+  the target tokens while retrieved frames stay tokens. 28 % faster per update, but within 250 updates the zero-initialised
+  input reads the render half as much as the attending tokens (paired loss gain 0.014 against 0.028). The render then
+  cannot carry the camera: the arm keeps part of stage A's standstill on slow commands (execution 0.57 / 0.78) and is worse
+  in the first calls and on return (out-and-back LPIPS 0.274 / 0.390 against 0.041 / 0.126). Dropped for this round.
 - **The stray objects.** Thin objects far from the anchor are drawn as wire-frames when the camera approaches, then return
   through the render at full confidence. Not the bank (still there with the bank off), not the mask. The model before the
   on-policy stage has them too; the model after it draws a faint frame and drops it. Hence stage C.
@@ -140,11 +143,14 @@ mask (`docs/PIPELINE.md`).
 
 ## Open problems and next steps
 
-1. Finish the channel arm, then compare the two stage-B arms on the same panel and numbers; add the paired
-   render / no-render loss and the bank-use probe for both.
+1. Long chains at full frame rate (30 calls at the recorded frame rate) degrade after ~320 frames; at the motion-targeted
+   step (every 4th pose) they do not.
 2. Stage C: a pool generator in the inference layout, at most 1.5 exposures per pool item, stop when the stray objects are
    gone and regeneration stays within 0.3 of 1.
-3. Darkening and the loss of sharpness of the token arm: cause not established.
+3. Soft generation at the edge: masked cells are generated softer and the soft content returns through the render as valid.
+   Measured against the anchor, the token arm does not darken (the recording's exposure moves). A moment patch at inference
+   restores brightness and sharpness but adds a jump at call starts; text guidance sharpens but shifts brightness. Guidance
+   applied only in masked cells is an untested option.
 4. Windows far from the anchor: the anchor should leave the context (or be replaced by a near reference) when it is far and
    out of view, with the same rule in training and inference.
 5. The confidence channel is the renderer's alpha, which stays high on an approached surface with few source pixels. A

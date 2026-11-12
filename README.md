@@ -14,20 +14,22 @@ rollout and the measurements we judge it by. It is research code in progress, no
 |---|---|
 | Dataset: DL3DV → 864×480 corpus → window index → render cache | built; scripts included (`docs/PIPELINE.md`, section 2, with the known gaps) |
 | Stage A: base model continued without render | trained (350 updates) |
-| Stage B: render memory, two paired arms (render as tokens / as input channels) | token arm trained (250 updates); channel arm training |
-| Stage C: on-policy rows | decided, not run |
+| Stage B: render memory, two paired arms (render as tokens / as input channels) | both trained (250 updates each); the token arm wins on every measure but speed |
+| Stage C: on-policy rows | running (pool generation, then 100 updates) |
 | Comparison with Lyra-2 / Spatia on the cohort | not run for this line yet |
 
-What stage B (token arm) does on the two development scenes, against the recording
-(`docs/RESULTS.md` has every table and the open defects):
+What stage B (token arm) does on the two development scenes (one run each; the held-out cohort scenes are not run yet;
+`docs/RESULTS.md` has every table, the scope of each number and the open defects):
 
 - It does not redraw the scene at call boundaries: change of generated cells 1.05 / 1.00 of the recording (a model trained
   twice on the same on-policy pool: 2.63 / 2.02).
 - It executes slow commands: 1.07 / 1.02 of the planned displacement at frame 320. The same model without the render
   stands still (0.05 / 0.16).
-- It returns to what it generated: out-and-back LPIPS 0.041 / 0.126, against 0.080 / 0.365 for the earlier model.
-- Open: distant thin objects are enlarged wrongly on approach and then kept, frames darken over 30 calls, and the showroom
-  loses sharpness.
+- It returns to what it generated, and really goes back (execution 1.05 / 0.99 on the way back): out-and-back LPIPS
+  0.041 / 0.126, against 0.080 / 0.365 for the earlier model.
+- Its brightness is stable against the anchor; earlier models brighten by 15–25 levels.
+- Open: distant thin objects are enlarged wrongly on approach and then kept, content generated at the edge stays soft, and
+  long chains at full frame rate degrade after ~320 frames.
 
 ## What we tried and what we found
 
