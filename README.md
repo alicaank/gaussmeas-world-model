@@ -29,6 +29,22 @@ What stage B (token arm) does on the two development scenes, against the recordi
 - Open: distant thin objects are enlarged wrongly on approach and then kept, frames darken over 30 calls, and the showroom
   loses sharpness.
 
+## What we tried and what we found
+
+`docs/WHAT_WE_TRIED.md` is the short history of the line: every approach in order, what it measured and whether it stayed.
+In brief:
+
+- **Kept:** a packed chunk-causal teacher on Memorizon-50; a render memory with a corrected renderer; a support-density
+  validity mask used identically in training and at inference; a bank that retrieves true revisits; outlier-row rejection;
+  short on-policy rows in a bounded dose.
+- **Dropped:** learned Gaussian features, per-chunk renders, a refiner, a latent pose head and camera reward, a global
+  re-reconstruction memory, long generated histories as training rows, render dropout, context corruption at full dose,
+  a depth-agreement frontier mask, training on masked renders, a two-band latent / RGB render.
+- **Found:** the camera is executed through the render, so nothing may teach the model to trust the render less; a model
+  that does not move looks stable; one pass over an on-policy pool cleans and a second pass makes the model redraw; the
+  trainer's gradient spikes come from windows far from the anchor; an early render wrapper stretched every render by 5.5 %
+  and the model had learned to undo it.
+
 ## Quick start
 
 ```bash
@@ -88,7 +104,8 @@ scripts/40_metrics.sh fast b_token=$PWD/out/{scene}
 - `gaussverse/` the vendored part of our base library (Wan model code and loaders derived from DiffSynth-Studio, camera
   rays, VAE streaming, ReSplat wrapper); `gaussverse/VENDORED.md` says where each part comes from.
 - `scripts/` one script per pipeline step; `gm_env.py` every machine path, overridable by `GM_*` environment variables.
-- `docs/PIPELINE.md` the pipeline; `docs/RESULTS.md` measurements; `docs/CHECKPOINTS.md` checkpoint lineage;
+- `docs/PIPELINE.md` the pipeline; `docs/RESULTS.md` measurements; `docs/WHAT_WE_TRIED.md` history and findings;
+  `docs/CHECKPOINTS.md` checkpoint lineage;
   `docs/lab_notes/` the dated notes with every measurement and decision of the line.
 - `SOURCE_PROVENANCE.json` for each code file: the hash of the working file it was copied from and how many machine
   paths were replaced. Nothing else was changed.
