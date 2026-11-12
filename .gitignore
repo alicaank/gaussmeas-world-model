@@ -1,9 +1,24 @@
 __pycache__/
 *.pyc
 *.pt
+!foundation/empty_text.pt
 *.safetensors
 *.npz
 *.mp4
-runs/
-eval*/
-logs/
+*.log
+# data and outputs live next to the code (gm_env.py): never in git
+core/data864/
+core/memorizon50/
+core/run_*/
+contract/runs/
+contract/render_cache_v*/
+contract/pool_*/
+contract/eval_gm/
+contract/eval_inputs/
+contract/logs/
+contract/sota_eval/runs*/
+contract/sota_eval/logs/
+contract/data_contract/windows.jsonl
+contract/data_contract/windows_summary.json
+foundation/dataset_v3
+foundation/camera_quality/manifest.json

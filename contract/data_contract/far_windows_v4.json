@@ -1,0 +1,527 @@
+{
+"note": "kept windows (734 streams) whose cameras are > 10 model units from the anchor (slot 0 of every row); PRoPE logits scale with this distance -> gradient spikes (RECIPE 12 Nov 10:40). Not excluded in stage B (row rejection handles it); exclude from stage C.",
+"threshold": 10,
+"n_windows": 3660,
+"windows": [
+{
+"stream": "9c4b29b9148a407d6f2c580f",
+"start": 92,
+"far": 38.84
+},
+{
+"stream": "bb9c1e102f8b62accc330abb",
+"start": 75,
+"far": 24.83
+},
+{
+"stream": "81716e841911a6cf37e9d89f",
+"start": 53,
+"far": 24.71
+},
+{
+"stream": "9c4b29b9148a407d6f2c580f",
+"start": 50,
+"far": 22.5
+},
+{
+"stream": "9ac35158536c9ea8201b8ffc",
+"start": 49,
+"far": 22.05
+},
+{
+"stream": "81716e841911a6cf37e9d89f",
+"start": 67,
+"far": 21.82
+},
+{
+"stream": "81716e841911a6cf37e9d89f",
+"start": 37,
+"far": 21.33
+},
+{
+"stream": "9ac35158536c9ea8201b8ffc",
+"start": 59,
+"far": 20.6
+},
+{
+"stream": "f3a005e2e267a4dc82497607",
+"start": 38,
+"far": 20.22
+},
+{
+"stream": "f3a005e2e267a4dc82497607",
+"start": 41,
+"far": 20.22
+},
+{
+"stream": "9c4b29b9148a407d6f2c580f",
+"start": 42,
+"far": 20.17
+},
+{
+"stream": "966288b4ee730192ea4403f3",
+"start": 54,
+"far": 19.99
+},
+{
+"stream": "84f8a83ad1b8eb3734e9e7b4",
+"start": 43,
+"far": 19.67
+},
+{
+"stream": "9c4b29b9148a407d6f2c580f",
+"start": 39,
+"far": 19.35
+},
+{
+"stream": "84f8a83ad1b8eb3734e9e7b4",
+"start": 50,
+"far": 19.27
+},
+{
+"stream": "9ac35158536c9ea8201b8ffc",
+"start": 34,
+"far": 19.06
+},
+{
+"stream": "1a26806765e0d0a6f5464357",
+"start": 57,
+"far": 17.27
+},
+{
+"stream": "966288b4ee730192ea4403f3",
+"start": 41,
+"far": 15.81
+},
+{
+"stream": "b099bd30388f079a391818c4",
+"start": 52,
+"far": 15.78
+},
+{
+"stream": "b0c3c1c39b3141625c496356",
+"start": 66,
+"far": 15.66
+},
+{
+"stream": "b099bd30388f079a391818c4",
+"start": 47,
+"far": 15.63
+},
+{
+"stream": "dc2d15ec850f8d17f6df4d6e",
+"start": 48,
+"far": 15.6
+},
+{
+"stream": "dd5bb0bb71bf153ed08a3b77",
+"start": 40,
+"far": 15.23
+},
+{
+"stream": "04887de09862b64efabab9b5",
+"start": 25,
+"far": 15.16
+},
+{
+"stream": "b0c3c1c39b3141625c496356",
+"start": 62,
+"far": 14.87
+},
+{
+"stream": "9a4793107ce07223f9f546eb",
+"start": 41,
+"far": 14.62
+},
+{
+"stream": "9a4793107ce07223f9f546eb",
+"start": 44,
+"far": 14.62
+},
+{
+"stream": "dc2d15ec850f8d17f6df4d6e",
+"start": 57,
+"far": 14.6
+},
+{
+"stream": "4874948bf190518edae839c3",
+"start": 53,
+"far": 14.57
+},
+{
+"stream": "1a26806765e0d0a6f5464357",
+"start": 36,
+"far": 14.46
+},
+{
+"stream": "6b1e6715695fabe31149b203",
+"start": 17,
+"far": 14.41
+},
+{
+"stream": "9a4793107ce07223f9f546eb",
+"start": 34,
+"far": 14.13
+},
+{
+"stream": "4874948bf190518edae839c3",
+"start": 50,
+"far": 13.93
+},
+{
+"stream": "2437825e9afc2b1b8afafd4a",
+"start": 77,
+"far": 13.86
+},
+{
+"stream": "b0c3c1c39b3141625c496356",
+"start": 57,
+"far": 13.83
+},
+{
+"stream": "55f98d11a304fa2118b9aaff",
+"start": 65,
+"far": 13.81
+},
+{
+"stream": "55f98d11a304fa2118b9aaff",
+"start": 62,
+"far": 13.8
+},
+{
+"stream": "5c4cb34bbc6f483f1347da74",
+"start": 27,
+"far": 13.59
+},
+{
+"stream": "2437825e9afc2b1b8afafd4a",
+"start": 22,
+"far": 13.4
+},
+{
+"stream": "04887de09862b64efabab9b5",
+"start": 21,
+"far": 13.32
+},
+{
+"stream": "9a4793107ce07223f9f546eb",
+"start": 55,
+"far": 13.05
+},
+{
+"stream": "81716e841911a6cf37e9d89f",
+"start": 88,
+"far": 12.88
+},
+{
+"stream": "84f8a83ad1b8eb3734e9e7b4",
+"start": 64,
+"far": 12.54
+},
+{
+"stream": "04887de09862b64efabab9b5",
+"start": 81,
+"far": 12.42
+},
+{
+"stream": "53d5bf0ff6de61e7b006488b",
+"start": 48,
+"far": 12.41
+},
+{
+"stream": "786a3caab94c77ff2c0069ff",
+"start": 47,
+"far": 12.34
+},
+{
+"stream": "786a3caab94c77ff2c0069ff",
+"start": 51,
+"far": 12.34
+},
+{
+"stream": "cb418a62a4378426b6cd8ad8",
+"start": 39,
+"far": 12.31
+},
+{
+"stream": "966288b4ee730192ea4403f3",
+"start": 30,
+"far": 12.3
+},
+{
+"stream": "1a26806765e0d0a6f5464357",
+"start": 28,
+"far": 12.3
+},
+{
+"stream": "53d5bf0ff6de61e7b006488b",
+"start": 40,
+"far": 12.25
+},
+{
+"stream": "9e44863a2f94d7ff9a88a075",
+"start": 34,
+"far": 12.24
+},
+{
+"stream": "9e44863a2f94d7ff9a88a075",
+"start": 37,
+"far": 12.24
+},
+{
+"stream": "9e44863a2f94d7ff9a88a075",
+"start": 42,
+"far": 12.24
+},
+{
+"stream": "498bf1970dac89a10331e87b",
+"start": 66,
+"far": 12.14
+},
+{
+"stream": "cb418a62a4378426b6cd8ad8",
+"start": 45,
+"far": 12.11
+},
+{
+"stream": "2ff59dcd65a1ae74dfafb193",
+"start": 44,
+"far": 11.88
+},
+{
+"stream": "2ff59dcd65a1ae74dfafb193",
+"start": 49,
+"far": 11.88
+},
+{
+"stream": "cbc91203513d33bbcea2e0ce",
+"start": 39,
+"far": 11.7
+},
+{
+"stream": "cbc91203513d33bbcea2e0ce",
+"start": 43,
+"far": 11.7
+},
+{
+"stream": "cbc91203513d33bbcea2e0ce",
+"start": 46,
+"far": 11.69
+},
+{
+"stream": "94859562c4d6183ee3681cb4",
+"start": 42,
+"far": 11.64
+},
+{
+"stream": "498bf1970dac89a10331e87b",
+"start": 60,
+"far": 11.61
+},
+{
+"stream": "b34c249f1f789bea00ec0e1d",
+"start": 39,
+"far": 11.57
+},
+{
+"stream": "723082ea44a87fdbc250bca9",
+"start": 42,
+"far": 11.54
+},
+{
+"stream": "6b1e6715695fabe31149b203",
+"start": 90,
+"far": 11.48
+},
+{
+"stream": "55f98d11a304fa2118b9aaff",
+"start": 40,
+"far": 11.48
+},
+{
+"stream": "04887de09862b64efabab9b5",
+"start": 17,
+"far": 11.47
+},
+{
+"stream": "f3a005e2e267a4dc82497607",
+"start": 68,
+"far": 11.3
+},
+{
+"stream": "cbc91203513d33bbcea2e0ce",
+"start": 31,
+"far": 11.28
+},
+{
+"stream": "6e58c1d7c5988efd61e0ff30",
+"start": 39,
+"far": 11.21
+},
+{
+"stream": "6e58c1d7c5988efd61e0ff30",
+"start": 42,
+"far": 11.21
+},
+{
+"stream": "e087c7d49be72d863d6c27d0",
+"start": 44,
+"far": 11.12
+},
+{
+"stream": "e087c7d49be72d863d6c27d0",
+"start": 47,
+"far": 11.12
+},
+{
+"stream": "c0bf385639bf9ca323d83a26",
+"start": 52,
+"far": 11.1
+},
+{
+"stream": "2eba478bead2a2a965fcd5e6",
+"start": 34,
+"far": 10.98
+},
+{
+"stream": "6e58c1d7c5988efd61e0ff30",
+"start": 54,
+"far": 10.96
+},
+{
+"stream": "8a3c9df7d7ce62fd44985973",
+"start": 39,
+"far": 10.93
+},
+{
+"stream": "8a3c9df7d7ce62fd44985973",
+"start": 42,
+"far": 10.93
+},
+{
+"stream": "e087c7d49be72d863d6c27d0",
+"start": 54,
+"far": 10.89
+},
+{
+"stream": "0886ffaec3d846aad2b21301",
+"start": 36,
+"far": 10.83
+},
+{
+"stream": "0886ffaec3d846aad2b21301",
+"start": 39,
+"far": 10.83
+},
+{
+"stream": "1e9efe36f2e53c63655c4a1d",
+"start": 46,
+"far": 10.82
+},
+{
+"stream": "53d5bf0ff6de61e7b006488b",
+"start": 31,
+"far": 10.78
+},
+{
+"stream": "08eeda2e93250ddb60c04eff",
+"start": 36,
+"far": 10.64
+},
+{
+"stream": "b0c3c1c39b3141625c496356",
+"start": 36,
+"far": 10.64
+},
+{
+"stream": "0e83413a6aff488ae85c3877",
+"start": 44,
+"far": 10.63
+},
+{
+"stream": "4fe647e533964985c1c0d300",
+"start": 36,
+"far": 10.62
+},
+{
+"stream": "4fe647e533964985c1c0d300",
+"start": 40,
+"far": 10.62
+},
+{
+"stream": "4fe647e533964985c1c0d300",
+"start": 43,
+"far": 10.62
+},
+{
+"stream": "9a92638937f279df574c6528",
+"start": 52,
+"far": 10.61
+},
+{
+"stream": "4874948bf190518edae839c3",
+"start": 34,
+"far": 10.6
+},
+{
+"stream": "94859562c4d6183ee3681cb4",
+"start": 54,
+"far": 10.49
+},
+{
+"stream": "34d1d422e9894699941f429d",
+"start": 38,
+"far": 10.47
+},
+{
+"stream": "34d1d422e9894699941f429d",
+"start": 41,
+"far": 10.47
+},
+{
+"stream": "786a3caab94c77ff2c0069ff",
+"start": 67,
+"far": 10.45
+},
+{
+"stream": "509b47e0113ebb28c0313be9",
+"start": 71,
+"far": 10.42
+},
+{
+"stream": "0eccb42a20dd77d8c5a662ab",
+"start": 48,
+"far": 10.35
+},
+{
+"stream": "a465933f64f66d5fd19d0683",
+"start": 40,
+"far": 10.23
+},
+{
+"stream": "e0a38f76336a57970f6ed2bb",
+"start": 31,
+"far": 10.19
+},
+{
+"stream": "e0a38f76336a57970f6ed2bb",
+"start": 37,
+"far": 10.19
+},
+{
+"stream": "6522974357665b33d4d2b139",
+"start": 45,
+"far": 10.1
+},
+{
+"stream": "30db26e289497c1e801f95ea",
+"start": 56,
+"far": 10.07
+},
+{
+"stream": "2ff59dcd65a1ae74dfafb193",
+"start": 26,
+"far": 10.04
+}
+]
+}

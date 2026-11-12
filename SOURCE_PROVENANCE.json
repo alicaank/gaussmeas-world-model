@@ -1,834 +1,690 @@
 {
- "created": "2026-11-09",
- "note": "Every file copied byte-for-byte from the working analysis tree; sha256 of the source at copy time.",
+ "created": "2026-11-12",
+ "note": "Files copied from the working analysis tree; machine paths replaced by gm_env roots (count per file), otherwise unchanged. sha256 is of the source at copy time.",
  "files": [
   {
-   "repo_path": "src/packed_model.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/packed_model.py",
-   "sha256": "4312dd77d6bfe60e7f56e6fcd77239023435711daf3d08b4a722fc595ac4cb3e",
-   "bytes": 12768
+   "repo_path": "foundation/camera_quality/camera_quality.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/camera_quality_20261015/camera_quality.py",
+   "sha256_source": "6ca8609303e3e5f885b4c81085c7279f75ae0e9a420a5777f6c6ab4be348aedb",
+   "bytes_source": 3390,
+   "path_literals_replaced": 2,
+   "identical": false
+  },
+  {
+   "repo_path": "foundation/dl3dv960/stream_960p.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/dl3dv960_20261016/stream_960p.py",
+   "sha256_source": "310ba5ee6bbb917bc616be49e2ec617cbd2ca608ebd353fbaac56412fadfd12f",
+   "bytes_source": 4248,
+   "path_literals_replaced": 1,
+   "identical": false
+  },
+  {
+   "repo_path": "foundation/fair_common.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fair_common_20261025/fair_common.py",
+   "sha256_source": "2a041d70f66c8aa1a94417cf5d9bcabd59ae2b1dfa755242a2a2e2d8dd295184",
+   "bytes_source": 20775,
+   "path_literals_replaced": 2,
+   "identical": false
+  },
+  {
+   "repo_path": "core/closed_loop.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/closed_loop.py",
+   "sha256_source": "3b8c4281ddefe0e2a377e47b3268d4e118fb129e2122334bb629b36c22725b06",
+   "bytes_source": 19732,
+   "path_literals_replaced": 0,
+   "identical": true
+  },
+  {
+   "repo_path": "core/data.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/data.py",
+   "sha256_source": "4d5e9817aed4b2399eda1195d4e11d82c98e3176e86d8b4fcadfa3f845a1aeab",
+   "bytes_source": 12279,
+   "path_literals_replaced": 2,
+   "identical": false
+  },
+  {
+   "repo_path": "core/encode_prompts_local.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/encode_prompts_local.py",
+   "sha256_source": "99674631adfaf139b0ca89ebec7eaededb8fb18661e0031bd2e1351df631adeb",
+   "bytes_source": 1489,
+   "path_literals_replaced": 1,
+   "identical": false
+  },
+  {
+   "repo_path": "core/gen_onpolicy.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/gen_onpolicy.py",
+   "sha256_source": "24dba1c1f41878f76a3068d043f6931cd8a8fcadd3725a4b4c310631c67a4a36",
+   "bytes_source": 5735,
+   "path_literals_replaced": 0,
+   "identical": true
+  },
+  {
+   "repo_path": "core/model_io.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/model_io.py",
+   "sha256_source": "7605eb439f60e59fcc4b6f0949ff6dd126ee0186ef87c099fbebddf4f66a443e",
+   "bytes_source": 10355,
+   "path_literals_replaced": 2,
+   "identical": false
+  },
+  {
+   "repo_path": "core/official_loader.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/official_loader.py",
+   "sha256_source": "4f44e227a3df46245f51a6f256916b15ff84c347a8cf807f9eb02c3093a4e318",
+   "bytes_source": 947,
+   "path_literals_replaced": 0,
+   "identical": true
+  },
+  {
+   "repo_path": "core/onpolicy_rows.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/onpolicy_rows.py",
+   "sha256_source": "37fc90b3a8b0d8a22779c9d8eedd4894a9ab31995e08be809d37e5f1cf89c40a",
+   "bytes_source": 5996,
+   "path_literals_replaced": 0,
+   "identical": true
+  },
+  {
+   "repo_path": "core/packed_model.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/packed_model.py",
+   "sha256_source": "4312dd77d6bfe60e7f56e6fcd77239023435711daf3d08b4a722fc595ac4cb3e",
+   "bytes_source": 12768,
+   "path_literals_replaced": 0,
+   "identical": true
+  },
+  {
+   "repo_path": "core/prep_864.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prep_864.py",
+   "sha256_source": "d4990d5067497993d9c3c2b6669c5457c970b3673385114ea8a275b07405d020",
+   "bytes_source": 7363,
+   "path_literals_replaced": 2,
+   "identical": false
+  },
+  {
+   "repo_path": "core/prope.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prope.py",
+   "sha256_source": "9000fbc166508e8dee1114d3c341ccc3e92955930275df974fddfa38a1118b80",
+   "bytes_source": 5762,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/prope.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prope.py",
-   "sha256": "9000fbc166508e8dee1114d3c341ccc3e92955930275df974fddfa38a1118b80",
-   "bytes": 5762
+   "repo_path": "core/render864_rows.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render864_rows.py",
+   "sha256_source": "a9cfda62c7da370c2d0ea6dc659a34ed54448aeb796157d065b9a7fcadc8ef29",
+   "bytes_source": 6263,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/data.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/data.py",
-   "sha256": "4d5e9817aed4b2399eda1195d4e11d82c98e3176e86d8b4fcadfa3f845a1aeab",
-   "bytes": 12279
+   "repo_path": "core/render_rows.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render_rows.py",
+   "sha256_source": "af81b9a78723e52f159309c844570b0acc32ce331a1d642c3e3c42aa6e94785c",
+   "bytes_source": 3194,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/model_io.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/model_io.py",
-   "sha256": "7605eb439f60e59fcc4b6f0949ff6dd126ee0186ef87c099fbebddf4f66a443e",
-   "bytes": 10355
+   "repo_path": "core/renderer864.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/renderer864.py",
+   "sha256_source": "54643fa92590942cf354f3b93f7aca731bf76d5c60a5f54ba3e599b986313af9",
+   "bytes_source": 12082,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/official_loader.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/official_loader.py",
-   "sha256": "4f44e227a3df46245f51a6f256916b15ff84c347a8cf807f9eb02c3093a4e318",
-   "bytes": 947
+   "repo_path": "core/sample.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/sample.py",
+   "sha256_source": "13fa169a33e532ca999dc1d54a640769ade47702bd48400cc8b430e4b77e342b",
+   "bytes_source": 10481,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/train.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train.py",
-   "sha256": "c07d439fac36259b91f95bbd6690876c9d4417e352738df25537f5ef7db606e1",
-   "bytes": 11067
+   "repo_path": "core/tests.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests.py",
+   "sha256_source": "65c9043f2274d3849d39e5fdad3e42d232cacea6e48540790425b47181fe3dd3",
+   "bytes_source": 8388,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/train_plain.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_plain.py",
-   "sha256": "26ff4d5dbd1aeb4d0a21ac7ed66bf04c08278387db5c8792ca66b844ab5b7011",
-   "bytes": 1017
+   "repo_path": "core/tests_numerics.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_numerics.py",
+   "sha256_source": "ad56dd4eda6fd135d9cfd9fc4e3d893fff1bcf58f00668eac1a7e87884bae4eb",
+   "bytes_source": 4142,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/train_m864v.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_m864v.py",
-   "sha256": "493404b3feabb2f5fd94e68fa02dc32dcf50ca341b44fe94f4dde39c2eb2fea1",
-   "bytes": 2066
+   "repo_path": "core/train.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train.py",
+   "sha256_source": "c07d439fac36259b91f95bbd6690876c9d4417e352738df25537f5ef7db606e1",
+   "bytes_source": 11067,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/train_b864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_b864.py",
-   "sha256": "f4618a933c0630cc1e5f94c86948b6fd4651a6e010182d1f7ff49c7f1083b0d5",
-   "bytes": 3105
+   "repo_path": "core/train_b864.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_b864.py",
+   "sha256_source": "f4618a933c0630cc1e5f94c86948b6fd4651a6e010182d1f7ff49c7f1083b0d5",
+   "bytes_source": 3105,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/train_onpolicy.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_onpolicy.py",
-   "sha256": "ad72305492351f6f89e72b304d704b2b849f154abe3bfed3972494ea5bbbae67",
-   "bytes": 3710
+   "repo_path": "core/train_m864v.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_m864v.py",
+   "sha256_source": "493404b3feabb2f5fd94e68fa02dc32dcf50ca341b44fe94f4dde39c2eb2fea1",
+   "bytes_source": 2066,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/onpolicy_rows.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/onpolicy_rows.py",
-   "sha256": "37fc90b3a8b0d8a22779c9d8eedd4894a9ab31995e08be809d37e5f1cf89c40a",
-   "bytes": 5996
+   "repo_path": "core/train_onpolicy.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_onpolicy.py",
+   "sha256_source": "ad72305492351f6f89e72b304d704b2b849f154abe3bfed3972494ea5bbbae67",
+   "bytes_source": 3710,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/gen_onpolicy.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/gen_onpolicy.py",
-   "sha256": "24dba1c1f41878f76a3068d043f6931cd8a8fcadd3725a4b4c310631c67a4a36",
-   "bytes": 5735
+   "repo_path": "foundation/realized_pose.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/memorizon_plugins/realized_pose.py",
+   "sha256_source": "8c42ec69191ae5360070bd03e2366be1ab613eaa7058411a081035aedd643da5",
+   "bytes_source": 2977,
+   "path_literals_replaced": 2,
+   "identical": false
   },
   {
-   "repo_path": "src/closed_loop.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/closed_loop.py",
-   "sha256": "3b8c4281ddefe0e2a377e47b3268d4e118fb129e2122334bb629b36c22725b06",
-   "bytes": 19732
+   "repo_path": "foundation/new_models_loop/common.py",
+   "source": "<workspace>/analysis/plan_base_restart_20261008/new_models_loop_20261028/common.py",
+   "sha256_source": "25f83ced07d2b8ab09934c6fd2be8a7233c7223730a4f1fd8a932145dd168c78",
+   "bytes_source": 2417,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/closed_loop_864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/closed_loop_864.py",
-   "sha256": "fc523085426a274a2a3df7652fd35e16b5c7853ed141c895a7da65189f424363",
-   "bytes": 12059
+   "repo_path": "contract/anchor_seen.py",
+   "source": "<workspace>/analysis/robust_native_20261108/anchor_seen.py",
+   "sha256_source": "d4fcaac49c62f14a916cd27e00e5d64273fd8d3512ad6dbaed34905f62d7b920",
+   "bytes_source": 3768,
+   "path_literals_replaced": 2,
+   "identical": false
   },
   {
-   "repo_path": "src/sample.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/sample.py",
-   "sha256": "13fa169a33e532ca999dc1d54a640769ade47702bd48400cc8b430e4b77e342b",
-   "bytes": 10481
+   "repo_path": "contract/build_mask_cache.py",
+   "source": "<workspace>/analysis/robust_native_20261108/build_mask_cache.py",
+   "sha256_source": "c6aca213e4ce5749f58e4a5c7fe0afd21a52fe66e4e51c7ca299ff13412c596f",
+   "bytes_source": 6394,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/renderer864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/renderer864.py",
-   "sha256": "54643fa92590942cf354f3b93f7aca731bf76d5c60a5f54ba3e599b986313af9",
-   "bytes": 12082
+   "repo_path": "contract/build_render_cache_v4.py",
+   "source": "<workspace>/analysis/robust_native_20261108/build_render_cache_v4.py",
+   "sha256_source": "7f715f861cfe7c961cbba042c71ffb46c7d5b3956c3d37f1e6cf1d33ff9a1542",
+   "bytes_source": 7218,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/render864_rows.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render864_rows.py",
-   "sha256": "a9cfda62c7da370c2d0ea6dc659a34ed54448aeb796157d065b9a7fcadc8ef29",
-   "bytes": 6263
+   "repo_path": "contract/channel_render.py",
+   "source": "<workspace>/analysis/robust_native_20261108/channel_render.py",
+   "sha256_source": "8b8ab49d5ba2bdbc3d7889859d90012bee398fec7014cc2b5fd676c74736b7ce",
+   "bytes_source": 3704,
+   "path_literals_replaced": 0,
+   "identical": false
   },
   {
-   "repo_path": "src/render_rows.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/render_rows.py",
-   "sha256": "af81b9a78723e52f159309c844570b0acc32ce331a1d642c3e3c42aa6e94785c",
-   "bytes": 3194
+   "repo_path": "contract/data_contract/build_index.py",
+   "source": "<workspace>/analysis/robust_native_20261108/data_contract/build_index.py",
+   "sha256_source": "deceeb36b2704b03fa1b2dac1c2b615769153e1b1af987174d2891ef27bfcd9e",
+   "bytes_source": 3520,
+   "path_literals_replaced": 0,
+   "identical": false
   },
   {
-   "repo_path": "src/resplat_mem_864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/resplat_mem_864.py",
-   "sha256": "679759d8150c90edea478dfc9b5865c0d13d3024e213b7d3a9baacdbd34e79d5",
-   "bytes": 1807
+   "repo_path": "contract/data_contract/build_windows.py",
+   "source": "<workspace>/analysis/robust_native_20261108/data_contract/build_windows.py",
+   "sha256_source": "1b48fe879e5c856a88301228c47d01cd4644c28625051ad05c39c2594aca69b6",
+   "bytes_source": 3004,
+   "path_literals_replaced": 2,
+   "identical": false
   },
   {
-   "repo_path": "src/prep_864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/prep_864.py",
-   "sha256": "d4990d5067497993d9c3c2b6669c5457c970b3673385114ea8a275b07405d020",
-   "bytes": 7363
+   "repo_path": "contract/data_contract/distribution_report.py",
+   "source": "<workspace>/analysis/robust_native_20261108/data_contract/distribution_report.py",
+   "sha256_source": "1750c7b4045a42f64b966f59e565bba318ae66f6ab832a495ed0a2a9ab01807c",
+   "bytes_source": 3364,
+   "path_literals_replaced": 3,
+   "identical": false
   },
   {
-   "repo_path": "src/precompute_renders_864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_renders_864.py",
-   "sha256": "5f092f9a86e3f6e1d9e894497daa88f508d1af14116270c57f76ffc6cec013f3",
-   "bytes": 3265
+   "repo_path": "contract/diag_anchor_identity.py",
+   "source": "<workspace>/analysis/robust_native_20261108/diag_anchor_identity.py",
+   "sha256_source": "43f92f0bb9d12f806bf190db1b726bba9db71d99ec544bc105c0250b98e362ed",
+   "bytes_source": 6263,
+   "path_literals_replaced": 2,
+   "identical": false
   },
   {
-   "repo_path": "src/visual_evidence.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/visual_evidence.py",
-   "sha256": "f3d57e2a6b2300bf4edd9e31452099a76e7700db70b43594791628c922b500cb",
-   "bytes": 2251
+   "repo_path": "contract/diag_return.py",
+   "source": "<workspace>/analysis/robust_native_20261108/diag_return.py",
+   "sha256_source": "777848f1e3c04639553d0e5ff170dbd63d8e667dd0769fbe39263f4723ee34b2",
+   "bytes_source": 3704,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/env.sh",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/env.sh",
-   "sha256": "62ecd59e8479b8e005bc2a4ee72c1d47cbc7aa017d0fc55c432b14005a8c36a5",
-   "bytes": 819
+   "repo_path": "contract/diag_seams_sota.py",
+   "source": "<workspace>/analysis/robust_native_20261108/diag_seams_sota.py",
+   "sha256_source": "72fa9ac36c12f612dd8f7d166678d2a37b6309bf7e863b290c7ef267dd6becf8",
+   "bytes_source": 7921,
+   "path_literals_replaced": 3,
+   "identical": false
   },
   {
-   "repo_path": "src/frontier.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/frontier.py",
-   "sha256": "4586384d8b7c0853ecd025351043b3f929dde0485696f05e2c39c4742506c1c8",
-   "bytes": 10911
+   "repo_path": "contract/diag_vscale.py",
+   "source": "<workspace>/analysis/robust_native_20261108/diag_vscale.py",
+   "sha256_source": "6f95a75251d4206f60e161d800f17956955add0190fef47d260c0319a12a3d1e",
+   "bytes_source": 4092,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/gm_b_corruption.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/gm_b_corruption.py",
-   "sha256": "42f36a398a2d47fea3b232ea5e9e6843e324e094c8d563ea8168d9387cddaa6d",
-   "bytes": 5539
+   "repo_path": "contract/dry_run_sampler.py",
+   "source": "<workspace>/analysis/robust_native_20261108/dry_run_sampler.py",
+   "sha256_source": "98800b4fa5fc8a755892cf638d631bec7b6c6915c9508a730b7507604d70565f",
+   "bytes_source": 2854,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/train_gm_b.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/train_gm_b.py",
-   "sha256": "bc637dce1f25769c55ec278fd15ec44b19e5054e81eadb699cfe578257e3a601",
-   "bytes": 3262
+   "repo_path": "contract/fast_metrics.py",
+   "source": "<workspace>/analysis/robust_native_20261108/fast_metrics.py",
+   "sha256_source": "7b6d16d1dfdcd9e15e063452b9955bee18a7b2ae773d56e96d69ae7f5764b36f",
+   "bytes_source": 6985,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/train_gm_f.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/train_gm_f.py",
-   "sha256": "fc9836c8ad3eace23d89940c94372a31666b016eccd17f6a7b28836c47519a42",
-   "bytes": 5790
+   "repo_path": "contract/frontier.py",
+   "source": "<workspace>/analysis/robust_native_20261108/frontier.py",
+   "sha256_source": "923f4af80fed699d088e6174d181e3ad9b373b35c30658be1eb9cd3dadff75c0",
+   "bytes_source": 22653,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/build_frontier_cache.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/build_frontier_cache.py",
-   "sha256": "cf7cac2f2ade4cf68e9de7188b383dcb29df532a9d097af2a077fd5ee7f9e535",
-   "bytes": 5057
+   "repo_path": "contract/gate_b4_camera.py",
+   "source": "<workspace>/analysis/robust_native_20261108/gate_b4_camera.py",
+   "sha256_source": "741d29d5ebf0b945ab1667641fcdef97d7d49ae6732cc2f03860a3ef2d71fbcc",
+   "bytes_source": 2725,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/closed_loop_frontier.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/closed_loop_frontier.py",
-   "sha256": "d126ecb469a7bf7633ac6975cc672a5c00b625fcb977e85b1f002ceb2e08ecde",
-   "bytes": 1313
+   "repo_path": "contract/gate_bp.py",
+   "source": "<workspace>/analysis/robust_native_20261108/gate_bp.py",
+   "sha256_source": "156e790266d30b14653e9d7f511e0097cda8c036d52c05979082b8366320ee2c",
+   "bytes_source": 3234,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/frontier_smoke.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/frontier_smoke.py",
-   "sha256": "e9d10637b57a82199cc911769c292eedb07c071ce38128e60e1e5d8d9ec9ba9d",
-   "bytes": 5138
+   "repo_path": "contract/gen_pool_v3.py",
+   "source": "<workspace>/analysis/robust_native_20261108/gen_pool_v3.py",
+   "sha256_source": "a73f0a091dc46c5ff93f74d1216404fdef933159f8678a43e672daf49651d72b",
+   "bytes_source": 2133,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/compare_gm.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/compare_gm.py",
-   "sha256": "81c5b159ba4eecd056a50cb9083e27b96ed0c4acb5da80cc171ba75636442545",
-   "bytes": 2930
+   "repo_path": "contract/gm_b_corruption.py",
+   "source": "<workspace>/analysis/robust_native_20261108/gm_b_corruption.py",
+   "sha256_source": "90415630f37fd5a4cc72616a9094a9528d38cfd938c8295cf8a5bd4fa41102aa",
+   "bytes_source": 10608,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/visual_compare_gm.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/visual_compare_gm.py",
-   "sha256": "fcf655fe63351dc7a62956b305af71d66ea426c65cbcaa013c9ee819f6997c30",
-   "bytes": 4517
+   "repo_path": "contract/memory_contract.py",
+   "source": "<workspace>/analysis/robust_native_20261108/memory_contract.py",
+   "sha256_source": "a9aaac979dffb355ef487ba66f2468aae194f9d33702c8b59d8c3bf3fc9fe960",
+   "bytes_source": 4105,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/run_arm_ckpt.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/sota_eval/run_arm_ckpt.py",
-   "sha256": "2b408f204e606de00e73222ffece2f9caccd08031a3d99e07f161958ff254d02",
-   "bytes": 8214
+   "repo_path": "contract/multi_view.py",
+   "source": "<workspace>/analysis/robust_native_20261108/multi_view.py",
+   "sha256_source": "169e5fe913a437a118f23c428cfaf06d45fac7473db1abfd66de6404de84b632",
+   "bytes_source": 2739,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/build_table_sota.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/sota_eval/build_table_sota.py",
-   "sha256": "497d5d1badeafd70ecaa21ed446758924f67172c3b8614c6e555710d064bd2d5",
-   "bytes": 2455
+   "repo_path": "contract/probe_bank_swap.py",
+   "source": "<workspace>/analysis/robust_native_20261108/probe_bank_swap.py",
+   "sha256_source": "7f2845649c83843251b7eb75a6e1c8b7aa4fc21b4e999b4a2ae002421d605562",
+   "bytes_source": 4588,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "src/run_arm_original_20261103.py",
-   "source": "/home/hj/Alican/analysis/gaussian_meas_dl3dv7_20261103/run_arm.py",
-   "sha256": "40aaffe3501d7afc5c5f95a4bfeaa8ef25bc6d9b898ff749ce626072c768c08e",
-   "bytes": 8348
+   "repo_path": "contract/reject_report.py",
+   "source": "<workspace>/analysis/robust_native_20261108/reject_report.py",
+   "sha256_source": "24fc5a5eda9462387926cc5a2f512c5d767f320f05dc7a62a48ca1af7e88ddf4",
+   "bytes_source": 3135,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "tests/tests.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests.py",
-   "sha256": "65c9043f2274d3849d39e5fdad3e42d232cacea6e48540790425b47181fe3dd3",
-   "bytes": 8388
+   "repo_path": "contract/resplat_fixed.py",
+   "source": "<workspace>/analysis/robust_native_20261108/resplat_fixed.py",
+   "sha256_source": "7f4b74236c31f037811ce5670143321617e0a98bad5f7c16402a02d3f1a8cd47",
+   "bytes_source": 2741,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "tests/tests_numerics.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_numerics.py",
-   "sha256": "ad56dd4eda6fd135d9cfd9fc4e3d893fff1bcf58f00668eac1a7e87884bae4eb",
-   "bytes": 4142
+   "repo_path": "contract/row_reject.py",
+   "source": "<workspace>/analysis/robust_native_20261108/row_reject.py",
+   "sha256_source": "0b8c2693d3382774cd2a5efd92465d0337c39892a8f8b9017784240f1e3bd6b8",
+   "bytes_source": 3486,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "tests/test_gm_b.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_gm_b.py",
-   "sha256": "f872f689426f4bd0860603c133e47b3323e6999adb7a97db7a49d572e483a1f1",
-   "bytes": 6460
+   "repo_path": "contract/sota_eval/run_arm_ckpt.py",
+   "source": "<workspace>/analysis/robust_native_20261108/sota_eval/run_arm_ckpt.py",
+   "sha256_source": "a3b97da6b55f634103f5259c8e86a0fe3fb4c7dcc0febdb6f8ea2103801bf154",
+   "bytes_source": 21487,
+   "path_literals_replaced": 10,
+   "identical": false
   },
   {
-   "repo_path": "tests/test_frontier.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_frontier.py",
-   "sha256": "21915560390a0c3a09f52f72bbf5acb736156d2907995c4e7f9ea72ed977540d",
-   "bytes": 4455
+   "repo_path": "contract/source_policy.py",
+   "source": "<workspace>/analysis/robust_native_20261108/source_policy.py",
+   "sha256_source": "3de3077a92c1a9b8b817c1ce809025290e79fb9611622715517c21c0dc0b8200",
+   "bytes_source": 16396,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "tests/test_gm_f.py",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/test_gm_f.py",
-   "sha256": "2f67fcd3c258f508556c2817d320ed6a0ca9af0f11751ec110f9e26c7a8e8030",
-   "bytes": 3736
+   "repo_path": "contract/tests_channel_render.py",
+   "source": "<workspace>/analysis/robust_native_20261108/tests_channel_render.py",
+   "sha256_source": "58f3dc7ec83aaa9b55155d37b1ebbbff4b8a04a9d9f430beabfce3f5a478cea4",
+   "bytes_source": 2989,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/realized_pose.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/realized_pose.py",
-   "sha256": "8c42ec69191ae5360070bd03e2366be1ab613eaa7058411a081035aedd643da5",
-   "bytes": 2977
+   "repo_path": "contract/tests_row_reject.py",
+   "source": "<workspace>/analysis/robust_native_20261108/tests_row_reject.py",
+   "sha256_source": "a94b41658554464dbc7f77e1b12003bcf53596d051dc05bcfb366d183c45f68d",
+   "bytes_source": 2444,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/score_vggt.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/score_vggt.py",
-   "sha256": "1f0d71ec0e1a5bfa23f28a0cc413a3e41d0037626ef9f19342c0362fce82d18b",
-   "bytes": 7454
+   "repo_path": "contract/train_a4.py",
+   "source": "<workspace>/analysis/robust_native_20261108/train_a4.py",
+   "sha256_source": "4e3d9b40274b129f564974fdc2fa3323321c3281c467712e3bc1dd86e7053731",
+   "bytes_source": 4895,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "third_party_snapshot/foundation_renderer.py",
-   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_renderer.py",
-   "sha256": "4b2bac777b447b398e02c9503141d91184da69fdd396ff73a2200fcfeebc6846",
-   "bytes": 3534
+   "repo_path": "contract/train_gmp.py",
+   "source": "<workspace>/analysis/robust_native_20261108/train_gmp.py",
+   "sha256_source": "9cf97e872afc0d4c9de9afddc8f95e3695c92fa77526cfb77b4618fea45a782b",
+   "bytes_source": 15224,
+   "path_literals_replaced": 1,
+   "identical": false
   },
   {
-   "repo_path": "third_party_snapshot/foundation_contract.py",
-   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_contract.py",
-   "sha256": "6f14bf115081fcbae179fa80db58c17fbccb6397f18739cffbfb202707d5e3ee",
-   "bytes": 5638
+   "repo_path": "foundation/comparison_table_20261105.py",
+   "source": "<workspace>/analysis/v2_rerun_20261103/comparison_table_20261105.py",
+   "sha256_source": "9f1f618211dd3fc151c7aac5318d399842c9d9a8419c39818dce1505252bf209",
+   "bytes_source": 5632,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/foundation_model.py",
-   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/foundation_model.py",
-   "sha256": "76ee46e5702fa012b832bb9dcec0046a8d3721c50efe7fcb82319842d07c020b",
-   "bytes": 8740
+   "repo_path": "foundation/visual_compare480_20261105.py",
+   "source": "<workspace>/analysis/v2_rerun_20261103/visual_compare480_20261105.py",
+   "sha256_source": "04a9ad6252b4a01b44543b8fb897dbedf19b881bd09cee498bd8f02b4d562f1c",
+   "bytes_source": 6717,
+   "path_literals_replaced": 2,
+   "identical": false
   },
   {
-   "repo_path": "third_party_snapshot/all_scene_dataset.py",
-   "source": "/home/hj/Alican/training_runs/joint_samplerfix_20261012/all_scene_dataset.py",
-   "sha256": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
-   "bytes": 12506
+   "repo_path": "foundation/all_scene_dataset.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/all_scene_dataset.py",
+   "sha256_source": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
+   "bytes_source": 12506,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/resplat_condition.py",
-   "source": "/home/hj/Alican/gaussverse/memory/resplat_condition.py",
-   "sha256": "d70c50244c70358647ae17e46801ce08af9e5c163d7eff3307d0e92b7b384189",
-   "bytes": 6914
+   "repo_path": "foundation/audit_all_scenes.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/audit_all_scenes.py",
+   "sha256_source": "f16c381ad12dce8f914cb676d1c0ddc5543d05c88e050d0810ba4e6aa3fcc9e6",
+   "bytes_source": 6182,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/vae_stream.py",
-   "source": "/home/hj/Alican/gaussverse/models/vae_stream.py",
-   "sha256": "e6be66d967a9b3342fac19a93734a52705230ba30f3c5f66983df1f7389ccae4",
-   "bytes": 10811
+   "repo_path": "foundation/foundation_contract.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/foundation_contract.py",
+   "sha256_source": "3ea947bd2a52920e38dea6dc25a8ab7777ec78852df807429d67b47e89fa99ee",
+   "bytes_source": 5234,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/gate_omega_recovery.py",
-   "source": "/home/hj/Alican/gaussverse/training/gate_omega_recovery.py",
-   "sha256": "5c389fa7100d782342a9766861368f3aaac7309f15cd32adbd646ab60c3d326f",
-   "bytes": 46886
+   "repo_path": "foundation/foundation_model.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/foundation_model.py",
+   "sha256_source": "32c535622e1bbbe61a79bf33109af2e5fe330fbba0e6d399768aacb43f68e3cf",
+   "bytes_source": 7541,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "third_party_snapshot/score_reliability.py",
-   "source": "/home/hj/Alican/analysis/runtime_repairs_20261031/revision2/score_reliability.py",
-   "sha256": "5193660c59b66151a50a196eb0c846dd942b883bff12bdd825bf61d67c2dba39",
-   "bytes": 599
+   "repo_path": "foundation/geometry_policy.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/geometry_policy.py",
+   "sha256_source": "db362183bf1f9749657d137847ea6f653c73adddedf4f080e23ac3be5a69e658",
+   "bytes_source": 715,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "docs/lab_notes/PLAN_fresh_teacher_20261021.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/PLAN.md",
-   "sha256": "373dca45997532e9f90de46e92ed0c4441c1594e6fe805bf5e8ea90241f96233",
-   "bytes": 55377
+   "repo_path": "foundation/native_archive.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/native_archive.py",
+   "sha256_source": "2fe5de24688d924ffc396fcfece6fd27116b233d068affda9b5b8b5740ccb40c",
+   "bytes_source": 4878,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "docs/lab_notes/PLAN_robust_native_20261108.md",
-   "source": "/home/hj/Alican/analysis/robust_native_20261108/PLAN.md",
-   "sha256": "b9640b21a3028f70fd517ee0824ef49f35e6627c2bbef8957a6b9d00c5c77c8a",
-   "bytes": 28001
+   "repo_path": "foundation/prepare_all_scenes.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/prepare_all_scenes.py",
+   "sha256_source": "d4dcfa8ada829d4f7a8bc60c8cb5801a6a2e43d1abd1a51ea5a206b7294a20e0",
+   "bytes_source": 13499,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "docs/lab_notes/IDEAS_FAIR_TESTS_20261024.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/IDEAS_FAIR_TESTS_20261024.md",
-   "sha256": "9c26393cf0658d9b74c2e39fd930077fcbc6558e46712dfa69e8fa31fac09dd4",
-   "bytes": 11432
+   "repo_path": "foundation/prepare_manifest.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/prepare_manifest.py",
+   "sha256_source": "2cdf9ec9890761d5644a70e93e3407a36fd429a1b1d05b79ca028e8daeba869b",
+   "bytes_source": 16668,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "docs/lab_notes/comparison_table_20261105.md",
-   "source": "/home/hj/Alican/analysis/v2_rerun_20261103/comparison_table_20261105.md",
-   "sha256": "83fad1600a655e2cb2c1d03d4080f460ca80d6201b69fc9da916e7b1551f684c",
-   "bytes": 2636
+   "repo_path": "foundation/prepare_v2.py",
+   "source": "<workspace>/training_runs/base_restart_20261008/prepare_v2.py",
+   "sha256_source": "29d690f9eff29b35d93590f25c5e57bdbce98d8e6d1542d25a11cd3d3fcfdf24",
+   "bytes_source": 17918,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "docs/lab_notes/README_gaussian_meas_dl3dv7_20261103.md",
-   "source": "/home/hj/Alican/analysis/gaussian_meas_dl3dv7_20261103/README.md",
-   "sha256": "04ca218f6afa9d469a2f2fcac40b0e1614df1bf36a5784aa5afad9f798a457bb",
-   "bytes": 2078
+   "repo_path": "foundation/all_scene_dataset.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/all_scene_dataset.py",
+   "sha256_source": "01d87aa254aa997b2bb133fda7c5f6d5c3ada271beb5dac94253fd84e1056cc0",
+   "bytes_source": 12506,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/reward_train.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/reward_train.py",
-   "sha256": "d5b57bb6d7ddcb0fa4b2b70bd8fd4fef4dad125f2e5049d95c1695d587e591f5",
-   "bytes": 15193
+   "repo_path": "foundation/foundation_contract.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/foundation_contract.py",
+   "sha256_source": "6f14bf115081fcbae179fa80db58c17fbccb6397f18739cffbfb202707d5e3ee",
+   "bytes_source": 5638,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/probe_camera_loss.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/probe_camera_loss.py",
-   "sha256": "5a75a284db74ddea45701279c80237450513db77e35efb7554c92c156b34101e",
-   "bytes": 4887
+   "repo_path": "foundation/foundation_depth.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/foundation_depth.py",
+   "sha256_source": "2dbeadb270b49025355fdf35a1e2fbf1ad89d4299d1cb36be362f686d567a5a7",
+   "bytes_source": 1631,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/train_r2.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_r2.py",
-   "sha256": "0b99fc93e3f69aab5161a7f1be197ccb459d231658db2ee0e20aba86b35f496c",
-   "bytes": 1406
+   "repo_path": "foundation/foundation_model.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/foundation_model.py",
+   "sha256_source": "76ee46e5702fa012b832bb9dcec0046a8d3721c50efe7fcb82319842d07c020b",
+   "bytes_source": 8740,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/train_r2op.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_r2op.py",
-   "sha256": "782ff80f58030296fdb0848bad7852a414db2083d353cf34bc0303dea144a85e",
-   "bytes": 2003
+   "repo_path": "foundation/foundation_renderer.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/foundation_renderer.py",
+   "sha256_source": "4b2bac777b447b398e02c9503141d91184da69fdd396ff73a2200fcfeebc6846",
+   "bytes_source": 3534,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/precompute_renders_next.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_renders_next.py",
-   "sha256": "079c6cd55b11629c9cd569c29f39f13f1ac7c38e7078a3cd2344a2e428ed7f74",
-   "bytes": 2863
+   "repo_path": "foundation/geometry_policy.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/geometry_policy.py",
+   "sha256_source": "db362183bf1f9749657d137847ea6f653c73adddedf4f080e23ac3be5a69e658",
+   "bytes_source": 715,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/train_g.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_g.py",
-   "sha256": "2068c0f52f9acda0af74e92df8cff5e0b2b36b514b0d9594236961b4fe88949e",
-   "bytes": 9396
+   "repo_path": "foundation/joint_v9/__init__.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/__init__.py",
+   "sha256_source": "7b32da2a5fca33cca1ac0c13622df01fa049a2f68efd04ed5c8f61319aaf78a5",
+   "bytes_source": 122,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/rows_g.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/rows_g.py",
-   "sha256": "60b6e7a2328af4ba4fdbeef60e3053d13f403a1c0f2f97ecc7d0b2865d2fc430",
-   "bytes": 8711
+   "repo_path": "foundation/joint_v9/correspondence.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/correspondence.py",
+   "sha256_source": "d09ff984aafb6c6b428ef4fdc41fab3db52f982652eb2a61f41c711f9034202b",
+   "bytes_source": 5430,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/gen_onpolicy2.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/gen_onpolicy2.py",
-   "sha256": "8403c04b64467ffbe19c4ade22b9f619dea9aa148dda597562700159ba522bee",
-   "bytes": 7051
+   "repo_path": "foundation/joint_v9/model.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/model.py",
+   "sha256_source": "d510d76ae3847659cf11f586377bb2620e170f2f5e76dfce268fbd317cffacc4",
+   "bytes_source": 6145,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/twoxplat_memory.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/twoxplat_memory.py",
-   "sha256": "48b4dcfefee4a949ab1b7da674c1e557108068816df16a4bbb6cb4922b20a9fc",
-   "bytes": 21846
+   "repo_path": "foundation/joint_v9/retrieval.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/retrieval.py",
+   "sha256_source": "7855a2686d197dfc23e3cae87c087f3e67fd8ac3f55d8bdf867d52515d4d6ccf",
+   "bytes_source": 2001,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/train_feat.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/train_feat.py",
-   "sha256": "89186a66fa4ebe64ab72f8847106be47c5406003418ca20e5dacdfb59d92d791",
-   "bytes": 4208
+   "repo_path": "foundation/joint_v9/runtime.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/runtime.py",
+   "sha256_source": "9e638b8dcc9dae0996e6a1e15b92c1cd903575af41e9ba97835bf9313ac589da",
+   "bytes_source": 11632,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/refiner_pilot.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/refiner_pilot.py",
-   "sha256": "873e6204ee2036620be8f19fd722e4d0d6ebcbc7c97ba72d1a827fe63d210499",
-   "bytes": 13417
+   "repo_path": "foundation/joint_v9/sampling.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/joint_v9/sampling.py",
+   "sha256_source": "6c7c155bd7c03127b5c4f432b9067fb412b8199e01d6d6b4f162b9f73425835a",
+   "bytes_source": 4318,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/refl_camera.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/refl_camera.py",
-   "sha256": "7ed3cba4f44f5523de4046b67ce4fb045c8faa1baf36f8bd221cb9d2f7ff0edb",
-   "bytes": 11008
+   "repo_path": "foundation/materialize_all_scenes.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/materialize_all_scenes.py",
+   "sha256_source": "709eaff99fed9f2ffd724b7313bee8949a2eeb7a23c4a4dda70646c894d4e641",
+   "bytes_source": 19540,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/adapt_pose_head.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/adapt_pose_head.py",
-   "sha256": "f9f759391936df795440365c0b6ef0210fec86011ab24b426554f9823109f231",
-   "bytes": 11625
+   "repo_path": "foundation/native_archive.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/native_archive.py",
+   "sha256_source": "2fe5de24688d924ffc396fcfece6fd27116b233d068affda9b5b8b5740ccb40c",
+   "bytes_source": 4878,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/train_refiner.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/train_refiner.py",
-   "sha256": "e650740e98fac1e529bfa410a4b298ac6ef568afc572d629ba93db2b34f4a219",
-   "bytes": 11587
+   "repo_path": "foundation/prepare_all_scenes.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/prepare_all_scenes.py",
+   "sha256_source": "d4dcfa8ada829d4f7a8bc60c8cb5801a6a2e43d1abd1a51ea5a206b7294a20e0",
+   "bytes_source": 13499,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/diagnose_losses.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/diagnose_losses.py",
-   "sha256": "44a4ae6657de1b5032d41598a759329e8b6ed000f98273b12757fae2f6486e78",
-   "bytes": 10542
+   "repo_path": "foundation/prepare_manifest.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/prepare_manifest.py",
+   "sha256_source": "2cdf9ec9890761d5644a70e93e3407a36fd429a1b1d05b79ca028e8daeba869b",
+   "bytes_source": 16668,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/sharpness.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/refl/sharpness.py",
-   "sha256": "cc0c2bd5920676bbc39af0cf38383cef4f3c319873dec4b34b23736c0818cce8",
-   "bytes": 736
+   "repo_path": "foundation/prepare_v2.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/prepare_v2.py",
+   "sha256_source": "29d690f9eff29b35d93590f25c5e57bdbce98d8e6d1542d25a11cd3d3fcfdf24",
+   "bytes_source": 17918,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/gv_memorizon2.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/gv_memorizon2.py",
-   "sha256": "b1fa2140c225b6482a51608e162abc42a75032ce00ef1e0cabf992ce5b84aeba",
-   "bytes": 33068
+   "repo_path": "foundation/profile_physical_interventions.py",
+   "source": "<workspace>/training_runs/joint_samplerfix_20261012/profile_physical_interventions.py",
+   "sha256_source": "fafa37b4661d8913045b2b984e43703f511fdaa19ca2b122320f54e559301e73",
+   "bytes_source": 21762,
+   "path_literals_replaced": 0,
+   "identical": true
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/inject.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/finetune/inject.py",
-   "sha256": "badeaf79c59e56c88b14955342307188e99d68028ee7166e139bec265aa050b7",
-   "bytes": 2559
+   "repo_path": "contract/data_contract/build_far_windows.py",
+   "source": "written for this repository",
+   "identical": false,
+   "path_literals_replaced": 0
   },
   {
-   "repo_path": "src/ideas/memorizon_refl/train_single.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/memorizon_plugins/finetune/train_single.py",
-   "sha256": "4b4e64c6fa7e35405710ed9dbb5cc3cf429fe659884bf511e6b0851d2f461b4d",
-   "bytes": 10473
-  },
-  {
-   "repo_path": "docs/ideas/CVPR_novel_ideas_memory_correspondence.md",
-   "source": "/home/hj/Alican/CVPR novel ideas.md",
-   "sha256": "26548566df8d0934f5446e90cc3eddedafcdbcec7b7fdd3da6aac92f9885b636",
-   "bytes": 30246
-  },
-  {
-   "repo_path": "docs/ideas/IDEAS_v2.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/IDEAS_v2.md",
-   "sha256": "f4237e513c02ee29bc9d517b2e6992eee5b82ea26db39b252c0669e72dcce879",
-   "bytes": 10557
-  },
-  {
-   "repo_path": "docs/ideas/IDEAS_v3.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/IDEAS_v3.md",
-   "sha256": "564be2fe63e32d21b8b3aeeacfa27d46835054ccf3a798b422db9771719e1dac",
-   "bytes": 20736
-  },
-  {
-   "repo_path": "docs/ideas/DESIGN.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/DESIGN.md",
-   "sha256": "3096bd891b5a15152d1b2158c45ee0e3a807d47f92c158efdeec40e4655fc966",
-   "bytes": 9224
-  },
-  {
-   "repo_path": "docs/ideas/CVPR_RESEARCH_PROPOSAL.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/CVPR_RESEARCH_PROPOSAL.md",
-   "sha256": "b200a2dab83bf910a0c09d7017dff5e6728f669794ce8207e391033e69348e45",
-   "bytes": 71515
-  },
-  {
-   "repo_path": "docs/ideas/PLAN_earned_memory_20261006.md",
-   "source": "/home/hj/Alican/analysis/plan_earned_memory_20261006/PLAN.md",
-   "sha256": "eab3ec2eab1e2818a9049a47412fdd4ef80e1389bccffd26feb9c12e8312afeb",
-   "bytes": 28632
-  },
-  {
-   "repo_path": "docs/ideas/PILOT_PLAN_CVPR_20261104.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
-   "sha256": "b25905b171f964ebf07b628bb1f99fad9263f792a11b5ca3105c4eb36517dc06",
-   "bytes": 10621
-  },
-  {
-   "repo_path": "docs/ideas/CVPR_STRATEGY_2026-09-08.md",
-   "source": "/home/hj/Alican/gaussverse/CVPR_STRATEGY_2026-09-08.md",
-   "sha256": "1be5ab0fe23a59ade0c556b443c44252468d89d1e9524274a875aed2dfab7158",
-   "bytes": 20538
-  },
-  {
-   "repo_path": "docs/ideas/RELATED_METHODS.md",
-   "source": "/home/hj/Alican/gaussverse/RELATED_METHODS.md",
-   "sha256": "c7c8584e8a15b1e6c6c7b880fd1cd67cb2271efe6a1ab2b6f5c8b316573cd5ff",
-   "bytes": 12225
-  },
-  {
-   "repo_path": "docs/ideas/SOTA_COMPARISON.md",
-   "source": "/home/hj/Alican/gaussverse/SOTA_COMPARISON.md",
-   "sha256": "876cf8b439081edeb6a83ec1d8ceafaeae3cff13df4e67b7e07c54a69426f86b",
-   "bytes": 16416
-  },
-  {
-   "repo_path": "docs/ideas/lit2_A_init_transitions.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_A_init_transitions.md",
-   "sha256": "3713d780c2b0b9dfc76a60d79bf4d82764e33feb81a6200ec6ee943699b51261",
-   "bytes": 14542
-  },
-  {
-   "repo_path": "docs/ideas/lit2_B_memory_reliability.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_B_memory_reliability.md",
-   "sha256": "a9ee99de50a071815503776482673faca4f50106ff06e0586be0e18c5aefd629",
-   "bytes": 13843
-  },
-  {
-   "repo_path": "docs/ideas/lit2_C_camera_collapse_recipes.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_C_camera_collapse_recipes.md",
-   "sha256": "b3d3b2d2b08b8cdeafc188522254c4c5e487bcfa6e3ce25ca6c6e0cd5d24c56e",
-   "bytes": 12623
-  },
-  {
-   "repo_path": "docs/ideas/lit2_anticollapse_recipes.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_anticollapse_recipes.md",
-   "sha256": "c2a3a56367ff053d6c07b5704649afdcd07f65ab58ad0ce6c632b8811e314d7a",
-   "bytes": 4456
-  },
-  {
-   "repo_path": "docs/ideas/lit2_camera_injection.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_camera_injection.md",
-   "sha256": "e72724c40bceaff6fc0c2d2310700739df40c771e6bf173f35ead7b98390baed",
-   "bytes": 3681
-  },
-  {
-   "repo_path": "docs/ideas/lit2_lyra2_recipe.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_lyra2_recipe.md",
-   "sha256": "81879a2a585fc8bf0998e4f0f770a12aa68ae971449fa8120170934f16ef354d",
-   "bytes": 4036
-  },
-  {
-   "repo_path": "docs/ideas/lit2_realized_pose_writes.md",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/lit2_realized_pose_writes.md",
-   "sha256": "c27fbd71468e16d84c523ecd45a1deca9d82d0b759a35970fdb32751ecb0977a",
-   "bytes": 3230
-  },
-  {
-   "repo_path": "docs/ideas/cvpr_proposal/main.tex",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/cvpr_proposal/main.tex",
-   "sha256": "f09e676e665f68bfe868a2c66e065e4c35ee49a8309db81a100fd4a05cd83162",
-   "bytes": 1994
-  },
-  {
-   "repo_path": "docs/ideas/cvpr_proposal/references.bib",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/cvpr_proposal/references.bib",
-   "sha256": "b99dc2c5434e4c632b7fa44d8fc23611676afadfac05acc7bc0a9c71407d1da3",
-   "bytes": 10552
-  },
-  {
-   "repo_path": "src/ideas/packed_model_corr.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/packed_model_corr.py",
-   "sha256": "d6938176cdd83b4453377a1da79c0917a16d4952f8d879ad5098f77d9f38d2ec",
-   "bytes": 10346
-  },
-  {
-   "repo_path": "src/ideas/precompute_feat_864.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/precompute_feat_864.py",
-   "sha256": "8d82fd3e38d984b7ef97013d3d799b68a0f10d3098cff52c78d62ff1f0127066",
-   "bytes": 3795
-  },
-  {
-   "repo_path": "tests/tests_packed_corr.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_packed_corr.py",
-   "sha256": "02d9913356039ec22194f280fb3834f0cc37effda4cfe67d21ef997fc0bc716f",
-   "bytes": 9114
-  },
-  {
-   "repo_path": "tests/tests_twoxplat_memory.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_twoxplat_memory.py",
-   "sha256": "c1782d3a3d87bcd204218c4d2006d0023130600910cb424c46428559722b50cd",
-   "bytes": 7763
-  },
-  {
-   "repo_path": "tests/tests_rows_g.py",
-   "source": "/home/hj/Alican/analysis/plan_base_restart_20261008/fresh_teacher_20261021/tests_rows_g.py",
-   "sha256": "5706622d3df9e699ba2941dcdf422429f0aaada45eb5b15d7d9472f0a14aef58",
-   "bytes": 5178
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/__init__.py",
-   "source": "/home/hj/Alican/gaussverse/memory/__init__.py",
-   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-   "bytes": 0
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/audit.py",
-   "source": "/home/hj/Alican/gaussverse/memory/audit.py",
-   "sha256": "9872cf3b0eea363562377d17b9aee46105a574dc9c94d605a4ae13575737e01d",
-   "bytes": 516
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/depth_backend.py",
-   "source": "/home/hj/Alican/gaussverse/memory/depth_backend.py",
-   "sha256": "5e03d7aa6023d410219f28b96cad262740880cd553aa01617ee6cbdfaec8e4bb",
-   "bytes": 1752
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/gate_omega_memory.py",
-   "source": "/home/hj/Alican/gaussverse/memory/gate_omega_memory.py",
-   "sha256": "30de6012e2e0ae0b126b9db26eb110d6968f2a370b2a4a2d9dbc0f9494959d53",
-   "bytes": 11480
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/geometry.py",
-   "source": "/home/hj/Alican/gaussverse/memory/geometry.py",
-   "sha256": "03279dc08a0fcaa1c0e98203370c2d8b7db33c2db05000e422eeefef187eb5d5",
-   "bytes": 13269
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/keyframe_cache.py",
-   "source": "/home/hj/Alican/gaussverse/memory/keyframe_cache.py",
-   "sha256": "5c2eff829eff8196c48532a5f7f1c41a6ab70c100cb168eff8369afb1149c8bb",
-   "bytes": 3314
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/latent_splat.py",
-   "source": "/home/hj/Alican/gaussverse/memory/latent_splat.py",
-   "sha256": "ebb2172c82bc90de87462d54e7622bf03e880119129996ad4b6b2a2b8c0d9b80",
-   "bytes": 6111
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/persistent_gaussians.py",
-   "source": "/home/hj/Alican/gaussverse/memory/persistent_gaussians.py",
-   "sha256": "97beabaa98f149cc78d1b885f6b2ab5ed3105eacd09764c81b2ed36e2655184d",
-   "bytes": 7322
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/persistent_store.py",
-   "source": "/home/hj/Alican/gaussverse/memory/persistent_store.py",
-   "sha256": "caba206c4ed88c6afd019f12307bfd22e4335644d8967d1aab8bca43936b7f40",
-   "bytes": 12434
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/point_retrieval.py",
-   "source": "/home/hj/Alican/gaussverse/memory/point_retrieval.py",
-   "sha256": "02fbd9b5d7450bd0f59023ac2dca491d89d3f11f9cc88a2dfb5d55b84f5abd98",
-   "bytes": 6045
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/projection.py",
-   "source": "/home/hj/Alican/gaussverse/memory/projection.py",
-   "sha256": "8f2bd2635f5af5375a99918690e88a4961a13ffb4fd21d61ef9f3a69393ec44d",
-   "bytes": 10181
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/resplat_condition.py",
-   "source": "/home/hj/Alican/gaussverse/memory/resplat_condition.py",
-   "sha256": "d70c50244c70358647ae17e46801ce08af9e5c163d7eff3307d0e92b7b384189",
-   "bytes": 6914
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/retrieval.py",
-   "source": "/home/hj/Alican/gaussverse/memory/retrieval.py",
-   "sha256": "129880d8e061fbc846bd90a29b7c8f5b777c0346a0a2100a6d08b1acdb627067",
-   "bytes": 9340
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/target_buffers.py",
-   "source": "/home/hj/Alican/gaussverse/memory/target_buffers.py",
-   "sha256": "961182f10ba305ec60f6c5be091f4888375ebea6b31c71abed1d2be485819836",
-   "bytes": 5810
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/target_rescue.py",
-   "source": "/home/hj/Alican/gaussverse/memory/target_rescue.py",
-   "sha256": "1377011a7b77790ab7c203ac40ca96c7d20fe13331aba44869c82330a0852348",
-   "bytes": 2746
-  },
-  {
-   "repo_path": "third_party_snapshot/gaussverse_memory/zipsplat_target_rescue.py",
-   "source": "/home/hj/Alican/gaussverse/memory/zipsplat_target_rescue.py",
-   "sha256": "0fac6a903c0b2f1482186e047a3ada5671b0c4379502764e689452d4bfe1a786",
-   "bytes": 12721
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/DESIGN_AFTER_DRIFT_TESTS_20261105.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/DESIGN_AFTER_DRIFT_TESTS_20261105.md",
-   "sha256": "c3446e049e8aee6d0edb4454052d42dec833029185c333d440b845fa7c5f5d76",
-   "bytes": 18172
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/FEEDBACK_CONDITIONING_20261105.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/FEEDBACK_CONDITIONING_20261105.md",
-   "sha256": "a3b167adebf5921f42753de297f7249666e20317115f677a325aaecb80088f53",
-   "bytes": 7012
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/METHOD_AND_TRAINING.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/METHOD_AND_TRAINING.md",
-   "sha256": "e92cd95e82e053722a8a073ce8a7c2281dd29559c3fcc385941ed625570d3dcf",
-   "bytes": 39496
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PILOT_PLAN_CVPR_20261104.md",
-   "sha256": "b25905b171f964ebf07b628bb1f99fad9263f792a11b5ca3105c4eb36517dc06",
-   "bytes": 10621
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/PREFERENCE_AUDIT_20261105.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/PREFERENCE_AUDIT_20261105.md",
-   "sha256": "f06b47d972dbefc26b2f9850a3dcb16cc23f57ec15999ff68e997a911e34c192",
-   "bytes": 9256
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/RESEARCH_AND_DESIGN.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/RESEARCH_AND_DESIGN.md",
-   "sha256": "9c56148dba1a0004a4d464643dc8c09cdf169b0bfb375f0ccf32bb0f358c0405",
-   "bytes": 22789
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/REVIEW_METHOD_AND_AUDIT_20261104.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/REVIEW_METHOD_AND_AUDIT_20261104.md",
-   "sha256": "00725b2be3a6eaa6603f3da43578ecda00b9ae6a6ed05d41d6cf095a4b686b46",
-   "bytes": 9962
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/REVIEW_VERIFICATION_20261105.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/REVIEW_VERIFICATION_20261105.md",
-   "sha256": "982bdbfd58eb9bdb44d3a12e4bc67337ff5e29a78ed7df036982764b2650c7c1",
-   "bytes": 5961
-  },
-  {
-   "repo_path": "docs/ideas/memorizon_gaussian_design_20261104/TRAINING_DECISION_20261105.md",
-   "source": "/home/hj/Alican/analysis/memorizon_gaussian_design_20261104/TRAINING_DECISION_20261105.md",
-   "sha256": "1157ca514c1e8487ca4201f24d78fdefb887060e7b42b0d03087f5ab4f0d00a8",
-   "bytes": 8560
-  },
-  {
-   "repo_path": "docs/ideas/research_plan_20260925/PLAN.md",
-   "source": "/home/hj/Alican/analysis/research_plan_20260925/PLAN.md",
-   "sha256": "f007cf613cf0e056892764b47ad2629855097b9038f46c09f73ea5eb052eaecb",
-   "bytes": 34898
-  },
-  {
-   "repo_path": "docs/ideas/research_plan_20260925/PLAN_reassessed.md",
-   "source": "/home/hj/Alican/analysis/research_plan_20260925/PLAN_reassessed.md",
-   "sha256": "f9514848e6c2938f32855dddabc5f3cba50b5ca8ec0421eaa17b53a6698f3d39",
-   "bytes": 27058
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/A_streaming_seams.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/A_streaming_seams.md",
-   "sha256": "60c214e42177ea5570264bd9268e476aba9731740c849a1d34e700c44beba299",
-   "bytes": 8047
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/B_memory_trust.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/B_memory_trust.md",
-   "sha256": "946b3f5847b15f380581a2ac264de86bb1198af0f89fae82f184ddaaf747a2c2",
-   "bytes": 12628
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/C_camera_eval.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/C_camera_eval.md",
-   "sha256": "2964b8795298cfda34b9138d046e358a97abe6feacffa94436dc6a8797624911",
-   "bytes": 8333
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/D_geometry_forcing_worldforge.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/D_geometry_forcing_worldforge.md",
-   "sha256": "e523d91831df1219378bf7d35d2b3c7712fb1c7786e895035bb5b339281b2843",
-   "bytes": 6292
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/E_runnable_baselines.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/E_runnable_baselines.md",
-   "sha256": "bf1238b9a9df3bd7fc94942023161f85f95e832fafa6636910e252bea59929b9",
-   "bytes": 2501
-  },
-  {
-   "repo_path": "docs/ideas/literature_deep_20261008/REPORT.md",
-   "source": "/home/hj/Alican/analysis/literature_deep_20261008/REPORT.md",
-   "sha256": "26fb91e96d3df103308c50ed9f2c4aabeffd21124f7d0c582f5921729a1dead3",
-   "bytes": 9334
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/RECOMMENDATION_camera_error_supervision_20260929.md",
-   "source": "/home/hj/Alican/analysis/geometry_supervision_research_20260929/RECOMMENDATION.md",
-   "sha256": "26b76110e7d29bdeabf5923499e6959e63419a53c5998d4f5959404326d415bd",
-   "bytes": 16154
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/GATE_OMEGA_CONTRACT.md",
-   "source": "/home/hj/Alican/gaussverse/GATE_OMEGA_CONTRACT.md",
-   "sha256": "0c99ddd229e404f5f545d64e925ddd3b7931ddd356ab21eed05edd13f4565d77",
-   "bytes": 39340
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/PLAN_COUNTERFACTUAL_MEMORY.md",
-   "source": "/home/hj/Alican/gaussverse/PLAN_COUNTERFACTUAL_MEMORY.md",
-   "sha256": "3ba1bc81d2eb040d0e3b73734704aae63f501dcc1dc590ed8cf2d43d8f80e9af",
-   "bytes": 22988
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/online_camera_correction.md",
-   "source": "/home/hj/Alican/gaussverse/docs/online_camera_correction.md",
-   "sha256": "959f3afd606517b9133888388644cdc3d60fac5baa2675c333913f9cdac23579",
-   "bytes": 10343
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/persistent_gaussians.md",
-   "source": "/home/hj/Alican/gaussverse/docs/persistent_gaussians.md",
-   "sha256": "4147ef32da1eb1fe3a633e6a38e1d4e14c7d316c64144707054dcf8223ad3c82",
-   "bytes": 2666
-  },
-  {
-   "repo_path": "docs/ideas/gaussverse_2026-07..09/GATE_OMEGA_ONE_STEP_TRANSFER.md",
-   "source": "/home/hj/Alican/gaussverse/docs/GATE_OMEGA_ONE_STEP_TRANSFER.md",
-   "sha256": "ac0c3c958500016b21c1f78b27c484c9d097aa83cdcd062564b62c49c24c5666",
-   "bytes": 4650
-  },
-  {
-   "repo_path": "docs/lab_notes/gaussverse_experiments_2026-07..09.md",
-   "source": "/home/hj/Alican/gaussverse/experiments.md",
-   "sha256": "4637cfa4c536707aad26bd6787e4c5ac911e672f0bafb91b4a191603b06c1c39",
-   "bytes": 249517
+   "repo_path": "contract/data_contract/build_stream_lists.py",
+   "source": "written for this repository",
+   "identical": false,
+   "path_literals_replaced": 0
   }
  ]
 }

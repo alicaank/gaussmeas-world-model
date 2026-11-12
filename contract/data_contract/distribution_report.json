@@ -1,0 +1,216 @@
+{
+ "training_index_v4": {
+  "rows": "continuation rows, stream-balanced",
+  "trans_p10_25_50_75_90": [
+   0.09,
+   0.132,
+   0.213,
+   0.408,
+   0.649
+  ],
+  "rot_p10_25_50_75_90": [
+   5.0,
+   9.27,
+   18.13,
+   33.75,
+   53.19
+  ],
+  "bank_filled": 0.938,
+  "bank_mean": 3.56,
+  "true_revisit": 0.324
+ },
+ "inference": {
+  "02267acf stride 1 forward": {
+   "calls": 30,
+   "trans_median": 0.025,
+   "trans_min_max": [
+    0.002,
+    0.037
+   ],
+   "rot_median": 1.0,
+   "bank_filled": 0.79,
+   "bank_mean": 3.17,
+   "true_revisit": 0.0
+  },
+  "02267acf stride 1 out-and-back": {
+   "calls": 30,
+   "trans_median": 0.025,
+   "trans_min_max": [
+    0.002,
+    0.035
+   ],
+   "rot_median": 0.9,
+   "bank_filled": 0.79,
+   "bank_mean": 3.14,
+   "true_revisit": 0.52
+  },
+  "02267acf stride 2 forward": {
+   "calls": 15,
+   "trans_median": 0.051,
+   "trans_min_max": [
+    0.008,
+    0.069
+   ],
+   "rot_median": 2.0,
+   "bank_filled": 0.79,
+   "bank_mean": 3.14,
+   "true_revisit": 0.0
+  },
+  "02267acf stride 2 out-and-back": {
+   "calls": 14,
+   "trans_median": 0.051,
+   "trans_min_max": [
+    0.004,
+    0.066
+   ],
+   "rot_median": 1.6,
+   "bank_filled": 0.77,
+   "bank_mean": 3.0,
+   "true_revisit": 0.54
+  },
+  "02267acf stride 4 forward": {
+   "calls": 7,
+   "trans_median": 0.109,
+   "trans_min_max": [
+    0.07,
+    0.117
+   ],
+   "rot_median": 3.9,
+   "bank_filled": 0.83,
+   "bank_mean": 3.0,
+   "true_revisit": 0.0
+  },
+  "02267acf stride 4 out-and-back": {
+   "calls": 6,
+   "trans_median": 0.07,
+   "trans_min_max": [
+    0.011,
+    0.116
+   ],
+   "rot_median": 2.3,
+   "bank_filled": 0.8,
+   "bank_mean": 2.8,
+   "true_revisit": 0.6
+  },
+  "02267acf stride 8 forward": {
+   "calls": 3,
+   "trans_median": 0.21,
+   "trans_min_max": [
+    0.191,
+    0.23
+   ],
+   "rot_median": 8.9,
+   "bank_filled": 0.5,
+   "bank_mean": 1.0,
+   "true_revisit": 0.0
+  },
+  "02267acf stride 8 out-and-back": {
+   "calls": 2,
+   "trans_median": 0.072,
+   "trans_min_max": [
+    0.072,
+    0.072
+   ],
+   "rot_median": 4.5,
+   "bank_filled": 0.0,
+   "bank_mean": 0.0,
+   "true_revisit": 0.0
+  },
+  "0238de14 stride 1 forward": {
+   "calls": 30,
+   "trans_median": 0.033,
+   "trans_min_max": [
+    0.02,
+    0.04
+   ],
+   "rot_median": 2.4,
+   "bank_filled": 0.79,
+   "bank_mean": 3.17,
+   "true_revisit": 0.0
+  },
+  "0238de14 stride 1 out-and-back": {
+   "calls": 30,
+   "trans_median": 0.029,
+   "trans_min_max": [
+    0.016,
+    0.037
+   ],
+   "rot_median": 1.6,
+   "bank_filled": 0.79,
+   "bank_mean": 3.14,
+   "true_revisit": 0.52
+  },
+  "0238de14 stride 2 forward": {
+   "calls": 15,
+   "trans_median": 0.066,
+   "trans_min_max": [
+    0.044,
+    0.076
+   ],
+   "rot_median": 4.9,
+   "bank_filled": 0.79,
+   "bank_mean": 3.14,
+   "true_revisit": 0.0
+  },
+  "0238de14 stride 2 out-and-back": {
+   "calls": 14,
+   "trans_median": 0.059,
+   "trans_min_max": [
+    0.041,
+    0.072
+   ],
+   "rot_median": 3.2,
+   "bank_filled": 0.77,
+   "bank_mean": 3.0,
+   "true_revisit": 0.54
+  },
+  "0238de14 stride 4 forward": {
+   "calls": 7,
+   "trans_median": 0.134,
+   "trans_min_max": [
+    0.111,
+    0.143
+   ],
+   "rot_median": 9.6,
+   "bank_filled": 0.67,
+   "bank_mean": 2.67,
+   "true_revisit": 0.0
+  },
+  "0238de14 stride 4 out-and-back": {
+   "calls": 6,
+   "trans_median": 0.111,
+   "trans_min_max": [
+    0.085,
+    0.118
+   ],
+   "rot_median": 5.2,
+   "bank_filled": 0.6,
+   "bank_mean": 2.2,
+   "true_revisit": 0.6
+  },
+  "0238de14 stride 8 forward": {
+   "calls": 3,
+   "trans_median": 0.27,
+   "trans_min_max": [
+    0.257,
+    0.283
+   ],
+   "rot_median": 19.5,
+   "bank_filled": 0.5,
+   "bank_mean": 1.5,
+   "true_revisit": 0.0
+  },
+  "0238de14 stride 8 out-and-back": {
+   "calls": 2,
+   "trans_median": 0.196,
+   "trans_min_max": [
+    0.196,
+    0.196
+   ],
+   "rot_median": 9.8,
+   "bank_filled": 0.0,
+   "bank_mean": 0.0,
+   "true_revisit": 0.0
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "gaussverse.base_restart_model_preflight.v1",
+  "model_root": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B",
+  "base_model": "Wan-AI/Wan2.2-TI2V-5B",
+  "recorded_stock_fingerprint": "0c13be09405613631c9c3e0308deb6e131afb2ddeb16f01fe658b26a4ce9a6fb",
+  "file_checks": [
+    {
+      "path": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00001-of-00003.safetensors",
+      "bytes_match_recorded_stock_fingerprint": true,
+      "fresh_sha256": null,
+      "sha256_match": null,
+      "hash_verification_scope": "size_only_full_hash_pending_launch"
+    },
+    {
+      "path": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00002-of-00003.safetensors",
+      "bytes_match_recorded_stock_fingerprint": true,
+      "fresh_sha256": null,
+      "sha256_match": null,
+      "hash_verification_scope": "size_only_full_hash_pending_launch"
+    },
+    {
+      "path": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model-00003-of-00003.safetensors",
+      "bytes_match_recorded_stock_fingerprint": true,
+      "fresh_sha256": null,
+      "sha256_match": null,
+      "hash_verification_scope": "size_only_full_hash_pending_launch"
+    },
+    {
+      "path": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B/diffusion_pytorch_model.safetensors.index.json",
+      "bytes_match_recorded_stock_fingerprint": true,
+      "fresh_sha256": "bfa2337f1163e195d24151a72298daf34a620543898109be47e414c8daa5b3fe",
+      "sha256_match": true,
+      "hash_verification_scope": "fresh_full_hash"
+    },
+    {
+      "path": "<workspace>/FrameCrafter/models/Wan-AI/Wan2.2-TI2V-5B/config.json",
+      "bytes_match_recorded_stock_fingerprint": true,
+      "fresh_sha256": "d1fea36899d00c2501b836c13ad65af56e2f9529ba622e50886d3f5c3e6c02bc",
+      "sha256_match": true,
+      "hash_verification_scope": "fresh_full_hash"
+    }
+  ],
+  "adapted_checkpoint_loaded": false,
+  "old_optimizer_loaded": false,
+  "GPU_model_loaded": false,
+  "training_launched": false,
+  "full_weight_hash_preflight_complete": false
+}

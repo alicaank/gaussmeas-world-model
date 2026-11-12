@@ -1,15 +1,23 @@
 # Checkpoints (not in git)
 
-All receipts are `trainables_*.json` next to a `.pt` of the trainable tensors; the receipt records sha256, update, config and lineage.
-Base: `fresh_teacher_20261021/memorizon50/` = Luffuly/memorizon-1280x704-50step (Wan2.2-TI2V-5B), fingerprint `memorizon50:e66808cdaa79`.
+A checkpoint is a receipt `trainables_<update>.json` next to a `.pt` of the trainable tensors; the receipt records the
+sha256, update, config and lineage. Base: `core/memorizon50/` = `Luffuly/memorizon-1280x704-50step` (Wan2.2-TI2V-5B),
+fingerprint `memorizon50:e66808cdaa79`.
+
+Contract line (November 2026; `docs/PIPELINE.md`):
 
 | Name | Receipt | sha256 (prefix) | Recipe |
 |---|---|---|---|
-| plain-350 | `fresh_teacher_20261021/run_plain350/ckpt/trainables_00350.json` | 8170d9a4 | stage A, no render, 350 updates from Memorizon-50 |
-| mem (stage B) | `fresh_teacher_20261021/run_v864/mem/ckpt/trainables_00250.json` | 2b6d2ef7 | cached renders p .75, 250 updates from plain-350 |
-| **Gauss-meas (GM)** | `fresh_teacher_20261021/run_op/meas/ckpt/trainables_00250.json` | 1dc0ba13 | 50 % on-policy measured-pose rows, 250 updates from mem; the "Ours" rows |
-| GM-B | `robust_native_20261108/runs/gm_b_s1/ckpt/trainables_00250.json` | b7bd6e5c | GM + context corruption, 250 updates, seed 20261108 |
-| GM-F | `robust_native_20261108/runs/gm_f_s1/ckpt/trainables_00250.json` | 184009fd | GM-B recipe + frontier mask + strip dropout, 250 updates |
+| stage A | `contract/runs/a4_s2/ckpt/trainables_00350.json` | 3b9e0400 | no render, contract windows and bank, 350 updates from Memorizon-50 |
+| stage B, token arm | `contract/runs/b4_token_s2/ckpt/trainables_00250.json` | be3bda8f | render as tokens + density mask, row rejection, 250 updates from stage A |
+| stage B, channel arm | `contract/runs/b4_channel_s2/ckpt/` | (training) | render through input channels, same rows / noise / seed |
 
-Paths are relative to `/home/hj/Alican/analysis/plan_base_restart_20261008/` and `/home/hj/Alican/analysis/`.
-Protected legacy models (AGENTS.md) are not part of this line.
+Earlier line, referenced in `docs/RESULTS.md`:
+
+| Name | Receipt (original workspace) | sha256 (prefix) | Recipe |
+|---|---|---|---|
+| plain-350 | `fresh_teacher/run_plain350/ckpt/trainables_00350.json` | 8170d9a4 | Memorizon recipe, no render, 350 updates |
+| Gauss-meas (GM) | `fresh_teacher/run_op/meas/ckpt/trainables_00250.json` | 1dc0ba13 | 50 % on-policy measured-pose rows on top of a render stage; the "Ours" rows of the cohort table |
+| B′ | `robust_native/runs/bp3_s1/ckpt/trainables_00250.json` | | plain-350 + corrected render, 250 updates, no on-policy stage |
+| GM′ | `robust_native/runs/gmp3_s1/ckpt/trainables_00250.json` | | B′ + on-policy pool (600 items, 50 % of the render rows), 250 updates |
+| gmc3 | `robust_native/runs/gmc3_s1/ckpt/trainables_00250.json` | | GM′ + 250 more updates on the same pool, no corruption (control) |

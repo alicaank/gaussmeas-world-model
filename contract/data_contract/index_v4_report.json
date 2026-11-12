@@ -1,0 +1,43 @@
+{
+ "old_index": {
+  "windows": 3553,
+  "first_call": 0.253,
+  "start_ge_14": 0.619,
+  "trans_p10_25_50_75_90": [
+   0.111,
+   0.198,
+   0.335,
+   0.525,
+   0.801
+  ],
+  "trans_05_15": 0.085,
+  "trans_15_25": 0.138,
+  "trans_25_50": 0.295,
+  "trans_ge_50": 0.214,
+  "rot_le_10": 0.182,
+  "bank_stock_filled": 0.414,
+  "bank_contract_filled": 0.646,
+  "true_revisit": 0.175
+ },
+ "index_v4": {
+  "windows": 4422,
+  "first_call": 0.205,
+  "start_ge_14": 0.766,
+  "trans_p10_25_50_75_90": [
+   0.089,
+   0.135,
+   0.224,
+   0.425,
+   0.679
+  ],
+  "trans_05_15": 0.265,
+  "trans_15_25": 0.218,
+  "trans_25_50": 0.188,
+  "trans_ge_50": 0.119,
+  "rot_le_10": 0.219,
+  "bank_stock_filled": 0.516,
+  "bank_contract_filled": 0.746,
+  "true_revisit": 0.258
+ },
+ "note": "shares are fractions of ALL rows of a scene-balanced draw; continuation shares exclude start 1"
+}

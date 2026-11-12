@@ -1,0 +1,28 @@
+{
+ "rule": "median per-call translation > 1.0 gauge units over the stream's index_v4 windows (training p90 .62, test plans <= .27); not in bad_streams_v3",
+ "added": "12 Nov 04:40, after the stage-A gradient spike (update 100, pre-clip norm 13018, row c86ddde4 at 2.66 units/call)",
+ "streams": [
+  "063b1a9ba5f4cb21aed8dc2d",
+  "099f54f30d3688335b4fe152",
+  "15a75d2cfe8cc60d5eeff986",
+  "161de8ac921b854b5fdf976c",
+  "1d7afc0b45d1314f8f34f74c",
+  "2f9184f7b056cfe0b95918a6",
+  "35a31ed2ead1f77f63c5f22d",
+  "35d5486145f68c14e36b0400",
+  "3ae05957f3029014de4eedfa",
+  "412e9e556988b64bbaca37c8",
+  "4ef1867caff6c64a7c362dec",
+  "7889b5d04f1bcbe3996fe1e6",
+  "96cfe6fe9f9e207adaf910bf",
+  "9ab39d1aeefee1d54a7da471",
+  "9f6478ad84b4e6e8286dc648",
+  "b49c4ea393b24244eeea862a",
+  "b55888537b32db4d5dc0a136",
+  "c86ddde4884dd4b24463ab5f",
+  "d28c56a9a876724d9965e9f3",
+  "d35c61efd5da9c5ffdcbe136",
+  "d37c948986b9fb84a4d80a7c",
+  "fbe44f1ed4bfd53f6a953772"
+ ]
+}
